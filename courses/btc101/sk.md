@@ -6,7 +6,7 @@ ciele:
   - Získať všeobecné poznatky o technológii Bitcoin
   - Porozumieť ako kúpiť a zadovážiť bitcoin
   - Mať všeobecné znalosti o technológii Blockchain
-  - Oboznámenie sa s konceptom Lightning Network
+  - Oboznámiť sa s konceptom Lightning Network
   - Uvedomiť si geopolitický a sociálny vplyv Bitcoin
 
 ---
@@ -37,16 +37,16 @@ Na vstup do kurzu nie sú potrebné žiadne predchádzajúce znalosti. Kurz BTC 
 Vitajte v kurze BTC101!
 
 
-Bitcoin je technologická a peňažná revolúcia, ktorá nás môže prinútiť spochybniť náš vzťah k peniazom a spoločnosti. V skutočnosti je Bitcoin (označovaná ako BTC) **neutrálnou** a **decentralizovanou** menou, čo znamená, že ju nekontroluje žiadny subjekt ani inštitúcia. Je to inovácia, ktorá presahuje rámec obyčajnej "internetovej meny": je to počítačový protokol (Bitcoin) aj peňažná jednotka (bitcoin).
+Bitcoin je technologická a peňažná revolúcia, ktorá nás môže prinútiť spochybniť náš vzťah k peniazom a spoločnosti. V skutočnosti je Bitcoin (používa sa tiež skratka BTC) **neutrálnou** a **decentralizovanou** menou, čo znamená, že ju nekontroluje žiadny subjekt ani inštitúcia. Je to inovácia, ktorá presahuje rámec obyčajnej "internetovej meny": je to počítačový protokol (Bitcoin) aj peňažná jednotka (bitcoin).
 
 
-Protokol Bitcoin využíva základné technológie, ako je kryptografia, sieťová komunikácia a slávny "[blockchain](https://planb.academy/resources/glossary/blockchain)", zatiaľ čo jednotka bitcoin slúži ako nevyhnutná mena pre správne fungovanie tohto protokolu. V každodennom živote používajú obyvatelia Salvádoru a bitcoinov na celom svete menu bitcoin na nákup a predaj tovaru a služieb, pričom sa spoliehajú na túto technológiu, ktorá im zlepšuje život.
+Protokol Bitcoin využíva základné technológie, ako je kryptografia, sieťová komunikácia a slávny "[blockchain](https://planb.academy/resources/glossary/blockchain)", zatiaľ čo jednotka bitcoin slúži ako nevyhnutná mena pre správne fungovanie tohto protokolu. V každodennom živote používajú obyvatelia Salvadoru a bitcoineri na celom svete menu bitcoin na nákup a predaj tovaru a služieb, pričom sa spoliehajú na túto technológiu, ktorá im zlepšuje život.
 
 
 **Komplexný a zároveň prístupný učebný plán:**
 
 
-V tomto kurze sa budeme venovať niektorým peňažným aspektom Bitcoin vrátane toho, ako nakupovať a predávať bitcoiny, bezpečne ich ukladať do digitálnych wallet a používať ich na transakcie. Preskúmame aj úlohu baníkov, ktorí sú nevyhnutní na vytváranie nových bitcoinov a zabezpečenie siete Bitcoin. Na záver preskúmame budúcnosť Bitcoin a to, ako môže technológia Lightning Network zlepšiť transakcie Bitcoin.
+V tomto kurze sa budeme venovať niektorým peňažným aspektom Bitcoinu vrátane toho, ako nakupovať a predávať bitcoiny, bezpečne ich ukladať do digitálnych peňaženiek a používať ich na transakcie. Preskúmame aj úlohu ťažiarov (minerov), ktorí sú nevyhnutní na vytváranie nových bitcoinov a zabezpečenie siete Bitcoin. Na záver preskúmame budúcnosť Bitcoinu a to, ako môže technológia Lightning Network zlepšiť Bitcoin transakcie.
 
 
 ![image](assets/en/001.webp)
@@ -55,7 +55,7 @@ V tomto kurze sa budeme venovať niektorým peňažným aspektom Bitcoin vrátan
 Je nevyhnutné pochopiť, že Bitcoin je nový peňažný systém, ktorý úplne mení náš vzťah k peniazom, takže naučiť sa ho používať je nevyhnutnou zručnosťou pre každého, kto chce mať kontrolu nad vlastnými prostriedkami.
 
 
-Predtým, ako uvedieme definíciu peňazí a ich funkciu v spoločnosti (kapitola 1), mali by sme začať od genézy Bitcoin. Bitcoin, ktorý bol uvedený na trh v roku 2009, je relatívne nová technológia, ktorá sa nepodobá na nič iné. Je preto normálne, že o nej nerozumieme všetkému a naraz. V skutočnosti, podobne ako keď sa učíte používať internet alebo riadiť auto, nemusíte hneď poznať všetky technické detaily: môžete začať tým, že sa naučíte prijímať, platiť a zabezpečovať finančné prostriedky, a potom po malých krokoch študovať hlbšie.
+Predtým, ako uvedieme definíciu peňazí a ich funkciu v spoločnosti (kapitola 1), mali by sme začať od genézy Bitcoinu. Bitcoin, ktorý bol uvedený na trh v roku 2009, je relatívne nová technológia, ktorá sa nepodobá na nič iné. Je preto normálne, že o nej nerozumieme všetkému a naraz. V skutočnosti, podobne ako keď sa učíte používať internet alebo riadiť auto, nemusíte hneď poznať všetky technické detaily: môžete začať tým, že sa naučíte prijímať, platiť a zabezpečovať finančné prostriedky, a potom po malých krokoch študovať hlbšie.
 
 
 Koniec koncov, sme len v počiatočnom štádiu jeho zavádzania, keďže sme prešli štartovacou fázou: máte práve čas na to, aby ste získali čo najviac vedomostí o tejto dôležitej inovácii.
@@ -71,7 +71,7 @@ Ste pripravení ponoriť sa do fascinujúceho sveta Bitcoin a pochopiť všetky 
 
 
 
-## Prehistória Bitcoin
+## Prehistória Bitcoinu
 
 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
