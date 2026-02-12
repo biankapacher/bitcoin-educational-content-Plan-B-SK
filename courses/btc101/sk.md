@@ -1,23 +1,23 @@
 ---
-name: Cesta Bitcoin
-goal: Objavte základy Bitcoin vrátane jeho peňažnej hodnoty, baníkov, transakcií a wallet.
-objectives: 
+name: Bitcoin Cesta
+goal: Objavte základy Bitcoinu vrátane jeho peňažnej hodnoty, ťažby, transakcií a peňaženiek.
+ciele: 
 
-  - Získanie všeobecných poznatkov o technológii Bitcoin
-  - Zistite, ako kúpiť a zabezpečiť bitcoiny
+  - Získať všeobecné poznatky o technológii Bitcoin
+  - Porozumieť ako kúpiť a zadovážiť bitcoin
   - Mať všeobecné znalosti o technológii Blockchain
   - Oboznámenie sa s konceptom Lightning Network
   - Uvedomiť si geopolitický a sociálny vplyv Bitcoin
 
 ---
 
-# Vaše prvé dobrodružstvo s Bitcoin
+# Vaše prvé Bitcoin dobrodružstvo
 
 
-V tomto kurze vám v 25 kapitolách vysvetlíme základy Bitcoin, aby ste túto technológiu pochopili jednoduchým a efektívnym spôsobom. Kurz skúma základy odvetvia ako celku vrátane tém, ako sú mining, wallet, nákupné/predajné platformy a ďalšie. V priebehu cesty budú k dispozícii ďalšie vzdelávacie materiály a tiež vás pozývame, aby ste si po dokončení tohto kurzu pozreli "21 plagátov" v časti so zdrojmi.
+V tomto kurze vám v 25 kapitolách vysvetlíme základy Bitcoinu, aby ste túto technológiu pochopili jednoduchým a efektívnym spôsobom. Kurz skúma základy odvetvia ako celku vrátane tém, ako sú ťažba, peňaženky, nákupné/predajné platformy a ďalšie. V priebehu cesty budú k dispozícii ďalšie vzdelávacie materiály a tiež vás pozývame, aby ste si po dokončení tohto kurzu pozreli "21 plagátov" v časti so zdrojmi.
 
 
-Na začatie tohto kurzu nie sú potrebné žiadne predchádzajúce znalosti. Kurz BTC 101 bol navrhnutý tak, aby bol prístupný každému bez ohľadu na úroveň vašich skúseností.
+Na vstup do kurzu nie sú potrebné žiadne predchádzajúce znalosti. Kurz BTC 101 bol navrhnutý tak, aby bol prístupný každému bez ohľadu na úroveň vašich skúseností.
 
 
 +++
