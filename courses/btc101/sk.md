@@ -7,7 +7,7 @@ ciele:
   - Porozumieť ako kúpiť a zadovážiť bitcoin
   - Mať všeobecné znalosti o technológii Blockchain
   - Oboznámiť sa s konceptom Lightning Network
-  - Uvedomiť si geopolitický a sociálny vplyv Bitcoin
+  - Uvedomiť si geopolitický a sociálny vplyv Bitcoinu
 
 ---
 
