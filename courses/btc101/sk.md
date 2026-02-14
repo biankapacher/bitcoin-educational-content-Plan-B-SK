@@ -1,6 +1,6 @@
 ---
-name: Bitcoin Cesta
-goal: Objavte základy Bitcoinu vrátane jeho peňažnej hodnoty, ťažby, transakcií a peňaženiek.
+názov: Bitcoin Cesta
+cieľ: Objavte základy Bitcoinu vrátane jeho peňažnej hodnoty, ťažby, transakcií a peňaženiek.
 ciele: 
 
   - Získať všeobecné poznatky o technológii Bitcoin
@@ -77,7 +77,7 @@ Ste pripravení ponoriť sa do fascinujúceho sveta Bitcoin a pochopiť všetky 
 <chapterId>9a94b627-5b69-5d81-9125-f1fa9b0aa6ad</chapterId>
 
 
-Skôr než sa pojem "Bitcoin" stal synonymom digitálnej meny a finančnej transformácie, základy pre jej vytvorenie položil rad myšlienok, inovácií a sociálnych hnutí. Medzi nimi vyniká hnutie cypherpunk ako kľúčový prvok v prehistórii Bitcoin.
+Skôr než sa pojem "Bitcoin" stal synonymom digitálnej meny a finančnej transformácie, základy pre jej vytvorenie položil rad myšlienok, inovácií a sociálnych hnutí. Medzi nimi vyniká hnutie cypherpunk ako kľúčový prvok v prehistórii Bitcoinu.
 
 
 ### Cypherpunk: vizionári digitálneho sveta
@@ -85,7 +85,7 @@ Skôr než sa pojem "Bitcoin" stal synonymom digitálnej meny a finančnej trans
 
 ![image](assets/en/003.webp)
 
-V centre technologického vývoja v 80. a 90. rokoch 20. storočia začala skupina ľudí hlboko pochybovať o úlohe súkromia a slobody v digitálnom veku. Títo jednotlivci, ktorí boli neskôr známi ako "cypherpunkovia", pevne verili, že kryptografia môže slúžiť ako nástroj na ochranu práv jednotlivca pred zásahmi vlád a veľkých korporácií.
+V centre technologického vývoja v 80. a 90. rokoch 20. storočia sa začala skupina ľudí hlboko zamýšľať nad úlohou súkromia a slobody v digitálnom veku. Títo jednotlivci, ktorí boli neskôr známi ako "cypherpunkovia", pevne verili, že kryptografia môže slúžiť ako nástroj na ochranu práv jednotlivca pred zásahmi vlád a veľkých korporácií.
 
 
 Ikonické osobnosti ako Julian Assange, Wei Dai, Tim May a David Chaum zohrali kľúčovú úlohu pri formovaní filozofie a vízie hnutia. Títo myslitelia sa delili o svoje myšlienky na vplyvnom mailingovom zozname, kde sa účastníci z celého sveta zapájali do diskusií o najlepších spôsoboch využitia technológií na dosiahnutie väčšej slobody jednotlivca.
@@ -121,13 +121,13 @@ tento dokument, ktorý napísal Timothy C. May v roku 1992, vysvetľuje, ako by 
 hoci nejde výlučne o cypherpunk, tento text odráža pocity mnohých účastníkov tohto hnutia. Napísal ho v roku 1996 John Perry Barlow a je reakciou na rastúcu reguláciu internetu zo strany vlád. Vo vyhlásení sa tvrdí, že kyberpriestor je odlišnou sférou od fyzickej sféry a nemal by podliehať rovnakým zákonom. Ako sa v nej uvádza, "nemáme žiadnu zvolenú vládu a ani ju pravdepodobne mať nebudeme".
 
 
-### Predchodcovia Bitcoin
+### Predchodcovia Bitcoinu
 
 
 Pred vznikom Bitcoin sa uskutočnilo niekoľko pokusov o vytvorenie digitálnej meny. Napríklad David Chaum v 80. rokoch 20. storočia predstavil koncept "anonymných elektronických peňazí" prostredníctvom svojho projektu "DigiCash". Bohužiaľ, kvôli rôznym obmedzeniam sa DigiCash nikdy nerozšíril.
 
 
-Ďalším dôležitým predchodcom sú "B-peniaze" Wei Dai. Hoci sa nikdy nerealizovala, predstavila myšlienku anonymnej digitálnej meny, v ktorej by odhaľovanie podvodov vykonávala komunita hodnotiteľov, a nie centrálny orgán.
+Ďalším dôležitým predchodcom sú "B-peniaze" Wei Dai. Hoci nikdy neboli zrealizované, predstavili myšlienku anonymnej digitálnej meny, v ktorej by odhaľovanie podvodov vykonávala komunita hodnotiteľov, a nie centrálny orgán.
 
 
 Nasledujúci obrázok jasne ilustruje vývoj hnutia prostredníctvom mnohých technologických inovácií.
@@ -136,16 +136,16 @@ Nasledujúci obrázok jasne ilustruje vývoj hnutia prostredníctvom mnohých te
 ![image](assets/en/005.webp)
 
 
-Práve v tomto plodnom prostredí zverejnila záhadná spoločnosť Satoshi Nakamoto v roku 2008 bielu knihu Bitcoin. V tomto dokumente spojil niekoľko myšlienok z hnutia cypherpunk, ako napríklad [proof of work](https://planb.academy/resources/glossary/proof-of-work) a kryptografické časové pečiatky, s cieľom vytvoriť decentralizovanú digitálnu menu odolnú voči cenzúre.
+Práve v tomto plodnom prostredí zverejnila záhadná spoločnosť Satoshi Nakamoto v roku 2008 Bitcoin whitepaper. V tomto dokumente spojil niekoľko myšlienok z hnutia cypherpunk, ako napríklad [proof of work](https://planb.academy/resources/glossary/proof-of-work) a kryptografické časové pečiatky, s cieľom vytvoriť decentralizovanú digitálnu menu odolnú voči cenzúre.
 
 
-Bitcoin však bola viac než len to: predstavovala naplnenie ideálov cypherpunku. Okrem svojej technológie symbolizoval revolúciu proti tradičným finančným systémom a ponúkal alternatívu založenú na transparentnosti, decentralizácii a individuálnej suverenite.
+Bitcoin však bol viac než len to: predstavoval naplnenie ideálov cypherpunku. Okrem svojej technológie symbolizoval revolúciu proti tradičným finančným systémom a ponúkal alternatívu založenú na transparentnosti, decentralizácii a individuálnej suverenite.
 
 
 ### Záver
 
 
-Prehistória Bitcoin je hlboko zakorenená v cypherpunkovom hnutí a kolektívnej snahe o väčšiu slobodu v digitálnom veku. Spojením princípov kryptografie, decentralizácie a integrity sa Bitcoin stala oveľa viac než len menou. V skutočnosti je produktom filozofickej a technologickej revolúcie, ktorá naďalej pretvára náš svet.
+Prehistória Bitcoin je hlboko zakorenená v cypherpunkovom hnutí a kolektívnej snahe o väčšiu slobodu v digitálnom veku. Spojením princípov kryptografie, decentralizácie a integrity sa Bitcoin stal oveľa viac než len menou. V skutočnosti je produktom filozofickej a technologickej revolúcie, ktorá naďalej pretvára náš svet.
 
 
 Preto je Bitcoin protokolom, ktorý trvá dlhé časové obdobie a nabáda nás k tomu, aby sme si položili otázku nášho vzťahu k energii, času a peniazom.
@@ -154,7 +154,7 @@ Preto je Bitcoin protokolom, ktorý trvá dlhé časové obdobie a nabáda nás 
 Je však Bitcoin "skutočnou" menou? Aby sme to pochopili, musíme najprv pochopiť pojem peňazí a ich rôzne formy, ktorým sa budeme venovať v nasledujúcej kapitole.
 
 
-Ak chcete históriu Bitcoin preskúmať podrobnejšie, odporúčame vám náš kurz HIS 201, v ktorom sa dozviete o vzniku a pomalom vzniku Bitcoin, ako aj o počiatkoch jej histórie a komunity. Tento kurz je plne zdokumentovaný a podložený zdrojmi, samozrejme, s mnohými anekdotami:
+Ak chcete históriu Bitcoin preskúmať podrobnejšie, odporúčame vám náš kurz HIS 201, v ktorom sa dozviete o vzniku a pomalom vzniku Bitcoinu, ako aj o počiatkoch jeho histórie a komunity. Tento kurz je plne zdokumentovaný a podložený zdrojmi, samozrejme, s mnohými anekdotami:
 
 
 https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
@@ -195,7 +195,7 @@ Peniaze sú veľmi sofistikovaným komunikačným nástrojom:
 
 
 
-- Umožňuje komunikáciu medzi prítomnosťou a budúcnosťou, pretože premieňa náš čas a energiu na aktívum, ktoré možno v budúcnosti opätovne využiť bez rizika znehodnotenia.
+- Umožňujú komunikáciu medzi prítomnosťou a budúcnosťou, pretože premieňajú náš čas a energiu na aktívum, ktoré možno v budúcnosti opätovne využiť bez rizika znehodnotenia.
 
 
 
