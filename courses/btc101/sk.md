@@ -224,10 +224,10 @@ Z týchto dôvodov je zlato ako peniaze výsledkom 4000 rokov trvajúceho monet�
 ### Charakteristika peňazí
 
 
-Zlato ideálne spĺňa kritériá efektívneho platidla: jeho prirodzená vzácnosť ho robí cenným a jeho chemické vlastnosti zabezpečujú, že časom neochabuje. Vďaka týmto vlastnostiam sa zlato stalo skvelým **úschovateľom hodnoty**, ale nie bežným platidlom, pretože táto forma peňazí nie je ľahko deliteľná ani prenosná na veľké vzdialenosti. V globalizovanom a digitálnom svete zlato len ťažko drží krok a vyžaduje si centrálny subjekt, ktorý by ho urobil deliteľným a ľahko vymeniteľným (t. j. prostredníctvom razených mincí).
+Zlato ideálne spĺňa kritériá efektívneho platidla: jeho prirodzená vzácnosť ho robí cenným a jeho chemické vlastnosti zabezpečujú, že časom neochabuje. Vďaka týmto vlastnostiam sa zlato stalo skvelým **uchovávateľom hodnoty**, ale nie bežným platidlom, pretože táto forma peňazí nie je ľahko deliteľná ani prenosná na veľké vzdialenosti. V globalizovanom a digitálnom svete zlato len ťažko drží krok a vyžaduje si centrálny subjekt, ktorý by ho urobil deliteľným a ľahko vymeniteľným (t. j. prostredníctvom razených mincí).
 
 
-Naopak, štátne fiduciárne meny (fiat) sú ľahko použiteľné, ale sú neustále znehodnocované subjektmi, ktoré ich ovládajú (králi, centrálne banky, cisári, diktátori).
+Naopak, štátne fiduciárne/nekryté meny (fiat) sú ľahko použiteľné, ale sú neustále znehodnocované subjektmi, ktoré ich ovládajú (králi, centrálne banky, cisári, diktátori).
 
 
 Aby sme tento pojem lepšie vysvetlili, preskúmame charakteristiky efektívnej meny:
@@ -239,14 +239,14 @@ Aby sme tento pojem lepšie vysvetlili, preskúmame charakteristiky efektívnej 
 
 - Zameniteľnosť**, čo znamená, že je zameniteľná s inou jednotkou rovnakého druhu bez straty hodnoty;
 - Deliteľnosť**, keďže sa dá rozdeliť na menšie jednotky, aby sa uľahčili transakcie s rôznym objemom;
-- Liquidity**, čo znamená, že je ľahko zameniteľný za tovar alebo služby.
+- Liquidity**, čo znamená, že je ľahko zameniteľná za tovar alebo služby.
 
 
 S cieľom splniť tieto kritériá sa mena v minulosti vyvíjala rôznymi krokmi:
 
 
 
-- Surový kameň -> Coin
+- Surový kameň -> minca
 - Bankovka -> Banková karta
 - Blockchain -> Lightning Network
 
@@ -254,7 +254,7 @@ S cieľom splniť tieto kritériá sa mena v minulosti vyvíjala rôznymi krokmi
 Meny sa dodnes vyvíjajú a prispôsobujú svoje formy rôznym prípadom použitia. Ako sme už povedali, zlato je síce vynikajúcim uchovávateľom hodnoty, ale pre súčasnú globalizovanú ekonomiku už nie je vhodné. Podobne aj fiduciárne meny, ako sú dolár a euro, sú veľmi likvidné a ľahko prenosné, pretože sú dnes väčšinou digitálne, ale ich hodnotu neustále znižuje menová inflácia.
 
 
-Na druhej strane, Bitcoin otvára nové perspektívy. Jeho vlastnosti, najmä prísne obmedzená ponuka, z neho robia vynikajúce úložisko hodnoty. Rovnako ako neutrálna internetová mena predstavuje životaschopné **prostredie výmeny**, ktoré dokáže prekročiť hranice. Napriek prebiehajúcemu prijímaniu (ako ilustruje [mapa BTC](https://btcmap.org/map)) však v súčasnosti ešte nie je v obchode široko akceptovaná.
+Na druhej strane, Bitcoin otvára nové perspektívy. Jeho vlastnosti, najmä prísne obmedzená ponuka, z neho robia vynikajúce úložisko hodnoty. Rovnako ako neutrálna internetová mena predstavuje životaschopný **prostriedok výmeny**, ktorý dokáže prekročiť hranice. Napriek prebiehajúcej adopcii (ako ilustruje [mapa BTC](https://btcmap.org/map)) však v súčasnosti ešte nie je pri obchodnoch široko akceptovaná.
 
 
 ## Fiduciárne meny
@@ -268,7 +268,7 @@ Na druhej strane, Bitcoin otvára nové perspektívy. Jeho vlastnosti, najmä pr
 Pravda, ktorá v súvislosti so súčasným menovým systémom rezonuje.
 
 
-### Fiduciár = trust
+### Fiduciárny = dôvera
 
 
 V súčasnosti sa hlavné meny, ako napríklad euro a dolár, považujú za fiduciárne. To znamená, že im chýba vnútorná hodnota a sú úplne závislé od dôvery, ktorú vkladáme do inštitúcií, ktoré ich spravujú.
