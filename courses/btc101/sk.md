@@ -268,13 +268,13 @@ Na druhej strane, Bitcoin otvára nové perspektívy. Jeho vlastnosti, najmä pr
 Pravda, ktorá v súvislosti so súčasným menovým systémom rezonuje.
 
 
-### Fiduciárny = dôvera
+### Fiducia = dôvera
 
 
 V súčasnosti sa hlavné meny, ako napríklad euro a dolár, považujú za fiduciárne. To znamená, že im chýba vnútorná hodnota a sú úplne závislé od dôvery, ktorú vkladáme do inštitúcií, ktoré ich spravujú.
 
 
-Fiduciárna mena je forma peňazí, ktorú ako takú určila inštitúcia, t. j. štát, ako napríklad Čína s jüanom, alebo politicko-ekonomická únia, ako napríklad Európska únia s eurom. Subjektom zodpovedným za jej emisiu je centrálna banka (môžeme spomenúť napríklad Čínsku ľudovú banku, Federálny rezervný systém Spojených štátov alebo Centrálnu banku Guinejskej republiky). Práve tieto subjekty majú na starosti formulovanie menovej politiky, a teda aj to, koľko peňazí sa má dať do obehu alebo vytlačiť.
+Fiduciárna mena je forma peňazí, ktorú ako takú určila inštitúcia, t. j. štát, ako napríklad Čína s yuanom, alebo politicko-ekonomická únia, ako napríklad Európska únia s eurom. Subjektom zodpovedným za jej emisiu je centrálna banka (môžeme spomenúť napríklad Čínsku ľudovú banku, Federálny rezervný systém Spojených štátov alebo Centrálnu banku Guinejskej republiky). Práve tieto subjekty majú na starosti formulovanie menovej politiky, a teda aj to, koľko peňazí sa má dať do obehu alebo vytlačiť.
 
 
 ![image](assets/en/012.webp)
@@ -307,7 +307,7 @@ Ak sa táto stratégia dobre vykonáva, môže trvať desaťročia. Je však dô
 Nakoniec sa môže stať, že mena už nebude mať žiadnu väzbu na zlato, podobne ako rímske mince na konci cisárstva, alebo sa dokonca zredukuje na jednoduchú číselnú hodnotu, odtrhnutú od hmatateľnej reality.
 
 
-Dnes sme svedkami historického zlomu. Zdá sa, že dolár, ktorý dlho dominoval, je na ústupe, zatiaľ čo zlato stratilo svoju ústrednú úlohu. Stojíme na prahu nového menového cyklu, ktorý nám pripomína, že poučenie z histórie sa často zabúda
+Dnes sme svedkami historického zlomu. Zdá sa, že dolár, ktorý dlho dominoval, je na ústupe, zatiaľ čo zlato stratilo svoju ústrednú úlohu. Stojíme na prahu nového menového cyklu, ktorý nám pripomína, že na poučenie z histórie sa často zabúda.
 
 
 ![image](assets/en/014.webp)
@@ -316,7 +316,7 @@ Dnes sme svedkami historického zlomu. Zdá sa, že dolár, ktorý dlho dominova
 ### Je Bitcoin riešením?
 
 
-Vďaka týmto predpokladom revolúcia Bitcoin naberá na obrátkach. Na rozdiel od predchádzajúcich mien nevyžaduje **žiadnu dôveryhodnú tretiu stranu** a jej cieľom je oddeliť štát od peňazí.
+Vďaka týmto predpokladom Bitcoin revolúcia naberá na obrátkach. Na rozdiel od predchádzajúcich mien nevyžaduje **žiadnu dôveryhodnú tretiu stranu** a jej cieľom je oddeliť štát od peňazí.
 
 
 
@@ -326,14 +326,14 @@ Bitcoin sa v skutočnosti prezentuje ako odpoveď na tieto systémové výzvy t�
 ![image](assets/en/015.webp)
 
 
-Ďalším dôvodom, prečo si Bitcoin získala pozornosť, je vznik digitálnych mien centrálnych bánk alebo CBDC, ktorý sa zdá byť nevyhnutný. Táto nová forma peňazí by rozvíjala centrálnejšie plánované hospodárstvo a mohla by brániť finančnej slobode jednotlivcov a zároveň uľahčovať autoritárske zneužívanie.
+Ďalším dôvodom, prečo si Bitcoin získal pozornosť, je vznik digitálnych mien centrálnych bánk alebo CBDC, ktorý sa zdá byť nevyhnutný. Táto nová forma peňazí by rozvíjala centrálnejšie plánované hospodárstvo a mohla by brániť finančnej slobode jednotlivcov a zároveň uľahčovať autoritárske zneužívanie.
 
 Túto kapitolu môžeme uzavrieť citátom nositeľa Nobelovej ceny F. A. Hayeka z roku 1984:
 
 
-> "Neverím, že by sme ešte niekedy mali mať dobré peniaze, kým ich nezoberieme z rúk vlády. Ak ich nemôžeme vziať z rúk vlády násilne, jediné, čo môžeme urobiť, je nejakým ľstivým alebo okľukou zaviesť niečo, čo nemôžu zastaviť."
+> "Neverím, že by sme ešte niekedy mali mať dobré peniaze, kým ich nezoberieme z rúk vlády. Ak ich nemôžeme vziať z rúk vlády násilne, jediné, čo môžeme urobiť, je nejakým rafinovaným spôsobom alebo okľukou zaviesť niečo, čo nemôžu zastaviť."
 
-Ak sa chcete dozvedieť viac o ekonomických omyloch a slobode, pozývame vás na náš kurz ECO 102, ktorý sa zaoberá životom a myšlienkami Frédérica Bastiata, francúzskeho mysliteľa 19. storočia, ktorý by určite ocenil vznik Bitcoin:
+Ak sa chcete dozvedieť viac o ekonomických omyloch a slobode, pozývame vás na náš kurz ECO 102, ktorý sa zaoberá životom a myšlienkami Frédérica Bastiata, francúzskeho mysliteľa 19. storočia, ktorý by určite ocenil vznik Bitcoinu:
 
 
 https://planb.academy/courses/d07b092b-fa9a-4dd7-bf94-0453e479c7df
