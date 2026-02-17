@@ -418,10 +418,10 @@ Riešenie hyperinflačnej krízy si často vyžaduje radikálne zmeny, ako sú r
 - Nemecko, 1922-1923.
 
 
-Jeden z najvýraznejších príkladov hyperinflácie sa vyskytol v Nemeckej výmarskej republike po prvej svetovej vojne.
+Jeden z najvýraznejších príkladov hyperinflácie sa vyskytol v Nemeckej weimarskej republike po prvej svetovej vojne.
 
 
-Nemecko si na financovanie vojny požičalo obrovské sumy peňazí. Nemecko však nielenže vojnu prehralo, ale muselo zaplatiť aj miliardy dolárov na reparáciách. Mesiacom s najvyššou mierou inflácie bol október 1923, ktorý dosiahol maximum 29 500 %, čo sa rovnalo 20,9 % inflácii za deň. Ceny sa zdvojnásobili každých 3,7 dňa!
+Nemecko si na financovanie vojny požičalo obrovské sumy peňazí. Nemecko však nielenže vojnu prehralo, ale muselo zaplatiť aj miliardy dolárov na reparáciach. Mesiacom s najvyššou mierou inflácie bol október 1923, ktorý dosiahol maximum 29 500 %, čo sa rovnalo 20,9 % inflácii za deň. Ceny sa zdvojnásobili každých 3,7 dňa!
 
 Nemecká mena sa stala takou zbytočnou, že niektorí občania radšej pálili svoje papierové peniaze namiesto dreva, pretože to bolo v skutočnosti lacnejšie. Dokonca sa hovorí, že v reštauráciách museli čašníci každých 30 minút oznamovať ceny v jedálnom lístku, aby zohľadnili infláciu.
 
@@ -442,7 +442,7 @@ Krajinou, ktorá doteraz zažila najhoršie obdobie hyperinflácie, je jednozna�
 Maďarsko sa ocitlo na porazenej strane konfliktu a väčšina jeho priemyselných výrobných kapacít bola zničená. Mesiacom s najvyššou infláciou bol júl 1946, v ktorom došlo k závratnému nárastu cien o 41 900 000 000 000 000 000 %, čo zodpovedá 207 % za deň. Ceny sa zdvojnásobovali každých 15 hodín!
 
 
-Poslednou bankovkou, ktorá bola uvedená do obehu, bola 100-miliardová bankovka Pengo (100 000 000 000 000 000 000) v roku 1946.
+Poslednou bankovkou, ktorá bola uvedená do obehu, bola 100 milión miliardová bankovka Pengo (100 000 000 000 000 000 000) v roku 1946.
 
 
 ![image](assets/en/020.webp)
