@@ -481,7 +481,7 @@ https://planb.academy/courses/caa75343-ac90-4249-bcca-0e2e57c3a0f1
 <chapterId>f4a06d76-1963-56fd-93ff-dfa41489bcde</chapterId>
 
 
-### Menová politika Bitcoin
+### Menová politika Bitcoinu
 
 
 Bitcoin je decentralizovaná digitálna mena s vopred definovaným maximálnym množstvom **21 miliónov jednotiek**. Táto vnútorná vlastnosť vzácnosti je určená jej počítačovým kódom a posilnená konsenzom všetkých používateľov zapojených do protokolu.
@@ -496,16 +496,16 @@ Jeho peňažnú emisiu možno znázorniť krivkou, ktorá predstavuje množstvo 
 ### Ako vznikajú nové bitcoiny?
 
 
-Vytváranie nových bitcoinov je výsledkom procesu mining. V skratke, baníci používajú výkonné počítače, ktoré riešia zložité matematické problémy (hash), ktorými overujú a zabezpečujú transakcie. Po vyriešení problému (alebo nájdení platného hashu) baník pridá nový blok transakcií do blockchainu, decentralizovanej a distribuovanej účtovnej knihy, ktorá zaznamenáva všetky transakcie uskutočnené v sieti. Blokový reťazec zabezpečuje transparentnosť a bezpečnosť, keďže každý blok je prepojený s predchádzajúcim blokom, takže je takmer nemožné zmeniť predchádzajúce údaje bez konsenzu siete.
+Vznik nových bitcoinov je výsledkom procesu ťažby (mining). V skratke, ťažiari používajú výkonné počítače, ktoré riešia zložité matematické problémy (hash), ktorými overujú a zabezpečujú transakcie. Po vyriešení problému (alebo nájdení platného hashu) baník pridá nový blok transakcií do blockchainu, decentralizovanej a distribuovanej účtovnej knihy (ledger), ktorá zaznamenáva všetky transakcie uskutočnené v sieti. Blockchain zabezpečuje transparentnosť a bezpečnosť, keďže každý blok je prepojený s predchádzajúcim blokom, takže je takmer nemožné zmeniť predchádzajúce údaje bez konsenzu siete.
 
 
 ![image](assets/en/022.webp)
 
 
-Po úspešnom splnení tejto úlohy dostanú baníci každých desať minút odmenu v podobe nových bitcoinov. Táto odmena je naprogramovaná tak, aby sa každých 210 000 blokov, čo je približne každé štyri roky, znížila na polovicu (udalosť známa ako "[polovičná](https://planb.academy/resources/glossary/halving)"), čím krivka emisie peňazí nadobúda schodovitý tvar. Vďaka tomuto mechanizmu možno matematicky predpovedať, že tvorba nových bitcoinov sa zastaví okolo roku 2140, keď ich celkový počet dosiahne hranicu 21 miliónov.
+Po úspešnom splnení tejto úlohy dostanú ťažiari každých desať minút odmenu v podobe nových bitcoinov. Táto odmena je naprogramovaná tak, aby sa každých 210 000 blokov, čo je približne každé štyri roky, znížila na polovicu (udalosť známa ako "[halving](https://planb.academy/resources/glossary/halving)"), čím krivka emisie peňazí nadobúda schodovitý tvar. Vďaka tomuto mechanizmu možno matematicky predpovedať, že tvorba nových bitcoinov sa zastaví okolo roku 2140, keď ich celkový počet dosiahne hranicu 21 miliónov.
 
 
-| Halving Number | Block Height | BTC Reward After Halving  | Estimated BTC in Circulation After Halving |
+| Číslo halvingu | Výška bloku  | BTC odmena po halvingu    | Odhadovaný počet BTC v obehu po halvingu   |
 | -------------- | ------------ | ------------------------- | ------------------------------------------ |
 | 1              | 210,000      | 25 BTC                    | 10,500,000 BTC                             |
 | 2              | 420,000      | 12.5 BTC                  | 15,750,000 BTC                             |
@@ -528,7 +528,7 @@ Po úspešnom splnení tejto úlohy dostanú baníci každých desať minút odm
 | 19             | 3,990,000    | 0.000095367431640625 BTC  | 20,999,959.946 BTC                         |
 | 20             | 4,200,000    | 0.0000476837158203125 BTC | 20,999,979.973 BTC                         |
 
-Ku koncepcii mining sa podrobnejšie vrátime v kapitole [miner](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
+Koncept miningu podrobnejšie rozoberáme v kapitole [miner](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 
 ### Zaručenie digitálneho nedostatku
