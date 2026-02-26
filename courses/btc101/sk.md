@@ -602,16 +602,16 @@ Stručne povedané, Bitcoin so svojou decentralizovanou povahou, programovaným 
 <partId>28860585-4f61-59d9-b242-f4c57d837cc1</partId>
 
 
-## Čo sú to Bitcoin wallet?
+## Čo sú to Bitcoin peňaženky?
 
 
 <chapterId>1c0166ab-cb7a-5bc6-9175-d13482bd91f1</chapterId>
 
 
-V časti 2 sa budeme venovať ukladaniu a bezpečnosti Bitcoin prostredníctvom wallet, aby sme pochopili, kde sa tieto slávne bitcoiny nachádzajú a ako s nimi komunikovať!
+V časti 2 sa budeme venovať ukladaniu a bezpečnosti Bitcoinu prostredníctvom peňaženiek (wallets), aby sme pochopili, kde sa tieto slávne bitcoiny nachádzajú a ako s nimi komunikovať!
 
 
-### Demystifikácia Bitcoin wallet
+### Demystifikácia Bitcoin peňaženiek
 
 
 Zariadenia wallet používame na interakciu so sieťou Bitcoin tromi hlavnými spôsobmi:
@@ -623,7 +623,7 @@ Zariadenia wallet používame na interakciu so sieťou Bitcoin tromi hlavnými s
 - Ich zabezpečenie proti pokusom o hackerské útoky a krádeže
 
 
-Bitcoin wallet môže mať rôzne podoby: softvér v počítači, aplikácia v smartfóne, fyzické zariadenie, napríklad kľúč USB, alebo dokonca kus papiera. Každá z nich slúži na rôzne prípady použitia. Niektoré sú totiž určené na veľké transakcie s dôrazom na bezpečnosť, zatiaľ čo iné uprednostňujú súkromie alebo sú určené na každodenné platby malých súm.
+Bitcoin peňaženka môže mať rôzne podoby: softvér v počítači, aplikácia v smartfóne, fyzické zariadenie, napríklad kľúč USB, alebo dokonca kus papiera. Každá z nich slúži na rôzne prípady použitia. Niektoré sú totiž určené na veľké transakcie s dôrazom na bezpečnosť, zatiaľ čo iné uprednostňujú súkromie alebo sú určené na každodenné platby malých súm.
 
 
 Portfóliá tak možno rozdeliť do širokých skupín použitia, ktoré sa vždy sústreďujú na kľúčovú otázku: ste vlastníkom finančných prostriedkov alebo prenechávate kontrolu nad svojimi peniazmi tretej strane? Tejto téme sa budeme podrobne venovať v nasledujúcej kapitole, ale otázka zostáva jednoduchá: sú peniaze vo vašom vrecku alebo vo vrecku vášho bankára?
@@ -632,20 +632,20 @@ Portfóliá tak možno rozdeliť do širokých skupín použitia, ktoré sa vžd
 ![image](assets/en/025.webp)
 
 
-### Ako funguje Bitcoin wallet?
+### Ako funguje Bitcoin peňaženka?
 
 
-Či už je to váš "bankár" Bitcoin, alebo vy sami, drvivá väčšina Bitcoin wallet pracuje s podobnou technológiou založenou na asymetrickej kryptografii, ktorá zahŕňa systém párov kľúčov: súkromný kľúč na výdaj a verejný kľúč na príjem.
+Či už je to váš Bitcoin "bankár" , alebo vy sami, drvivá väčšina Bitcoin wallet pracuje s podobnou technológiou založenou na asymetrickej kryptografii, ktorá zahŕňa systém párov kľúčov: súkromný kľúč na výdaj a verejný kľúč na príjem.
 
 
 
 - Súkromný kľúč
 
 
-Pri inicializácii zariadenia wallet je tajná fráza na obnovenie, známa aj ako mnemotechnická fráza (súkromný kľúč), generated a predložená vám vo forme 12 alebo 24 slov.
+Pri inicializácii peňaženky je vám generovaná a predložená tajná fráza na obnovenie, známa aj ako mnemotechnická fráza (súkromný kľúč), vo forme 12 alebo 24 slov.
 
 
-[Súkromný kľúč](https://planb.academy/resources/glossary/private-key) je zásadný, pretože predstavuje vlastníctvo bitcoinov, a teda právo na ich používanie alebo posielanie. Preto je držiteľ súkromného kľúča skutočným vlastníkom bitcoinov. Ako hovorí spopularizovaný výrok: "Nie tvoje kľúče, nie tvoje mince"
+[Súkromný kľúč](https://planb.academy/resources/glossary/private-key) je zásadný, pretože predstavuje vlastníctvo bitcoinov, a teda právo na ich používanie alebo posielanie. Preto je držiteľ súkromného kľúča skutočným vlastníkom bitcoinov. Ako hovorí spopularizovaný výrok: "Not your keys, not your coins" ("Nie tvoje kľúče, nie tvoje mince")
 
 
 Tento kľúč musí byť tajný a dobre chránený, pretože odomyká vaše bohatstvo!
@@ -655,10 +655,10 @@ Tento kľúč musí byť tajný a dobre chránený, pretože odomyká vaše boha
 - Verejný kľúč a adresa
 
 
-Verejný kľúč je generated od súkromného kľúča a je s ním prepojený. Zdieľanie verejného kľúča predstavuje riziko pre súkromie (pretože ostatní používatelia môžu vidieť váš zostatok), ale nie pre bezpečnosť (pretože nemôžu minúť vaše prostriedky bez toho, aby vlastnili súkromný kľúč). Verejný kľúč sa zase používa na vytváranie adries Bitcoin, a teda na prijímanie peňazí.
+Verejný kľúč je generovaný od súkromného kľúča a je s ním prepojený. Zdieľanie verejného kľúča predstavuje riziko pre súkromie (pretože ostatní používatelia môžu vidieť váš zostatok), ale nie pre bezpečnosť (pretože nemôžu minúť vaše prostriedky bez toho, aby vlastnili súkromný kľúč). Verejný kľúč sa zase používa na vytváranie adries Bitcoin, a teda na prijímanie peňazí.
 
 
-Tieto adresy sú automaticky vytvorené vaším zariadením wallet a možno ich bezpečne zdieľať. Aby ste maximalizovali svoje súkromie, odporúča sa použiť ich iba raz.
+Tieto adresy sú automaticky vytvorené vašou peňaženkou a možno ich bezpečne zdieľať. Aby ste maximalizovali svoje súkromie, odporúča sa použiť ich iba raz.
 
 
 Stručne povedané, táto technológia nám umožňuje prijímať bitcoiny bez toho, aby príjemca mohol ukradnúť naše finančné prostriedky! Vhodnou metaforou by mohla byť poštová schránka: ľudia do nej môžu vkladať peniaze, ale vy ste jediný, kto ju môže otvoriť.
@@ -667,10 +667,10 @@ Stručne povedané, táto technológia nám umožňuje prijímať bitcoiny bez t
 ![image](assets/en/026.webp)
 
 
-### Sú bitcoiny v wallet?
+### Sú bitcoiny v peňaženke?
 
 
-Hoci sú vaše kľúče uložené v wallet, samotné bitcoiny sú v skutočnosti "uložené" v blockchaine Bitcoin, čo je verejná distribuovaná účtovná kniha v rámci peer-to-peer siete Bitcoin (bližšie sa jej budeme venovať v časti 3). To znamená, že strata zariadenia obsahujúceho váš wallet nemusí nevyhnutne viesť k strate vašich bitcoinov. To, čo vám umožní znovu vytvoriť zariadenie wallet a minúť vaše bitcoiny, je v skutočnosti súkromný kľúč, preto ho vždy nezabudnite riadne zabezpečiť!
+Hoci sú vaše kľúče uložené v peňaženke, samotné bitcoiny sú v skutočnosti "uložené" na Bitcoin blockchaine, čo je verejná distribuovaná účtovná kniha v rámci peer-to-peer siete Bitcoin (bližšie sa jej budeme venovať v časti 3). To znamená, že strata zariadenia obsahujúceho vašu peňaženku nemusí nevyhnutne viesť k strate vašich bitcoinov. To, čo vám umožní znovu vytvoriť peňaženku a minúť vaše bitcoiny, je v skutočnosti súkromný kľúč, preto ho vždy nezabudnite riadne zabezpečiť!
 
 
 ![image](assets/en/027.webp)
@@ -682,19 +682,19 @@ Našťastie od roku 2017 možno súkromný kľúč reprezentovať jednoduchým z
 ### A čo hackeri?
 
 
-Čo ak niekto náhodou uhádne náš zoznam 12 alebo 24 slov? Krátka odpoveď znie, že je to veľmi nepravdepodobné vďaka kryptografii použitej na vytvorenie wallet. Aby sme to uviedli na pravú mieru, náhodné objavenie rovnakej mnemotechnickej frázy sa podobá nájdeniu "správneho" čísla medzi 1 a 2 zvýšeného na mocninu 256, čo sa takmer rovná nájdeniu "správneho" atómu vo vesmíre. Ak však nie ste spokojní s týmto predvoleným zabezpečením, vždy ho môžete vylepšiť pridaním passphrase (ďalšieho slova) k vášmu Bitcoin wallet.
+Čo ak niekto náhodou uhádne náš zoznam 12 alebo 24 slov? Krátka odpoveď znie, že je to veľmi nepravdepodobné vďaka kryptografii použitej na vytvorenie wallet. Aby sme to uviedli na pravú mieru, náhodné objavenie rovnakej mnemotechnickej frázy sa podobá nájdeniu "správneho" čísla medzi 1 a 2 zvýšeného na mocninu 256, čo sa takmer rovná nájdeniu "správneho" atómu vo vesmíre. Ak však nie ste spokojní s týmto predvoleným zabezpečením, vždy ho môžete vylepšiť pridaním passphrase (extra slova) k vašej Bitcoin peňaženke.
 
 
 ![image](assets/en/028.webp)
 
 
-Pravdepodobnosť hacknutia vášho počítača Bitcoin wallet je teda astronomicky nízka, ak budete dodržiavať správne bezpečnostné postupy, ktoré podrobne opíšeme v nasledujúcej časti.
+Pravdepodobnosť hacknutia vášej Bitcoin peňaženky je teda astronomicky nízka, ak budete dodržiavať správne bezpečnostné postupy, ktoré podrobne opíšeme v nasledujúcej časti.
 
 
-Nezabudnite si vybrať správny model wallet pre vaše potreby a použitie: podrobné návody na správu a zabezpečenie rôznych modelov wallet sú k dispozícii v [sekcii návodov na našej univerzite](https://planb.academy/tutorials/wallet).
+Nezabudnite si vybrať správny typ peňaženky pre vaše potreby a použitie: podrobné návody na správu a zabezpečenie rôznych peňaženiek sú k dispozícii v [sekcii návodov na našej univerzite](https://planb.academy/tutorials/wallet).
 
 
-Ak sa počas svojej cesty králičou dierou chcete dozvedieť viac o budovaní Bitcoin wallet, od entropie až po prijímanie adries, odporúčame vám kurz CYP 201 venovaný tejto téme:
+Ak sa počas svojej cesty králičou dierou budete chcieť dozvedieť viac o budovaní Bitcoin peňaženiek, od entropie až po prijímanie adries, odporúčame vám kurz CYP 201 venovaný tejto téme:
 
 
 https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
