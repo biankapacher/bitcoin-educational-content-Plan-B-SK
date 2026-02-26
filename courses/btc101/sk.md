@@ -496,13 +496,13 @@ Jeho peňažnú emisiu možno znázorniť krivkou, ktorá predstavuje množstvo 
 ### Ako vznikajú nové bitcoiny?
 
 
-Vznik nových bitcoinov je výsledkom procesu ťažby (mining). V skratke, ťažiari používajú výkonné počítače, ktoré riešia zložité matematické problémy (hash), ktorými overujú a zabezpečujú transakcie. Po vyriešení problému (alebo nájdení platného hashu) baník pridá nový blok transakcií do blockchainu, decentralizovanej a distribuovanej účtovnej knihy (ledger), ktorá zaznamenáva všetky transakcie uskutočnené v sieti. Blockchain zabezpečuje transparentnosť a bezpečnosť, keďže každý blok je prepojený s predchádzajúcim blokom, takže je takmer nemožné zmeniť predchádzajúce údaje bez konsenzu siete.
+Vznik nových bitcoinov je výsledkom procesu ťažby (mining). V skratke, ťažiari (miners) používajú výkonné počítače, ktoré riešia zložité matematické problémy (hash), ktorými overujú a zabezpečujú transakcie. Po vyriešení problému (alebo nájdení platného hashu) baník pridá nový blok transakcií do blockchainu, decentralizovanej a distribuovanej účtovnej knihy (ledger), ktorá zaznamenáva všetky transakcie uskutočnené v sieti. Blockchain zabezpečuje transparentnosť a bezpečnosť, keďže každý blok je prepojený s predchádzajúcim blokom, takže je takmer nemožné zmeniť predchádzajúce údaje bez konsenzu siete.
 
 
 ![image](assets/en/022.webp)
 
 
-Po úspešnom splnení tejto úlohy dostanú ťažiari každých desať minút odmenu v podobe nových bitcoinov. Táto odmena je naprogramovaná tak, aby sa každých 210 000 blokov, čo je približne každé štyri roky, znížila na polovicu (udalosť známa ako "[halving](https://planb.academy/resources/glossary/halving)"), čím krivka emisie peňazí nadobúda schodovitý tvar. Vďaka tomuto mechanizmu možno matematicky predpovedať, že tvorba nových bitcoinov sa zastaví okolo roku 2140, keď ich celkový počet dosiahne hranicu 21 miliónov.
+Po úspešnom splnení tejto úlohy dostanú mineri každých desať minút odmenu v podobe nových bitcoinov. Táto odmena je naprogramovaná tak, aby sa každých 210 000 blokov, čo je približne každé štyri roky, znížila na polovicu (udalosť známa ako "[halving](https://planb.academy/resources/glossary/halving)"), čím krivka emisie peňazí nadobúda schodovitý tvar. Vďaka tomuto mechanizmu možno matematicky predpovedať, že tvorba nových bitcoinov sa zastaví okolo roku 2140, keď ich celkový počet dosiahne hranicu 21 miliónov.
 
 
 | Číslo halvingu | Výška bloku  | BTC odmena po halvingu    | Odhadovaný počet BTC v obehu po halvingu   |
@@ -531,33 +531,33 @@ Po úspešnom splnení tejto úlohy dostanú ťažiari každých desať minút o
 Koncept miningu podrobnejšie rozoberáme v kapitole [miner](https://planb.academy/courses/2b7dc507-81e3-4b70-88e6-41ed44239966/dbb8264a-7434-57e4-9d1b-fbd1bae37fdf).
 
 
-### Zaručenie digitálneho nedostatku
+### Zaručenie digitálnej vzácnosti
 
 
-Hranica 21 miliónov je základom nedostatku Bitcoin a je zaručená dvoma kľúčovými mechanizmami: úpravou náročnosti mining a teóriou hier.
+Hranica 21 miliónov je základom vzácnosti Bitcoinu a je zaručená dvoma kľúčovými mechanizmami: úpravou náročnosti miningu a teóriou hier.
 
 
 
-- Úprava obtiažnosti mining je proces, ktorý sa uskutočňuje každých 2016 blokov alebo približne dva týždne, aby sa zabezpečilo, že nový blok sa do blockchainu pridá v priemere každých desať minút. Táto frekvencia vytvárania blokov a celkové množstvo bitcoinov sú pevne stanovené aspekty protokolu Bitcoin a nemožno ich meniť bez všeobecného konsenzu, na rozdiel od svojvoľných rozhodnutí v tradičných peňažných systémoch.
+- Úprava obtiažnosti miningu je proces, ktorý sa uskutočňuje každých 2016 blokov alebo približne dva týždne, aby sa zabezpečilo, že nový blok sa do blockchainu pridá v priemere každých desať minút. Táto frekvencia vytvárania blokov a celkové množstvo bitcoinov sú pevne stanovené aspekty protokolu Bitcoin a nemožno ich meniť bez všeobecného konsenzu, na rozdiel od svojvoľných rozhodnutí v tradičných peňažných systémoch.
 
 
-Obtiažnosť nájdenia platného hashu sa riadi určitým cyklom: ak sa počet ťažiarov zvyšuje a viac blokov sa nájde rýchlejšie, spôsobí to zníženie priemerného času na nájdenie bloku, a tak sa obtiažnosť zvyšuje. V dôsledku toho sa znižuje počet blokov, ktoré nájdu baníci, čo znamená, že mechanizmus sa vracia k priemeru 10 minút na blok. Vizuálne zobrazenie nájdete na obrázku nižšie.
+Obtiažnosť nájdenia platného hashu sa riadi určitým cyklom: ak sa počet minerov zvyšuje a viac blokov sa nájde rýchlejšie, spôsobí to zníženie priemerného času na nájdenie bloku, a tak sa obtiažnosť zvyšuje. V dôsledku toho sa znižuje počet blokov, ktoré nájdu ťažiari, čo znamená, že mechanizmus sa vracia k priemeru 10 minút na blok. Vizuálne zobrazenie nájdete na obrázku nižšie.
 
 
 ![image](assets/en/023.webp)
 
 
-Naopak, ak pracuje menej baníkov a bloky trvajú dlhšie, obtiažnosť mining sa znižuje, čím sa priemerný čas bloku opäť zrýchľuje.
+Naopak, ak pracuje menej minerov a bloky trvajú dlhšie, obtiažnosť miningu sa znižuje, čím sa priemerný čas bloku opäť zrýchľuje.
 
 
-Vedeli ste, že baníci sú motivovaní ťažiť blok, aby získali nové bitcoiny prostredníctvom blokovej dotácie, ako aj transakčných poplatkov z transakcií, ktoré do tohto bloku zahrnú?
+Vedeli ste, že mineri sú motivovaní ťažiť blok, aby získali nové bitcoiny prostredníctvom blokovej dotácie, ako aj transakčných poplatkov z transakcií, ktoré do tohto bloku zahrnú?
 
 
-Keď sa teda počet vydaných bitcoinov priblíži k hranici 21 miliónov, baníci budú odmeňovaní viac prostredníctvom transakčných poplatkov ako prostredníctvom blokovej dotácie.
+Keď sa teda počet vydaných bitcoinov priblíži k hranici 21 miliónov, mineri budú odmeňovaní viac prostredníctvom transakčných poplatkov ako prostredníctvom blokovej dotácie.
 
 
 
-- Teória hier je matematický koncept, ktorý sa opiera o ľudskú racionalitu. Predpokladá, že jednotlivci konajú logicky a snažia sa maximalizovať svoj vlastný prospech, pričom berú do úvahy potenciálne rozhodnutia ostatných. V Bitcoin teória hier pomáha zabezpečiť, aby väčšina ťažiarov a používateľov konala v najlepšom záujme siete. Keďže o zmenách protokolu hlasujú používatelia, každá zmena protokolu Bitcoin by si v skutočnosti vyžadovala súhlas celej komunity používateľov, čo je veľmi zložité. Ak by teda niekto chcel vytvoriť 22 miliónov bitcoinov, musel by presvedčiť všetkých používateľov, aby dobrovoľne znehodnotili svoje vlastné úspory, čo je nepravdepodobné, pretože Bitcoin je globálny a nie je riadený centrálnou skupinou.
+- Teória hier je matematický koncept, ktorý sa opiera o ľudskú racionalitu. Predpokladá, že jednotlivci konajú logicky a snažia sa maximalizovať svoj vlastný prospech, pričom berú do úvahy potenciálne rozhodnutia ostatných. V Bitcoine teória hier pomáha zabezpečiť, aby väčšina ťažiarov a používateľov konala v najlepšom záujme siete. Keďže o zmenách protokolu hlasujú používatelia, každá zmena protokolu Bitcoin by si v skutočnosti vyžadovala súhlas celej komunity používateľov, čo je veľmi zložité. Ak by teda niekto chcel vytvoriť 22 miliónov bitcoinov, musel by presvedčiť všetkých používateľov, aby dobrovoľne znehodnotili svoje vlastné úspory, čo je nepravdepodobné, pretože Bitcoin je globálny a nie je riadený centrálnou skupinou.
 
 
 ![image](assets/en/024.webp)
@@ -569,10 +569,10 @@ Myšlienka devalvácie meny je v rozpore so základnou filozofiou Bitcoin, takž
 ### Kontrolovaná menová politika: každú sekundu, od začiatku a navždy!
 
 
-Nedostatok Bitcoin je hlavnou výhodou a maximálne množstvo 21 miliónov bitcoinov v obehu je verejné a overiteľné kýmkoľvek.
+Vzácnosť Bitcoinu je hlavnou výhodou a maximálne množstvo 21 miliónov bitcoinov v obehu je verejné a overiteľné kýmkoľvek.
 
 
-V skutočnosti to môže urobiť ktokoľvek prostredníctvom uzla Bitcoin [node](https://planb.academy/resources/glossary/node) (t. j. validátora transakcií) jednoduchým zadaním nasledujúceho príkazu: gW-61 gettxoutsetinfo`. Táto transparentnosť posilňuje dôveru v systém Bitcoin, ktorý nie je založený na centrálnych inštitúciách alebo jednotlivcoch, ale skôr na matematických a kryptografických zárukách obsiahnutých v jeho protokole (Ako to jednoducho urobiť, sa dozviete v LNP201).
+V skutočnosti to môže urobiť ktokoľvek prostredníctvom Bitcoin uzla (node) [node](https://planb.academy/resources/glossary/node) (t. j. validátora transakcií) jednoduchým zadaním nasledujúceho príkazu: gW-61 gettxoutsetinfo`. Táto transparentnosť posilňuje dôveru v systém Bitcoin, ktorý nie je založený na centrálnych inštitúciách alebo jednotlivcoch, ale skôr na matematických a kryptografických zárukách obsiahnutých v jeho protokole (Ako to jednoducho urobiť, sa dozviete v LNP201).
 
 
 ```json
