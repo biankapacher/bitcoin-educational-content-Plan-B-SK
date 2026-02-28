@@ -795,13 +795,13 @@ Na záver možno povedať, že priame vlastníctvo bitcoinov je základným prvk
 S týmto vedomím môžeme teraz prejsť k ďalšej časti, v ktorej popíšeme, ako vytvoriť Bitcoin peňaženku. Ak sa však chcete téme bezpečnosti venovať hlbšie, môžete si prečítať tento [článok od DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
 
-## Nastavenie zariadenia Wallet
+## Založenie Bitcoin peňaženky
 
 
 <chapterId>615519eb-4565-557d-86a0-021badf7616f</chapterId>
 
 
-Bezpečnosť vašich bitcoinov má zásadný význam a jednoduchá chyba môže mať katastrofálne následky. Preto sa musíme naučiť osvedčené postupy, ktoré treba prijať pri vytváraní nového Bitcoin wallet.
+Bezpečnosť vašich bitcoinov má zásadný význam a jednoduchá chyba môže mať katastrofálne následky. Preto sa musíme naučiť osvedčené postupy, ktoré treba prijať pri vytváraní novej Bitcoin wallet.
 
 
 Upozorňujeme, že týmto krokom vás prevedie kurz BTC102.
@@ -812,7 +812,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 ### Tento krok nie je žiadna sranda!
 
 
-Pri nastavovaní wallet softvér zvyčajne vytvorí váš súkromný kľúč, ktorý zvyčajne predstavuje zoznam 12/24 slov (často nazývaný "fráza seed" alebo "mnemotechnická fráza"): tieto slová predstavujú prístup k vašim prostriedkom. Ak sa tento kľúč niekedy prezradí tretej strane, mali by ste považovať súvisiace finančné prostriedky za ohrozené. Preto je pri nastavovaní vášho kódu wallet nevyhnutné dodržiavať tieto pravidlá:
+Pri nastavovaní wallet softvér zvyčajne vytvorí váš súkromný kľúč, ktorý zvyčajne predstavuje zoznam 12/24 slov (často nazývaný "seed fráza" alebo "mnemotechnická fráza"): tieto slová predstavujú prístup k vašim prostriedkom. Ak sa tento kľúč niekedy prezradí tretej strane, mali by ste považovať súvisiace finančné prostriedky za ohrozené. Preto je pri nastavovaní vášho kódu wallet nevyhnutné dodržiavať tieto pravidlá:
 
 
 
@@ -824,7 +824,7 @@ Pri nastavovaní wallet softvér zvyčajne vytvorí váš súkromný kľúč, kt
 - Nikdy neskrývajte zoznam slov na nezvyčajnom mieste.
 
 
-Mali by ste si vziať doslova čistý list papiera alebo si vytlačiť túto [šablónu](https://bitcoiner.guide/backup.pdf) a napísať zoznam slov perom, pričom by ste mali prehľadne a jasne dodržiavať uvedené poradie. Uvedomte si, že ak atrament časom vybledne, môžete prísť o svoje prostriedky. Preto je dôležité, aby ste tento list papiera chránili pred tými faktormi prostredia, ktoré by ho mohli potenciálne poškodiť, ako je vlhkosť alebo oheň.
+Mali by ste si vziať doslova čistý list papiera alebo si vytlačiť túto [šablónu](https://bitcoiner.guide/backup.pdf) a napísať zoznam slov perom, pričom by ste mali prehľadne a jasne dodržiavať uvedené poradie. Uvedomte si, že ak atrament časom vybledne, môžete prísť o svoje prostriedky. Preto je dôležité, aby ste tento list papiera chránili pred faktormi prostredia, ktoré by ho mohli potenciálne poškodiť, ako je vlhkosť alebo oheň.
 
 
 Nižšie nájdete príklad, ako zostaviť dokument: slová sú falošné, preto ich nepoužívajte!
@@ -836,7 +836,7 @@ Nižšie nájdete príklad, ako zostaviť dokument: slová sú falošné, preto 
 ### Naše tipy, ako to urobiť správne
 
 
-Dbajte na to, aby ste pri jasnom a čitateľnom kopírovaní mnemotechnickej vety neurobili žiadne chyby, inak by vaši dedičia mohli mať problém s jej prečítaním a nemohli by získať finančné prostriedky späť. Po uložení slov je vhodné vytvoriť druhú kópiu a uložiť ju na iné miesto ako prvú. Tým si zabezpečíte zálohu pre prípad straty alebo poškodenia originálu.
+Dbajte na to, aby ste pri jasnom a čitateľnom kopírovaní mnemotechnickej frázy neurobili žiadne chyby, inak by vaši dediči mohli mať problém s jej prečítaním a mohli by stratiť prístup k finančným prostriedkom. Po uložení slov je vhodné vytvoriť druhú kópiu a uložiť ju na iné miesto ako prvú. Tým si zabezpečíte zálohu pre prípad straty alebo poškodenia originálu.
 
 
 ![image](assets/en/035.webp)
@@ -848,13 +848,13 @@ Zoznamy slov by mali byť uložené na bezpečnom mieste, ktoré si ľahko zapam
 **Vaše slová = vaše peniaze.**
 
 
-Pri "studených" aj "horúcich" modeloch wallet sa štandardne používa metóda zoznamu slov na zálohovanie súkromných kľúčov. Výsledkom je, že na obnovenie prístupu môžete do akéhokoľvek kompatibilného softvéru alebo zariadenia wallet zadať mnemotechnickú frázu. Na druhej strane dôrazne neodporúčame používať zariadenia wallet, ktoré neposkytujú frázu seed, pretože môžu vyžadovať poskytnutie účtu, e-mailovej adresy alebo, čo je ešte horšie, preukazu totožnosti.
+Pri "studených" aj "horúcich" peňaženkách sa štandardne používa metóda zoznamu slov na zálohovanie súkromných kľúčov. Výsledkom je, že vašu mnemotechnickú frázu môžete zadať do akéhokoľvek kompatibilného softvéru alebo zariadenia walleta znovu tak získate prístup k svojim prostriedkom. Na druhej strane dôrazne neodporúčame používať zariadenia wallet, ktoré neposkytujú seed frázu, pretože môžu vyžadovať vytvorenie účtu, poskytnutie e-mailovej adresy alebo, čo je ešte horšie, preukazu totožnosti.
 
 
-**Upozornenie: absencia zoznamu 12/24 slov by vás mala upozorniť.**
+**Upozornenie: pri absencii 12/24 slov by ste mali spozornieť.**
 
 
-Ak chcete krok za krokom zistiť, ako si zriadiť vlastný wallet a získať svoje prvé bitcoiny, odporúčame vám absolvovať tento ďalší kurz:
+Ak chcete krok za krokom zistiť, ako si zriadiť vlastný wallet a získať svoje prvé bitcoiny, odporúčame vám absolvovať tento kurz:
 
 
 https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
@@ -883,7 +883,7 @@ K dispozícii sú rôzne riešenia: niektoré z nich sú lacné, ako napríklad 
 ### Myslite na ďalšiu generáciu!
 
 
-Popri tomto prvom postupe je vytvorenie dedičského plánu kľúčovým krokom na zabezpečenie správnej správy vašich bitcoinov po vašej smrti. Tento plán zahŕňa vlastnoručné napísanie listu, v ktorom uvediete povahu svojich aktív, spôsoby prístupu k nim a kontaktné údaje dôveryhodných osôb, ktoré majú za ne zodpovednosť. Dôležité je tiež prediskutovať zdedenie bitcoinov s účtovníkom a/alebo dedičským právnikom, aby sa zabezpečil súlad s daňovými predpismi, aj keď táto osoba by nikdy nemala byť priamo poverená správou vašich bitcoinov.
+Popri tomto prvom kroku je vytvorenie dedičského plánu kľúčovým prvkom pri zabezpečení správy vašich bitcoinov po vašej smrti. Tento plán zahŕňa vlastnoručné napísanie listu, v ktorom uvediete povahu svojich aktív, spôsoby prístupu k nim a kontaktné údaje dôveryhodných osôb, ktoré majú za ne zodpovednosť. Dôležité je tiež prediskutovať zdedenie bitcoinov s účtovníkom a/alebo dedičským právnikom, aby sa zabezpečil súlad s daňovými predpismi, aj keď táto osoba by nikdy nemala byť priamo poverená správou vašich bitcoinov.
 
 
 Ak sa chcete téme dedičského plánu pre svoje bitcoiny venovať hlbšie, odporúčame vám prečítať si knihu Pamely Morgan [Cryptoasset Inheritance Plan](https://planb.academy/resources/books/28) alebo sa prihlásiť na kurz BTC102, kde vám poskytneme návod na vytvorenie vášho plánu.
@@ -895,40 +895,40 @@ Ak sa chcete téme dedičského plánu pre svoje bitcoiny venovať hlbšie, odpo
 ### Súkromie je dôležité
 
 
-Okrem vytvorenia fyzických záloh a vypracovania plánu dedenia je ďalšou dôležitou témou, pokiaľ ide o dlhodobú bezpečnosť vašich bitcoinov, ochrana súkromia. Napríklad je vhodnejšie kupovať bitcoiny bez poskytnutia identifikačných údajov, aby sa minimalizovalo riziko krádeže identity alebo sledovania vašich finančných prostriedkov subjektmi so správnymi nástrojmi.
+Okrem vytvorenia fyzických záloh a vypracovania plánu dedenia je ochrana súkromia ďalšou dôležitou témou, pokiaľ ide o dlhodobú bezpečnosť vašich bitcoinov. Napríklad je vhodnejšie kupovať bitcoiny bez poskytnutia identifikačných údajov, aby sa minimalizovalo riziko krádeže identity alebo sledovania vašich finančných prostriedkov subjektmi, ktoré na to majú nástroje.
 
 
-Pokiaľ ide o súkromie, je veľmi dôležité, aby ste o svojich bitcoinoch s nikým nehovorili. Nemôžeme predpovedať, ako bude táto technológia vnímaná v budúcnosti, takže zachovanie diskrétnosti o vašom vlastníctve je múdra voľba: nechcete na seba alebo na svoju wallet upozorniť.
+Pokiaľ ide o súkromie, je veľmi dôležité, aby ste o svojich bitcoinoch s nikým nehovorili. Nemôžeme predpovedať, ako bude táto technológia vnímaná v budúcnosti, takže zachovanie diskrétnosti o vašom vlastníctve je múdra voľba: nechcete na seba alebo na svoju peňaženku upozorniť.
 
 
-Podobne sa vyhnite otvorenému zdieľaniu podrobností o svojom bezpečnostnom systéme počas stretnutí s bitcoinovými klientmi alebo stretnutí s cudzími ľuďmi...
+Podobne sa vyhnite otvorenému zdieľaniu podrobností o svojom bezpečnostnom systéme na bitcoin stretnutiach alebo s cudzími ľuďmi...
 
 
-### Zhrnutie o Bitcoin Wallet Bezpečnosť
+### Zhrnutie Bitcoin wallet zabezpečenia
 
 
-Bitcoin wallet umožňujú prístup k bitcoinom a vykonávanie transakcií. Existuje niekoľko typov:
+Bitcoin peňaženky umožňujú prístup k bitcoinom a vykonávanie transakcií. Existuje niekoľko typov:
 
 
 
 - mobilné alebo PC wallet, vhodné pre malé sumy a/alebo pravidelné výdavky;
-- fyzických wallet, ktoré sú vhodnejšie na strednodobé a dlhodobé uchovávanie bitcoinov;
+- fyzické peňaženky, ktoré sú vhodnejšie na stredne dlhé a dlhodobé uchovávanie bitcoinov;
 - multisig wallet, ktoré sú zložitejšie na správu a vyžadujú viacero podpisov na vykonanie transakcií.
 
 
-Pri vytváraní wallet je mimoriadne dôležité, aby ste si najprv vytvorili zálohu zoznamu 12 alebo 24 slov na kúsku papiera alebo kovovej doštičke. Táto takzvaná mnemotechnická fráza vám umožní obnoviť váš wallet prostredníctvom akejkoľvek aplikácie Bitcoin wallet. Uvedomte si, že každý, kto získa prístup k tomuto zoznamu, získa aj prístup k vašim finančným prostriedkom.
+Pri vytváraní wallet je mimoriadne dôležité, aby ste si najprv vytvorili zálohu zoznamu 12 alebo 24 slov na kúsku papiera alebo kovovej doštičke. Táto takzvaná mnemotechnická fráza vám umožní obnoviť vašu peňaženku prostredníctvom akejkoľvek aplikácie Bitcoin wallet. Nezabudnite, že každý, kto získa prístup k tomuto zoznamu, získa aj prístup k vašim finančným prostriedkom.
 
 
 Vo svete Bitcoin je finančná suverenita úzko spojená s individuálnou zodpovednosťou, preto je nevyhnutné zabezpečiť prístup k vašim zariadeniam wallet a zálohám. Na dosiahnutie tohto cieľa je dôležité dodržiavať určité zásady:
 
 
 
-- Vytvorte plán dedenia, aby ste zabezpečili, že vaši blízki budú môcť v prípade akýchkoľvek problémov získať peniaze späť.
-- Vyhnite sa ponechávaniu zariadení Bitcoin na výmenných platformách, pretože môžu byť náchylné na útoky hackerov.
-- Prispôsobte úroveň zabezpečenia svojim potrebám a prípadom použitia, aby ste si mohli dobre vybrať spomedzi množstva rôznych dostupných zariadení Bitcoin wallet.
+- Vytvorte plán dedenia, aby ste zabezpečili, že vaši blízki budú môcť v prípade akýchkoľvek problémov získať prístup k peniazom.
+- Nenechávajte vaše bitcoiny na kryptoburzách výmenných platformách, pretože môžu byť náchylné na útoky hackerov.
+- Prispôsobte úroveň zabezpečenia svojim potrebám a použitiam, aby ste si dokázali dobre vybrať spomedzi množstva rôznych dostupných zariadení Bitcoin wallet.
 
 
-Teraz, keď sme sa venovali základom Bitcoin wallet a osvedčeným postupom ich zabezpečenia, v ďalšej kapitole preskúmame technické vlastnosti Bitcoin. Opäť platí, že pochopenie základov protokolu Bitcoin zlepší vaše porozumenie jeho fungovaniu, čo vám umožní lepšie ho využívať.
+Teraz, keď sme sa venovali základom Bitcoin wallet a osvedčeným postupom ich zabezpečenia, v ďalšej kapitole preskúmame technické vlastnosti Bitcoinu. Opäť platí, pochopenie základov protokolu Bitcoin vám pomôže porozumieť jeho fungovaniu, čo vám umožní lepšie ho využívať.
 
 
 # Technické aspekty Bitcoin.
