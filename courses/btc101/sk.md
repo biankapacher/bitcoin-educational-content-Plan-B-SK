@@ -699,21 +699,20 @@ Ak sa počas svojej cesty králičou dierou budete chcieť dozvedieť viac o bud
 
 https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
-## Bitcoin Wallet a zabezpečenie
+## Bitcoin peňaženka a zabezpečenie
 
 
 <chapterId>00c1afea-e54a-511f-bab3-2efc2fbfa6a1</chapterId>
 
 
-### Kladenie správnych otázok pred začatím
-
+### Predtým než začnete, položte si správne otázky
 
 Keď vlastníte bitcoiny, bezpečnosť vašich prostriedkov je hlavným problémom. Najlepší spôsob, ako určiť úroveň zabezpečenia, ktorá je vhodná pre vašu situáciu, je položiť si niekoľko otázok:
 
 
 
 - Kto má prístup k vašim prostriedkom? Inými slovami, máte k svojim bitcoinom výhradný prístup vy, alebo vám prístup k vašim prostriedkom poskytuje tretia strana (napríklad spoločnosť)?
-- Ako plánujete použiť bitcoiny v tomto konkrétnom wallet? Pravidelne? Na strednodobé, alebo dlhodobé sporenie?
+- Ako plánujete použiť bitcoiny v tejto konkrétnej peňaženke? Pravidelne? Na stredne dlhé, alebo dlhodobé sporenie?
 - Aké sú vaše technické zručnosti?
 - Aký je váš rozpočet na zabezpečenie?
 
@@ -724,7 +723,7 @@ V skutočnosti neexistuje univerzálna odpoveď alebo riešenie, preto si nájdi
 ![image](assets/en/029.webp)
 
 
-### Premýšľanie o Bitcoin wallet z hľadiska zložitosti
+### Bitcoin wallets z hľadiska zložitosti
 
 
 Nižšie definujeme niekoľko úrovní zabezpečenia:
@@ -738,7 +737,7 @@ Nižšie definujeme niekoľko úrovní zabezpečenia:
 
 
 
-- Úroveň 1**, používate Bitcoin wallet v telefóne alebo počítači, kde ste jediným držiteľom svojich bitcoinov a môžete jednoducho vykonávať transakcie. Uvedený nástroj sa označuje ako "horúci wallet", pretože súkromný kľúč je uložený v zariadení s prístupom na internet. V tomto prípade je veľmi dôležité zálohovať si mnemotechnickú frázu, aby ste v prípade straty telefónu alebo počítača získali späť prístup k svojim prostriedkom.
+- Úroveň 1**, používate Bitcoin wallet v telefóne alebo počítači, kde ste jediným držiteľom svojich bitcoinov a môžete jednoducho vykonávať transakcie. Uvedený nástroj sa označuje ako "hot wallet" (horúci), pretože súkromný kľúč je uložený v zariadení s prístupom na internet. V tomto prípade je veľmi dôležité zálohovať si mnemotechnickú frázu, aby ste v prípade straty telefónu alebo počítača získali späť prístup k svojim prostriedkom.
 
 
 Napríklad Sparrow Wallet môžete použiť ako horúci wallet:
@@ -747,10 +746,10 @@ Napríklad Sparrow Wallet môžete použiť ako horúci wallet:
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
 
 
-- Úroveň 2**, používate fyzický prístroj wallet a máte zabezpečený zoznam 12/24 slov. Často sa označuje ako "studený wallet", pretože vaše kľúče sú uložené v zariadení, ktoré nie je pripojené na internet. V tomto prípade budete musieť každú transakciu vždy podpísať zariadením, čím sa vaše finančné prostriedky stávajú denne menej dostupnými.
+- Úroveň 2**, používate fyzickú peňaženku a máte zabezpečený zoznam 12/24 slov. Často sa označuje ako "cold wallet"(studený), pretože vaše kľúče sú uložené v zariadení, ktoré nie je pripojené na internet. V tomto prípade budete musieť každú transakciu vždy podpísať svojím zariadením, čím sa vaše finančné prostriedky stávajú menej dostupnými na dennej báze.
 
 
-Môžete napríklad použiť model Ledger, Satochip alebo Tapsigner:
+Môžete použiť napríklad Ledger, Satochip alebo Tapsigner:
 
 
 https://planb.academy/tutorials/wallet/hardware/ledger-nano-s-plus-75043cb3-2e8e-43e8-862d-ca243b8215a4
@@ -763,7 +762,7 @@ https://planb.academy/tutorials/wallet/hardware/tapsigner-ab2bcdf9-9509-4908-9a4
 
 
 
-- Úroveň 3**, používate wallet úrovne 1 alebo 2, ale pridali ste ďalší passphrase. V tomto prípade si uvedomte, že musíte zálohovať zoznam 12/24 slov **a** svoj passphrase. V ideálnom prípade sú tieto dve informácie uložené na dvoch rôznych miestach.
+- Úroveň 3**, používate wallet úrovne 1 alebo 2, ale pridali ste navyše passphrase. V tomto prípade si uvedomte, že musíte zálohovať zoznam 12/24 slov **a** svoj passphrase. V ideálnom prípade sú tieto dve informácie uložené na dvoch rôznych miestach.
 
 
 Ak sa chcete dozvedieť viac o používaní a fungovaní BIP39 passphrase:
@@ -775,25 +774,25 @@ https://planb.academy/tutorials/wallet/backup/passphrase-a26a0220-806c-44b4-af14
 
 
 
-- Na úrovni 4** používate súbor wallet na vytvorenie "multisig" wallet, čo znamená, že na vykonanie transakcie je potrebných viacero podpisov. V tomto prípade si uvedomte, že každá časť multisig by mala byť uložená na rôznych miestach. Tento prístup sa často považuje za pokročilé použitie Bitcoin, predovšetkým na správu veľkých objemov a na firemné účely.
+- Na úrovni 4** používate súbor wallet na vytvorenie "multisig" wallet, čo znamená, že na vykonanie transakcie je potrebných viacero podpisov. V tomto prípade vedzte, že každá časť multisig by mala byť uložená na rôznych miestach. Tento prístup sa často považuje za pokročilé použitie Bitcoinu, predovšetkým na správu veľkých objemov a na firemné účely.
 
 
 ![image](assets/en/033.webp)
 
 
-Samozrejme, rôzne prípady použitia si vyžadujú aj rôzne Bitcoin wallet a neexistuje univerzálne riešenie.
+Samozrejme, rôzne prípady použitia si vyžadujú aj rôzne Bitcoin peňaženky a neexistuje univerzálne riešenie.
 
 
 ### Bezpečnosť sa musí prispôsobiť
 
 
-Výška sumy, ktorú je človek ochotný ponechať na konkrétnej úrovni zabezpečenia, závisí od každého jednotlivca. Pre niekoho je ponechanie 1 BTC na horúcom wallet rozumné, pre iného naopak. V každom prípade, keď chcete zabezpečiť malú sumu, odporúčame, aby ste na zabezpečenie príliš nemíňali kúpou fyzickej jednotky wallet. Okrem toho majte na pamäti, že prílišné komplikovanie zabezpečenia a dostupnosti vašich bitcoinov môže byť na škodu, najmä ak zle zaobchádzate so zálohami svojich wallet.
+Výška sumy, ktorú je človek ochotný ponechať na konkrétnej úrovni zabezpečenia, závisí od každého jednotlivca. Pre niekoho je ponechanie 1 BTC na horúcom wallet rozumné, pre iného naopak. V každom prípade, keď chcete zabezpečiť malú sumu, odporúčame, aby ste na zabezpečenie príliš nemíňali kúpou fyzického zariadenia. Okrem toho majte na pamäti, že prílišné komplikovanie zabezpečenia a dostupnosti vašich bitcoinov môže byť na škodu, najmä ak zle zaobchádzate so zálohami svojich peňaženiek.
 
 
-Na záver možno povedať, že priame vlastníctvo bitcoinov je základným prvkom na zabezpečenie finančnej suverenity. Na každodenné výdavky sa odporúča používať mobilnú jednotku wallet a na ukladanie väčších súm sa odporúča používať offline alebo "studenú" fyzickú jednotku wallet. Na druhej strane, podniky by mali zvážiť používanie systémov multi-signature alebo "multisig" na zvýšenie a zdieľanie bezpečnosti. Je tiež nevyhnutné vyhnúť sa úschovným službám, ktoré môžu kopírovať niektoré zraniteľnosti tradičného finančného systému.
+Na záver možno povedať, že priame vlastníctvo bitcoinov je základným prvkom na zabezpečenie finančnej suverenity. Na každodenné výdavky sa odporúča používať mobilnú peňaženku a na ukladanie väčších súm sa odporúča používať offline alebo "studenú" fyzickú jednotku wallet. Na druhej strane, podniky by mali zvážiť používanie systémov multi-signature alebo "multisig" na zvýšenie a zdieľanie bezpečnosti. Je tiež nevyhnutné vyhnúť sa úschovným službám, ktoré môžu kopírovať niektoré zraniteľnosti tradičného finančného systému.
 
 
-S týmto vedomím môžeme teraz prejsť k ďalšej časti, v ktorej popíšeme, ako vytvoriť Bitcoin wallet. Ak sa však chcete téme bezpečnosti venovať hlbšie, môžete si prečítať tento [článok DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
+S týmto vedomím môžeme teraz prejsť k ďalšej časti, v ktorej popíšeme, ako vytvoriť Bitcoin peňaženku. Ak sa však chcete téme bezpečnosti venovať hlbšie, môžete si prečítať tento [článok od DarthCoin](https://asi0.substack.com/p/bitcoin-soyez-votre-propre-banque).
 
 
 ## Nastavenie zariadenia Wallet
