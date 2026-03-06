@@ -937,7 +937,7 @@ Teraz, keď sme sa venovali základom Bitcoin wallet a osvedčeným postupom ich
 <partId>a86d7439-e7a2-5f21-b1e9-6b5e23ca265b</partId>
 
 
-## Vypustenie Bitcoin
+## Spustenie Bitcoinu
 
 
 <chapterId>b7561082-8943-519d-95d1-a5f60dd2686d</chapterId>
@@ -949,31 +949,31 @@ Teraz, keď sme sa venovali základom Bitcoin wallet a osvedčeným postupom ich
 ![image](assets/en/038.webp)
 
 
-31. októbra 2008 sa zrodila nová finančná technológia Bitcoin. V tento deň anonym Satoshi Nakamoto predstavil svetu svoju inováciu prostredníctvom e-mailu zaslaného do poštovej konferencie cypherpunkov, komunity nadšencov kryptografie, ktorá sa venuje podpore súkromia na internete. Tento e-mail obsahoval dokument s názvom "[Biela kniha](https://planb.academy/resources/glossary/white-paper)", ktorý predstavoval, ako Bitcoin funguje.
+31. októbra 2008 sa zrodila nová finančná technológia Bitcoin. V tento deň anonym Satoshi Nakamoto predstavil svetu svoju inováciu prostredníctvom e-mailu zaslaného do poštovej konferencie cypherpunkov, komunity nadšencov kryptografie, ktorá sa venuje podpore súkromia na internete. Tento e-mail obsahoval dokument s názvom "[White Paper](https://planb.academy/resources/glossary/white-paper)", ktorý predstavoval, ako Bitcoin funguje.
 
 
-Táto iniciatíva nevzbudila okamžité nadšenie, pravdepodobne kvôli predchádzajúcim neúspechom pri pokusoch o vytvorenie digitálnych hotovostných systémov. Napriek tomu sa táto biela kniha nakoniec stala referenciou pre používateľov Bitcoin a v priebehu rokov bola predmetom mnohých diskusií v ekosystéme Bitcoin.
+Táto iniciatíva nevzbudila okamžité nadšenie, pravdepodobne kvôli predchádzajúcim neúspechom pri pokusoch o vytvorenie digitálnych hotovostných systémov. Napriek tomu sa White Paper nakoniec stal referenciou pre používateľov Bitcoinu a v priebehu rokov bol predmetom mnohých diskusií v Bitcoin ekosystéme.
 
 
 ![image](assets/en/039.webp)
 
 
-Dňa 3. januára 2009 Satoshi oficiálne otvoril sieť Bitcoin vytvorením prvého bloku, známeho aj ako "blok Genesis", ktorý znamenal spustenie blockchainu Bitcoin. Tento blok obsahuje objavnú správu, ktorá odráža poslanie Bitcoin: "03/jan/2009 Kancelárka na pokraji druhej finančnej pomoci bankám"
+Dňa 3. januára 2009 Satoshi oficiálne inauguroval sieť Bitcoin vytvorením prvého bloku, známeho aj ako "blok Genesis", ktorý znamenal spustenie blockchainu Bitcoin. Tento blok obsahuje správu, ktorá odráža poslanie Bitcoin: "03/jan/2009 Kancelár na pokraji druhej finančnej pomoci bankám"
 
 
 ![image](assets/en/040.webp)
 
 
-> "Môžeme vyhrať veľkú bitku v pretekoch v zbrojení a získať
+> "Môžeme vyhrať veľkú bitku v technologickom súboji a získať
 > nové územie slobody na niekoľko rokov." - Satoshi Nakamoto
 
 ![image](assets/en/041.webp)
 
 
-### Protokol Bitcoin ožíva
+### Bitcoin protokol ožíva
 
 
-Dňa 9. januára 2009 spoločnosť Satoshi oznámila vydanie verzie Bitcoin 0.1.0. Krátko nato sa softvéru chopil Hal Finney a pripojil sa k sieti, čo znamenalo prítomnosť dvoch uzlov, a teda aj dvoch ťažiarov v sieti. Finney tento krok dokonca zvečnil tweetom: "Spúšťam Bitcoin". Dňa 12. januára 2009 sa medzi Satoshi a Hal Finney uskutočnila prvá transakcia Bitcoin v objeme 10 BTC. Ak sa vrátite k bloku 170, ľahko ju nájdete.
+Dňa 9. januára 2009 spoločnosť Satoshi oznámila vydanie verzie Bitcoin 0.1.0. Krátko nato sa softvéru chopil Hal Finney a pripojil sa k sieti, čo znamenalo prítomnosť dvoch uzlov, a teda aj dvoch ťažiarov v sieti. Finney tento krok dokonca zvečnil tweetom: "Running Bitcoin". Dňa 12. januára 2009 sa medzi Satoshim a Halom Finney uskutočnila prvá Bitcoin transakcia v objeme 10 BTC. Ak sa vrátite k bloku 170, ľahko ju nájdete.
 
 
 ![image](assets/en/042.webp)
@@ -981,10 +981,10 @@ Dňa 9. januára 2009 spoločnosť Satoshi oznámila vydanie verzie Bitcoin 0.1.
 
 Záujem o Bitcoin rýchlo rástol, čo viedlo mnohých ľudí k jeho testovaniu, diskusiám, riešeniu chýb a úvahám o jeho etických, ekonomických a filozofických aspektoch. Ľudí Satoshi zaujal natoľko, že 22. novembra 2009 vytvorili fórum BitcoinTalk s cieľom uľahčiť tento typ komunikácie.
 
-Fórum sa rýchlo stalo obľúbeným miestom diskusií používateľov Bitcoin, a to až do takej miery, že sa z neho zrodili známe mémy a symboly spojené s Bitcoin, ako napríklad [logo Bitcoin](https://bitcointalk.org/index.php?topic=64.0), slávny [Hodl](https://bitcointalk.org/index.php?topic=375643.0) alebo dokonca [Pizza day](https://bitcointalk.org/index.php?topic=137.msg1195).
+Fórum sa rýchlo stalo obľúbeným miestom diskusií používateľov Bitcoinu, a to až do takej miery, že sa z neho zrodili známe meme a symboly spojené s Bitcoinom, ako napríklad [logo Bitcoin](https://bitcointalk.org/index.php?topic=64.0), slávny [Hodl](https://bitcointalk.org/index.php?topic=375643.0) alebo dokonca [Pizza day](https://bitcointalk.org/index.php?topic=137.msg1195).
 
 
-**Viete, že?** 22. mája 2010 sa Laszlo Hanyecz zapísal do histórie, keď ponúkol kúpu dvoch pizze za 10 000 BTC: bolo to prvýkrát, čo bol Bitcoin použitý na nákup fyzického tovaru.
+**Viete, že?** 22. mája 2010 sa Laszlo Hanyecz zapísal do histórie, keď ponúkol kúpu pizze za 10 000 BTC: bolo to prvýkrát, čo bol Bitcoin použitý na nákup fyzického tovaru.
 
 
 ![image](assets/en/043.webp)
@@ -997,16 +997,16 @@ V roku 2010, keď Bitcoin začal priťahovať pozornosť médií, sa Satoshi roz
 
 
 > "Vlády sú dobré v odrezávaní hláv centrálne
-> kontrolované siete ako Napster, ale čisté siete P2P, ako napr
-> Zdá sa, že Gnutella a Tor si držia svoju pozíciu." - Satoshi Nakamoto
+> kontrolovaných sietí ako Napster, ale čisto P2P siete, ako napr
+> Gnutella a Tor sa zatiaľ dokážu udržať." - Satoshi Nakamoto
 
-Napriek absencii Satoshi sa Bitcoin naďalej vyvíjal: história Bitcoin sa píše každých 10 minút a protokol dodnes funguje tak, ako má. Bez ohľadu na akýkoľvek strach, neistotu alebo pochybnosti sa Bitcoin naďalej posúva vpred, pričom je veľmi dobre dostupný online. V skutočnosti podľa tejto [webovej stránky](https://bitcoinuptime.com/) je Bitcoin funkčný a beží bez masívnych problémov 99,988 % času od jeho vytvorenia.
-
-
-Podľa niektorých je Bitcoin definovaný ako hubová entita, ako [mycélium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), zatiaľ čo iní ho opisujú ako [čiernu dieru](https://dergigi.com/). Milujte ju alebo nenáviďte, Bitcoin naďalej existuje, so svojím konštantným rytmom 10 minút za blok, ako tlkot srdca nového peňažného systému.
+Napriek Satoshiho absencii sa Bitcoin naďalej vyvíjal: história Bitcoinu sa píše každých 10 minút a protokol dodnes funguje tak, ako má. Bez ohľadu na akýkoľvek strach, neistotu alebo pochybnosti sa Bitcoin naďalej posúva vpred, pričom je veľmi dobre dostupný online. V skutočnosti podľa tejto [webovej stránky](https://bitcoinuptime.com/) je Bitcoin funkčný a beží bez veľkých problémov 99,988 % času od jeho vytvorenia.
 
 
-Ak chcete hlbšie preniknúť do spisov Satoshi Nakamoto, odporúčam prečítať si knihu [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) od Phila Champagneho, ktorá zhromažďuje a dáva do súvislostí jeho hlavné texty, ako aj dokumentárny film ARTE [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), ktorý ponúka prístupný a dobre zdokumentovaný výskum jeho identity a odkazu.
+Podľa niektorých je Bitcoin definovaný ako hubová entita, ako [mycélium](https://brandonquittem.com/bitcoin-is-the-mycelium-of-money/), zatiaľ čo iní ho opisujú ako [čiernu dieru](https://dergigi.com/). Milujte ho alebo nenáviďte, Bitcoin naďalej existuje, so svojím konštantným rytmom 10 minút za blok, ako tlkot srdca nového peňažného systému.
+
+
+Ak chcete hlbšie preniknúť do spisov Satoshiho Nakamota, odporúčame prečítať si knihu [*The Book of Satoshi*](https://planb.academy/resources/books/the-book-of-satoshi-61dea136-f12b-4a19-bdb4-0272bca2ab30) od Phila Champagneho, ktorá zhromažďuje a dáva do súvislostí jeho hlavné texty, ako aj dokumentárny film ARTE [*Le mystère Satoshi*](https://planb.academy/resources/movies/f48841f0-b9ab-4d44-96e7-84fd5b70e91c), ktorý ponúka prístupný a dobre zdokumentovaný výskum jeho identity a odkazu.
 
 
 ![image](assets/en/044.webp)
@@ -1014,7 +1014,7 @@ Ak chcete hlbšie preniknúť do spisov Satoshi Nakamoto, odporúčam prečíta�
 
 > "Hlavným problémom konvenčnej meny je dôvera, ktorá je potrebná na jej fungovanie. Je potrebné dôverovať centrálnej banke, že neznehodnotí menu, ale história fiat mien je plná porušení tejto dôvery. Bankám treba dôverovať, že budú držať naše peniaze a elektronicky ich prevádzať, ale ony ich požičiavajú vo vlnách úverových bublín so sotva zlomkom rezervy." - [Satoshi Nakamoto] (https://satoshi.nakamotoinstitute.org/posts/p2pfoundation/1/)
 
-Teraz, keď už máme určité východiská, preskúmajme, ako transakcia Bitcoin funguje vo všeobecnosti.
+Teraz, keď už máme určité základy, preskúmajme, ako transakcia Bitcoin funguje vo všeobecnosti.
 
 
 ## Transakcie Bitcoin
