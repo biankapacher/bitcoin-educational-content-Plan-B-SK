@@ -812,7 +812,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 ### Tento krok nie je žiadna sranda!
 
 
-Pri nastavovaní wallet softvér zvyčajne vytvorí váš súkromný kľúč, ktorý zvyčajne predstavuje zoznam 12/24 slov (často nazývaný "seed fráza" alebo "mnemotechnická fráza"): tieto slová predstavujú prístup k vašim prostriedkom. Ak sa tento kľúč niekedy prezradí tretej strane, mali by ste považovať súvisiace finančné prostriedky za ohrozené. Preto je pri nastavovaní vášho kódu wallet nevyhnutné dodržiavať tieto pravidlá:
+Pri nastavovaní wallet softvér obvykle vytvorí váš súkromný kľúč, ktorý zvyčajne predstavuje zoznam 12/24 slov (často nazývaný "seed fráza" alebo "mnemotechnická fráza"): tieto slová predstavujú prístup k vašim prostriedkom. Ak sa tento kľúč niekedy prezradí tretej strane, mali by ste považovať súvisiace finančné prostriedky za ohrozené. Preto je pri nastavovaní vášho kódu wallet nevyhnutné dodržiavať tieto pravidlá:
 
 
 
@@ -1017,25 +1017,25 @@ Ak chcete hlbšie preniknúť do spisov Satoshiho Nakamota, odporúčame prečí
 Teraz, keď už máme určité základy, preskúmajme, ako transakcia Bitcoin funguje vo všeobecnosti.
 
 
-## Transakcie Bitcoin
+## Bitcoin transakcie
 
 
 <chapterId>03482644-5473-590b-975b-b43bb65eac21</chapterId>
 
 
-Transakcia Bitcoin je jednoducho prevod vlastníctva bitcoinov prostredníctvom adresy Bitcoin. Aby sme mohli tento proces opísať, predstavíme si dvoch protagonistov: Alice a Bob. Alice chce získať bitcoiny, zatiaľ čo Bob už nejaké vlastní.
+Bitcoin transakcia je jednoducho prevod vlastníctva bitcoinov prostredníctvom Bitcoin adresy. Aby sme mohli tento proces opísať, predstavíme si dvoch protagonistov: Alice a Bob. Alice chce získať bitcoiny, zatiaľ čo Bob už nejaké vlastní.
 
 
-### Krok 1 - Vytvorenie transakcie prostredníctvom wallet
+### Krok 1 - Vytvorenie transakcie prostredníctvom peňaženky
 
 
-Aby Bob mohla previesť bitcoiny na Alice, musí mu poskytnúť jednu zo svojich adries Bitcoin, ktoré sú jedinečné pre jej Bitcoin wallet. Tak ako sa súkromný kľúč používa na generate verejného kľúča, ten sa potom používa na generate adresy.
+Aby jej Bob mohol poslať bitcoiny, Alice mu musí poskytnúť jednu zo svojich Bitcoin adries, ktoré sú jedinečné pre jej Bitcoin peňaženku. Tak ako sa súkromný kľúč používa na generovanie verejného kľúča, ten sa potom používa na generovanie adresy.
 
 
-Konkrétne, keď Alice otvorí svoje zariadenie wallet a stlačí tlačidlo "prijať", zobrazí sa kód QR alebo adresa (napríklad táto bc1q7957hh3nj47efn8t2r6xdzs2cy3wjcyp8pch6hfkggy7jwrzj93sv4uykr). Tento údaj slúži ako akýsi jej "IBAN Bitcoin", ktorý potom poskytne Bob.
+Konkrétne, keď Alice otvorí svoju aplikáciu peňaženky a ťukne na "prijať", zobrazí sa QR kód alebo adresa (napríklad takáto bc1q7957hh3nj47efn8t2r6xdzs2cy3wjcyp8pch6hfkggy7jwrzj93sv4uykr). Tento údaj slúži ako akýsi jej "Bitcoin IBAN", ktorý potom poskytne Bobovi.
 
 
-Potom Bob vykoná transakciu otvorením svojho Bitcoin wallet a stlačením "odoslať". Potom skopíruje a vloží adresu Alice do požadovaného poľa, pridá sumu, ktorú chce poslať, a rozhodne o poplatkoch za transakciu, ktoré slúžia ako motivácia pre ťažiarov, aby transakciu zaradili do ďalšieho bloku. V skutočnosti platí, že čím vyššie poplatky Bob zaplatí, tým väčšie sú jeho šance na zaradenie transakcie do ďalšieho bloku pridaného do blockchainu, t. j. verejnej a nemennej účtovnej knihy zaznamenávajúcej všetky transakcie Bitcoin.
+Následne Bob vykoná transakciu otvorením svojej aplikácie peňaženky a stlačením "odoslať". Potom skopíruje a vloží adresu Alice do požadovaného poľa, pridá sumu, ktorú chce poslať, a rozhodne o poplatkoch za transakciu, ktoré slúžia ako motivácia pre ťažiarov, aby transakciu zaradili do ďalšieho bloku. V skutočnosti platí, že čím vyššie poplatky Bob zaplatí, tým väčšie sú jeho šance na zaradenie transakcie do ďalšieho bloku pridaného do blockchainu, t. j. verejnej a nemennej účtovnej knihy zaznamenávajúcej všetky Bitcoin transakcie.
 
 
 Na dokončenie transakcie ju musí Bob podpísať svojím súkromným kľúčom, aby overil, že je vlastníkom bitcoinov, ktoré chce previesť. Tento krok je na mobilných zariadeniach wallet zvyčajne automatický alebo má podobu potvrdenia na fyzickom zariadení wallet: "Určite chcete poslať X na Y? Áno alebo nie".
@@ -1050,61 +1050,60 @@ Na dokončenie transakcie ju musí Bob podpísať svojím súkromným kľúčom,
 ### Krok 2: Šírenie transakcie cez uzly
 
 
-V tejto fáze bola transakcia vytvorená a Bob's wallet ju bude zdieľať so sieťou Bitcoin. Na tento účel bude jeho wallet komunikovať s uzlom siete Bitcoin, ktorý túto informáciu rozšíri do ostatných uzlov. Tento druh procesu umožňuje celej sieti vidieť túto novú transakciu a zohľadniť ju.
+V tejto fáze bola transakcia vytvorená a Bobova peňaženka ju bude zdieľať so sieťou Bitcoin. Na tento účel bude jeho wallet komunikovať s uzlom siete Bitcoin (Bitcoin node), ktorý túto informáciu rozšíri do ostatných uzlov. Tento druh procesu umožňuje celej sieti vidieť túto novú transakciu a zohľadniť ju.
 
 
 ![image](assets/en/046.webp)
 
 
-V tomto momente, aj keď je táto transakcia známa všetkým (prostredníctvom nástroja s názvom Mempool), nemôže byť považovaná za potvrdenú, kým ju do bloku nevloží baník, ktorý ako jediný potvrdzuje transakcie ich zaradením do blockchainu.
+V tomto momente, aj keď je táto transakcia známa všetkým (prostredníctvom nástroja s názvom Mempool), nemôže byť považovaná za potvrdenú, kým ju do bloku nevloží miner, ktorý ako jediný potvrdzuje transakcie ich zaradením do blockchainu.
 
-
-Úlohou baníkov je totiž zhromažďovať platné a nepotvrdené transakcie a zostavovať z nich blok. V skratke, musia vyriešiť kryptografickú hádanku v procese nazývanom "proof of work", aby sa ich blok stal ďalším v blockchaine Bitcoin.
+Úlohou minerov je totiž zhromažďovať platné a nepotvrdené transakcie a zostavovať z nich blok. V skratke, musia vyriešiť kryptografickú hádanku v procese nazývanom "proof of work", aby sa ich blok stal ďalším v blockchaine.
 
 
 ![image](assets/en/047.webp)
 
 
-### Krok 3: Ťažiar vyťaží transakciu v bloku.
+### Krok 3: Miner vyťaží transakciu v bloku
 
 
-Systém Proof of work vyžaduje nájdenie platného "hashu" pre daný blok: predstavte si ho ako jedinečný odtlačok prsta spojený s blokom, ktorý pozostáva z 256 znakov. Platnosť tohto hashu závisí od miery obtiažnosti siete Bitcoin (podrobnejšie sa mu budeme venovať neskôr). Zatiaľ uvažujme, že baník našiel platný blok a že je v ňom zahrnutá transakcia Bob do Alice. Potom sa nový platný blok pridá do blockchainu, spoločnej účtovnej knihy pre všetkých používateľov Bitcoin.
+Systém Proof of work vyžaduje nájdenie platného "hashu" pre daný blok: predstavte si ho ako jedinečný odtlačok prsta spojený s blokom, ktorý pozostáva z 256 znakov. Platnosť tohto hashu závisí od miery obtiažnosti siete Bitcoin (podrobnejšie sa mu budeme venovať neskôr). Zatiaľ uvažujme, že  iner našiel platný blok a že je v ňom zahrnutá transakcia Boba pre Alice. Potom sa nový platný blok pridá do blockchainu, spoločnej účtovnej knihy pre všetkých používateľov Bitcoinu.
 
 
 ![image](assets/en/048.webp)
 
 
-### Krok 4: Blok je platný a overený referenčným uzlom Alice.
+### Krok 4: Blok je platný a overený referenčným uzlom Alice
 
 
-V tejto fáze sa transakcia považuje za platnú: ťažiareň potom rozšíri nový blok do siete prostredníctvom svojho uzla a Alice's wallet sa aktualizuje.
+V tejto fáze sa transakcia považuje za platnú: miner potom rozšíri nový blok do siete prostredníctvom svojho uzla a Aliceina peňaženka sa aktualizuje.
 
 
 ![image](assets/en/049.webp)
 
 
-**Poznámka:** Aj keď je Alice informovaná, že na jednu zo svojich adries dostala bitcoiny, odporúča sa považovať transakciu za nemennú až po tom, ako dostane **šesť** potvrdení. To znamená, že na bloku obsahujúcom transakciu Bob sa musí vyťažiť ďalších šesť blokov. Inými slovami, čím je transakcia v blockchaine staršia, tým viac sa stáva nemennou.
+**Poznámka:** Aj keď je Alice informovaná, že na jednu zo svojich adries dostala bitcoiny, odporúča sa považovať transakciu za nemennú až po tom, ako dostane **šesť** potvrdení. To znamená, že na bloku obsahujúcom Bobovu transakciu sa musí vyťažiť ďalších šesť blokov. Inými slovami, čím je transakcia v blockchaine staršia, tým viac sa stáva nemennou.
 
 
 ### Aký význam má tento proces?
 
 
-Transakčný systém Bitcoin je decentralizovaný a funguje peer-to-peer, bez dôveryhodných sprostredkovateľov.
+Transakčný systém Bitcoin je decentralizovaný a funguje peer-to-peer, bez sprostredkovateľov.
 
 
-Bob odošle svoju transakciu do siete Bitcoin, a keď miner zverejní platný blok obsahujúci transakciu Bob, Alice sa môže začať domnievať, že bitcoiny patria jej. Dôvera sa nevyžaduje v žiadnom kroku prevodu vlastníctva bitcoinov: samotné pravidlá protokolu a ekonomické stimuly spôsobujú, že konať v systéme Bitcoin zlomyseľne je príliš nákladné.
+Bob odošle svoju transakciu do siete Bitcoin, a keď miner zverejní platný blok obsahujúci Bobovu transakciu, Alice sa môže začať domnievať, že bitcoiny patria jej. Dôvera sa nevyžaduje v žiadnom kroku prevodu vlastníctva bitcoinov: samotné pravidlá protokolu a ekonomické stimuly spôsobujú, že konať v systéme Bitcoin zlomyseľne je príliš nákladné.
 
 
-Používatelia v skutočnosti prenášajú vlastníctvo svojich finančných prostriedkov digitálnym podpisovaním transakcií vlastnými súkromnými kľúčmi. Na druhej strane, baníci majú obmedzenú moc a používatelia si udržiavajú významnú kontrolu pomocou uzlov Bitcoin, ktoré overujú nové bloky a zahrnuté transakcie. Každý uzol má buď úplnú, alebo čiastočnú kópiu hlavnej knihy, takže sieť tvorená uzlami Bitcoin robí systém skutočne decentralizovaným.
+Používatelia v skutočnosti prenášajú vlastníctvo svojich finančných prostriedkov digitálnym podpisovaním transakcií vlastnými súkromnými kľúčmi. Na druhej strane, baníci majú obmedzenú moc a používatelia si udržiavajú významnú kontrolu pomocou Bitcoin uzlov, ktoré overujú nové bloky a zahrnuté transakcie. Každý uzol má buď úplnú, alebo čiastočnú kópiu ledgeru (účtovnej knihy), takže sieť tvorená Bitcoin uzlami robí systém skutočne decentralizovaným.
 
 
-V dôsledku toho by na úplné zničenie siete Bitcoin bolo potrebné odstrániť všetky kópie blockchainu vo všetkých uzloch Bitcoin, čo je vzhľadom na geografické rozloženie týchto uzlov a náročnosť ich fyzického zabavenia prakticky nemožné.
+V dôsledku toho by na úplné zničenie siete Bitcoin bolo potrebné odstrániť všetky kópie blockchainu vo všetkých Bitcoin uzloch, čo je vzhľadom na geografické rozloženie týchto uzlov a náročnosť ich fyzického zabavenia prakticky nemožné.
 
 
-Pozrime sa bližšie na to, ako uzol Bitcoin funguje.
+Pozrime sa bližšie na to, ako Bitcoin uzol funguje.
 
 
-## Uzly Bitcoin
+## Bitcoin uzly
 
 
 <chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
