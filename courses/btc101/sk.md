@@ -1109,17 +1109,17 @@ Pozrime sa bližšie na to, ako Bitcoin uzol funguje.
 <chapterId>8533cebc-f799-528b-89df-8d75d4c37f1c</chapterId>
 
 
-Uzly sú základným prvkom sieťovej architektúry Bitcoin, pretože plnia rôzne kľúčové funkcie:
+Uzly sú základným prvkom architektúry Bitcoin siete, pretože plnia rôzne kľúčové funkcie:
 
 
 
-- Udržiavanie kópie blockchainu Bitcoin
+- Udržiavanie kópie Bitcoin blockchainu
 - Overovanie transakcií
 - Prenos informácií do iných uzlov
-- Presadzovanie pravidiel protokolu Bitcoin.
+- Presadzovanie pravidiel Bitcoin protokolu
 
 
-Preto každé zariadenie, na ktorom je spustený softvér Bitcoin, nazývaný uzol Bitcoin (často používajúci [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/), prispieva k decentralizácii siete.
+Preto každé zariadenie, na ktorom je spustený softvér Bitcoin, nazývaný Bitcoin node (uzol) (často používajúci [Bitcoin Core](https://bitcoin.org/en/bitcoin-core/), prispieva k decentralizácii siete.
 
 
 ![image](assets/en/050.webp)
@@ -1128,10 +1128,10 @@ Preto každé zariadenie, na ktorom je spustený softvér Bitcoin, nazývaný uz
 ### Uzly sú ústredným jadrom systému Bitcoin.
 
 
-Každý uzol má kópiu blockchainu, ktorá umožňuje overenie transakcií a zabraňuje pokusom o podvod. Decentralizovaná povaha siete poskytuje Bitcoin výnimočnú odolnosť a robustnosť. V skutočnosti by na zastavenie protokolu Bitcoin museli byť vypnuté všetky uzly na celom svete. V septembri 2023 bolo po celom svete rozmiestnených približne [45 000 uzlov](https://bitnodes.io/nodes/all/).
+Každý uzol má kópiu blockchainu, ktorá umožňuje overenie transakcií a zabraňuje pokusom o podvod. Decentralizovaná povaha siete poskytuje Bitcoinu výnimočnú odolnosť a robustnosť. V skutočnosti by na zastavenie protokolu Bitcoin museli byť vypnuté všetky uzly na celom svete. V septembri 2023 bolo po celom svete rozmiestnených približne [45 000 uzlov](https://bitnodes.io/nodes/all/).
 
 
-Uzly sú schopné overovať platnosť blokov a transakcií, pretože sa riadia pravidlami konsenzu Bitcoin. Tieto pravidlá stanovujú peňažnú politiku Bitcoin, napríklad výšku odmeny mining (o ktorej budeme podrobnejšie hovoriť v nasledujúcej časti) a množstvo bitcoinov v obehu. Uzly istým spôsobom fungujú ako právny systém siete, pretože presadzujú pravidlá Bitcoin, čím udržiavajú sieť neutrálnu. Pravidlá konsenzu sa takmer vôbec nemenia, ak vôbec, pretože na vykonanie zmien je potrebný súhlas všetkých uzlov.
+Uzly sú schopné overovať platnosť blokov a transakcií, pretože sa riadia pravidlami konsenzu Bitcoin. Tieto pravidlá stanovujú peňažnú politiku Bitcoin, napríklad výšku odmeny pre ťažiarov (o ktorej budeme podrobnejšie hovoriť v nasledujúcej časti) a množstvo bitcoinov v obehu. Uzly istým spôsobom fungujú ako právny systém siete, pretože presadzujú pravidlá Bitcoin, čím udržiavajú sieť neutrálnu. Pravidlá konsenzu sa takmer vôbec nemenia, ak vôbec, pretože na vykonanie zmien je potrebný súhlas všetkých uzlov.
 
 
 ![image](assets/en/051.webp)
@@ -1160,7 +1160,7 @@ Z hľadiska šírky pásma, ak zoberieme do úvahy 1 blok s veľkosťou 1 MB ka�
 Veľmi dôležitou vlastnosťou je prijateľná cena a dostupnosť uzla Bitcoin z hľadiska hardvérových zdrojov, úložiska a šírky pásma, pretože uľahčuje decentralizáciu siete.
 
 
-Každý má dobrý dôvod na spustenie uzla! Náklady a úsilie sú v porovnaní so získaným prínosom minimálne. Stačí sa pustiť do dobrodružstva a pripojiť sa k tisícom ďalších bitcoinistov, aby ste spoločne vytvorili sieť Bitcoin.
+Každý má dobrý dôvod na spustenie uzla! Náklady a úsilie sú v porovnaní so získaným prínosom minimálne. Stačí sa pustiť do dobrodružstva a pripojiť sa k tisícom ďalších bitcoinerov, aby ste spoločne vytvorili sieť Bitcoin.
 
 
 ![image](assets/en/053.webp)
@@ -1169,13 +1169,13 @@ Každý má dobrý dôvod na spustenie uzla! Náklady a úsilie sú v porovnaní
 Naopak, ak by boli bloky 100-krát ťažšie, určite by sme mohli každých 10 minút vykonať 100-krát viac transakcií, ale prevádzka uzla Bitcoin by si vyžadovala 50 TB pevný disk, šírku pásma viac ako 500 GB/mesiac a hardvér schopný overiť stovky tisíc transakcií za menej ako 10 minút. V tejto hypotetickej situácii so 100-krát väčšími blokmi by spustenie uzla Bitcoin nebolo prístupné bežnému človeku, čo by ohrozilo decentralizáciu protokolu aj nemennosť transakcií a pravidiel konsenzu.
 
 
-Preto boli obmedzenia protokolu navrhnuté tak, aby umožnili čo najväčšiemu počtu ľudí prevádzkovať vlastné uzly Bitcoin. Rok 2017 sa v skutočnosti niesol v znamení intenzívnej kontroverzie známej ako "block size war". Tento konflikt postavil proti sebe tých, ktorí chceli upraviť Bitcoin zvýšením veľkosti bloku s cieľom zvýšiť kapacitu transakcií (ťažiarov, výmenné platformy a inštitúcie), a tých, ktorí sa snažili zachovať nezávislosť a moc používateľov (uzly a používatelia). Nakoniec zvíťazila druhá strana.
+Preto boli obmedzenia protokolu navrhnuté tak, aby umožnili čo najväčšiemu počtu ľudí prevádzkovať vlastné Bitcoin uzly. Rok 2017 sa v skutočnosti niesol v znamení intenzívnej kontroverzie známej ako "block size war". Tento konflikt postavil proti sebe tých, ktorí chceli upraviť Bitcoin zvýšením veľkosti bloku s cieľom zvýšiť kapacitu transakcií (ťažiari, výmenné platformy a inštitúcie), a tých, ktorí sa snažili zachovať nezávislosť a moc používateľov (uzly a používatelia). Nakoniec zvíťazila druhá strana.
 
 
 Po tomto víťazstve uzly aktivovali aktualizáciu s názvom SegWit, čím pripravili pôdu pre implementáciu Lightning Network, okamžitej platobnej siete Bitcoin vybudovanej ako druhá vrstva blockchainu Bitcoin. Táto situácia dokazuje, že používatelia prostredníctvom svojich uzlov majú v rámci Bitcoin reálnu moc, ktorá im umožňuje postaviť sa veľkým inštitúciám v čase nezhôd.
 
 
-## Miners
+## Mineri
 
 
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
