@@ -1181,7 +1181,7 @@ Po tomto víťazstve uzly aktivovali aktualizáciu s názvom SegWit, čím pripr
 <chapterId>dbb8264a-7434-57e4-9d1b-fbd1bae37fdf</chapterId>
 
 
-**Miner zabezpečujú sieť a pridávajú transakcie do blokov. Na riešenie Bitcoin proof of work používajú elektrickú energiu prostredníctvom strojov [ASIC](https://planb.academy/resources/glossary/asic).**
+**Mineri zabezpečujú sieť a pridávajú transakcie do blokov. Na riešenie Bitcoin proof of work používajú elektrickú energiu prostredníctvom ASIC strojov (https://planb.academy/resources/glossary/asic).**
 
 
 ![image](assets/en/054.webp)
@@ -1190,10 +1190,10 @@ Po tomto víťazstve uzly aktivovali aktualizáciu s názvom SegWit, čím pripr
 ### Vysvetlenie Proof of Work
 
 
-"Proof of Work" (POW) je bezpečnostný konsenzuálny mechanizmus protokolu Bitcoin. Je základom všetkého a hrá kľúčovú úlohu v teórii hier Bitcoin.
+"Proof of Work" (POW) je bezpečnostný konsenzuálny mechanizmus protokolu Bitcoin. Je základom všetkého a hrá kľúčovú úlohu v teórii hier v Bitcoine.
 
 
-Ak chcete vysvetliť, ako to funguje, predstavte si univerzálnu lotériu, ktorej sa môže zúčastniť každý. Cieľom je nájsť konkrétne číslo, ktoré umožní víťazovi podpísať platný blok a získať odmenu v Bitcoin. Toto číslo je veľmi jednoduché overiť pomocou hashovacej funkcie SHA-256, ale je ťažké ho nájsť: účastníci (baníci) budú skúšať miliardy a miliardy možností, ako napríklad 1, 52, 2648, 26874615, 15344854131318631 a tak ďalej, kým neobjavia tú správnu.
+Ak chcete vysvetliť, ako to funguje, predstavte si univerzálnu lotériu, ktorej sa môže zúčastniť každý. Cieľom je nájsť konkrétne číslo, ktoré umožní víťazovi podpísať platný blok a získať odmenu v Bitcoine. Toto číslo je veľmi jednoduché overiť pomocou hashovacej funkcie SHA-256, ale je ťažké ho nájsť: účastníci (ťažiari) budú skúšať miliardy a miliardy možností, ako napríklad 1, 52, 2648, 26874615, 15344854131318631 a tak ďalej, kým neobjavia tú správnu.
 
 
 Ak je zvolené číslo správne: Jackpot! V opačnom prípade hľadanie pokračuje.
@@ -1201,10 +1201,10 @@ Ak je zvolené číslo správne: Jackpot! V opačnom prípade hľadanie pokraču
 Na optimalizáciu počtu pokusov sa použijú špecifické stroje s názvom ASIC, ktorých jedinou úlohou je vypočítať miliardy možností za sekundu (celkové množstvo pokusov sa nazýva "HashRate"). Na prevádzku týchto strojov sa musí spotrebovať veľké množstvo elektrickej energie. POW preto premieňa energiu na menu, spája reálny a digitálny svet a vytvára prvú menu založenú na energii.
 
 
-Stroje pracujú nepretržite a po priemerne 10 minútach sa objaví víťaz: tento účastník úspešne našiel správny hash, ktorý spadá pod hranicu obtiažnosti. Tento jediný víťaz potom podpíše nový blok časového servera a pridá ho do blockchainu. Dostane svoju odmenu a vráti sa, aby skúsil svoje šťastie v mining v ďalšom bloku. Tento proces prebieha už viac ako desať rokov, pričom víťaz každých 10 minút potvrdzuje transakcie Bitcoin a zároveň zabezpečuje aj minulé transakcie, čím zvyšuje robustnosť a bezpečnosť blockchainu Bitcoin.
+Stroje pracujú nepretržite a po priemerne 10 minútach sa objaví víťaz: tento účastník úspešne našiel správny hash, ktorý spadá pod hranicu obtiažnosti. Tento jediný víťaz potom podpíše nový blok časového servera a pridá ho do blockchainu. Dostane svoju odmenu a vráti sa, aby skúsil svoje šťastie v ťažbe ďalšieho bloku. Tento proces prebieha už viac ako desať rokov, pričom víťaz každých 10 minút potvrdzuje transakcie Bitcoin a zároveň zabezpečuje aj minulé transakcie, čím zvyšuje robustnosť a bezpečnosť Bitcoin blockchainu.
 
 
-Každých 2016 blokov (približne každé dva týždne) sa v rámci **úpravy náročnosti** upraví globálna hra mining na základe počtu účastníkov. Táto úprava je potrebná, pretože počet baníkov a ich kombinovaný výpočtový výkon sa môže v priebehu času výrazne meniť. Na udržanie cieľového času ťažby blokov sieť rekalibruje úroveň obtiažnosti na základe toho, ako rýchlo boli vyťažené posledné bloky v roku 2016. Ak boli vyťažené príliš rýchlo, obtiažnosť sa zvýši, čím sa sťaží nájdenie správneho hashu. Naopak, ak boli vyťažené príliš pomaly, obtiažnosť sa znižuje, čo uľahčuje ťažbu.
+Každých 2016 blokov (približne každé dva týždne) sa v rámci **úpravy náročnosti** upraví globálna hra ťažby na základe počtu účastníkov. Táto úprava je potrebná, pretože počet minerov a ich kombinovaný výpočtový výkon sa môže v priebehu času výrazne meniť. Na udržanie cieľového času ťažby blokov sieť rekalibruje úroveň obtiažnosti na základe toho, ako rýchlo bolo vyťažených posledných 2016 blokov. Ak boli vyťažené príliš rýchlo, obtiažnosť sa zvýši, čím sa sťaží nájdenie správneho hashu. Naopak, ak boli vyťažené príliš pomaly, obtiažnosť sa znižuje, čo uľahčuje ťažbu.
 
 
 ![image](assets/en/055.webp)
@@ -1213,13 +1213,13 @@ Každých 2016 blokov (približne každé dva týždne) sa v rámci **úpravy n�
 ### Mining sa neustále vyvíja
 
 
-V priebehu rokov sa baníci vybavili čoraz efektívnejším počítačovým hardvérom, aby vyprodukovali čo najviac hashov za sekundu (HashRate) a zároveň spotrebovali čo najmenej energie čo najefektívnejším spôsobom. Prví baníci, ako napríklad Satoshi alebo Hal Finney, ťažili len pomocou svojho procesora, neskôr začali iní ťažiť mining pomocou grafických kariet. V súčasnosti baníci používajú ASIC (Application-Specific Integrated Circuit): stroje určené výhradne na aplikáciu algoritmu SHA256.
+V priebehu rokov sa ťažiari vybavili čoraz efektívnejším počítačovým hardvérom, aby vyprodukovali čo najviac hashov za sekundu (HashRate) a zároveň spotrebovali čo najmenej energie čo najefektívnejším spôsobom. Prví mineri, ako napríklad Satoshi alebo Hal Finney, ťažili len pomocou svojho procesora, neskôr začali iní ťažiť mining pomocou grafických kariet. V súčasnosti baníci používajú ASIC (Application-Specific Integrated Circuit): stroje určené výhradne na aplikáciu algoritmu SHA256.
 
 
 ![image](assets/en/056.webp)
 
 
-hashrate siete Bitcoin predstavuje počet pokusov o nájdenie ďalšieho bloku za sekundu. V súčasnosti hashrate presahuje 500 TH/s, čo je 500 000 miliárd pokusov za sekundu! Čím vyšší je globálny hashrate, tým ťažšie je pre škodlivého aktéra monopolizovať zdroje potrebné na získanie väčšiny výkonu mining a minúť svoje prostriedky viac ako raz (problém dvojitého míňania). Preto je ekonomicky výhodnejšie dodržiavať pravidlá protokolu Bitcoin ako konať proti nim.
+Hashrate siete Bitcoin predstavuje počet pokusov o nájdenie ďalšieho bloku za sekundu. V súčasnosti hashrate presahuje 500 TH/s, čo je 500 000 miliárd pokusov za sekundu! Čím vyšší je globálny hashrate, tým ťažšie je pre škodlivého aktéra monopolizovať zdroje potrebné na ovládnutie väčšiny ťažobného výkonu a minúť svoje prostriedky viac ako raz (problém dvojitého míňania). Preto je ekonomicky výhodnejšie dodržiavať pravidlá protokolu Bitcoin ako konať proti nim.
 
 
 ![image](assets/en/057.webp)
@@ -1231,17 +1231,17 @@ hashrate siete Bitcoin predstavuje počet pokusov o nájdenie ďalšieho bloku z
 Záhlavie bloku obsahuje niekoľko prvkov, ako je čas, cieľ náročnosti, číslo posledného bloku, použitá verzia a Merkle Root predchádzajúcich transakcií.
 
 
-Transakcia **coinbase** je vždy prvou transakciou zahrnutou v bloku: obsahuje odmenu ťažiarovi za vykonanie proof-of-work. Potom nasledujú overené transakcie. Ťažiari Miner sa rozhodnú vložiť transakcie, ktoré im prinášajú najväčší zisk, a to transakcie malej veľkosti s maximálnymi poplatkami.
+Transakcia **coinbase** je vždy prvou transakciou zahrnutou v bloku: obsahuje odmenu ťažiarovi za vykonanie proof-of-work. Potom nasledujú overené transakcie. Mineri sa rozhodnú vložiť transakcie, ktoré im prinášajú najväčší zisk, a to transakcie malej veľkosti s maximálnymi poplatkami.
 
 
-### Kompenzácia Miner
+### Kompenzácia ťažiarov
 
 
-Ťažiari sú spočiatku odmeňovaní, keď nájdu platný blok. Presnejšie, odmenu získava dvoma spôsobmi:
+Ťažiari sú spočiatku odmeňovaní, keď nájdu platný blok. Presnejšie, odmenu získavajú dvoma spôsobmi:
 
 
 
-- prostredníctvom dotácie (novovytlačených bitcoinov), ktorá je súčasťou bloku;
+- prostredníctvom dotácie (novovyťažených bitcoinov), ktorá je súčasťou bloku;
 - prostredníctvom transakčných poplatkov z transakcií zahrnutých do bloku.
 
 
@@ -1254,19 +1254,19 @@ Pri prvých blokoch bola bloková dotácia 50 bitcoinov. Každých 210 000 bloko
 ![image](assets/en/058.webp)
 
 
-Druhý spôsob kompenzácie je definovaný sumou, ktorú si používatelia zvolia za transakčné poplatky, ktoré ukazujú naliehavosť používateľa, aby bola jeho transakcia zaradená do ďalšieho bloku. Keďže baníci chcú maximalizovať svoj príjem, budú mať tendenciu uprednostňovať transakcie s vysokými transakčnými poplatkami.
+Druhý spôsob kompenzácie je definovaný sumou, ktorú si používatelia zvolia za transakčné poplatky, ktoré ukazujú naliehavosť používateľa, aby bola jeho transakcia zaradená do ďalšieho bloku. Keďže mineri chcú maximalizovať svoj príjem, budú mať tendenciu uprednostňovať transakcie s vysokými transakčnými poplatkami.
 
 
 ![image](assets/en/059.webp)
 
 
-Aby stabilizovali svoj obchodný model, ktorý sa spolieha na odmeny, ktoré dostávajú za každý platný blok, baníci často vytvárajú skupiny prostredníctvom "mining pools", kde združujú svoje výpočtové zdroje.
+Aby stabilizovali svoj obchodný model, ktorý sa spolieha na odmeny, ktoré dostávajú za každý platný blok, mineri často vytvárajú skupiny prostredníctvom "mining pools", kde združujú svoje výpočtové zdroje.
 
 
-### Prečo sa o to všetko starať?
+### Prečo robiť toto všetko?
 
 
-Stručne povedané, inovácia Bitcoin spočíva v návrhu riešenia problému dvojitých výdavkov prostredníctvom použitia blockchainu založeného na Proof-of-Work s pohyblivou obtiažnosťou. V digitálnom svete sa koncept vlastníctva líši od konceptu fyzického sveta. V digitálnom svete je totiž možné všetko kopírovať a vkladať, čo vytvára riziko používania digitálnych aktív s hodnotou viac ako jedenkrát alebo dvojitého míňania. Na vyriešenie tohto technologického problému boli vytvorení dôveryhodní sprostredkovatelia, ako napríklad banky, ktorí zabezpečujú, že po prevode aktíva už nepatrí odosielateľovi.
+Stručne povedané, inovácia Bitcoinu spočíva v návrhu riešenia problému dvojitých výdavkov prostredníctvom použitia blockchainu založeného na Proof-of-Work s pohyblivou obtiažnosťou. V digitálnom svete sa koncept vlastníctva líši od konceptu fyzického sveta. V digitálnom svete je totiž možné všetko "kopírovať a prilepiť", čo vytvára riziko používania digitálnych aktív, ktoré majú hodnotu, viac ako jedenkrát alebo dvojitého míňania. Na vyriešenie tohto technologického problému boli vytvorení dôveryhodní sprostredkovatelia, ako napríklad banky, ktorí zabezpečujú, že po prevode aktíva už nepatrí odosielateľovi.
 
 
 Ako to však urobiť bez dôveryhodného sprostredkovateľa? Tento problém je dobre opísaný prostredníctvom paradoxu byzantských generálov, problému koordinácie informácií v systéme, kde rôznym aktérom nemožno dôverovať. V probléme byzantských generálov musí skupina generálov koordinovať útok na mesto, ale niektorí z nich môžu byť zradcovia, ktorí sa snažia plán narušiť. Úlohou lojálnych generálov je dosiahnuť konsenzus o tom, či zaútočiť alebo ustúpiť, napriek tomu, že od zradcov dostávajú potenciálne zavádzajúce správy.
@@ -1275,22 +1275,26 @@ Ako to však urobiť bez dôveryhodného sprostredkovateľa? Tento problém je d
 ![image](assets/en/060.webp)
 
 
-Bitcoin je preto určitým riešením tohto problému alebo aspoň jeho obchádzaním. "Generáli" Bitcoin alebo baníci vytvárajú bloky (informácií) a uzly Bitcoin overujú finančné transakcie pomocou pravidiel konsenzu, aby sa zabezpečila pravosť informácií. Asymetria v energetických nákladoch medzi produkciou a overovaním informácií zabezpečuje spoľahlivosť informácií bez dôveryhodnej tretej strany.
+Bitcoin je preto určitým riešením tohto problému alebo aspoň jeho obchádzaním. "Generáli" Bitcoinu alebo mineri vytvárajú bloky (informácií) a Bitcoin uzly overujú finančné transakcie pomocou pravidiel konsenzu, aby sa zabezpečila pravosť informácií. Asymetria v energetických nákladoch medzi produkciou a overovaním informácií zabezpečuje spoľahlivosť informácií bez dôveryhodnej tretej strany.
 
 
-Zariadenia Miner sú tvorcami zabezpečenia siete Bitcoin. Tým, že vynakladajú energiu na výrobu hashov, stavajú múr, vďaka ktorému je pre zlomyseľného agenta mimoriadne nákladné prepísať históriu transakcií, a tento ekonomický demotivátor odrádza ostatných od nečestného správania.
+Mineri zabezpečujú Bitcoin sieť. Tým, že vynakladajú energiu na výrobu hashov, stavajú múr, vďaka ktorému je pre zlomyseľného agenta mimoriadne nákladné prepísať históriu transakcií, a tento ekonomický demotivátor odrádza ostatných od nečestného správania.
 
 
-Dokonca aj v prípade 51 % útoku, keď by agent vlastnil viac ako polovicu hashrate, by sieť zostala bezpečná, pretože útočník musí na pokus o modifikáciu blockchainu vynaložiť toľko energie ako všetci baníci spolu. Práve tento energeticky náročný mechanizmus proof-of-work zabezpečuje bezpečnosť siete.
+Dokonca aj v prípade 51 % útoku, keď by agent vlastnil viac ako polovicu hashrate-u, by sieť zostala bezpečná, pretože útočník musí na pokus o modifikáciu blockchainu vynaložiť toľko energie ako všetci baníci spolu. Práve tento energeticky náročný mechanizmus proof-of-work zabezpečuje bezpečnosť siete.
 
 
 ### Zhrnutie
 
 
-Teória hier aplikovaná na Bitcoin eliminuje nepoctivých baníkov, ktorí používajú stroje ASIC na ťažbu a v prípade úspechu dostávajú odmenu. Okrem toho sa často pripájajú k poolom mining, aby sa podelili o svoj výpočtový výkon a získali menšie, ale pravidelnejšie odmeny. Hoci Bitcoin mining spôsobuje vysoké náklady na energiu, je kľúčový pre prevádzku a bezpečnosť siete Bitcoin. Mechanizmus proof-of-work a technológia blockchain riešia problém double-spending a zabezpečujú integritu informácií bez toho, aby sa spoliehali na dôveryhodnú tretiu stranu. Hoci si vytváranie informácií vyžaduje značné energetické výdavky, overovanie týchto informácií si vyžaduje zanedbateľné náklady. Táto asymetria posilňuje bezpečnosť siete, vďaka čomu je ekonomicky výhodnejšie dodržiavať pravidlá konsenzu, než sa ich pokúšať porušovať.
+Teória hier aplikovaná na Bitcoin eliminuje nepoctivých ťažiarov, ktorí používajú stroje ASIC na ťažbu a v prípade úspechu dostávajú odmenu. Okrem toho sa často pripájajú k mining poolom, aby sa podelili o svoj výpočtový výkon a získali menšie, ale pravidelnejšie odmeny. Hoci Bitcoin mining spôsobuje vysoké náklady na energiu, je kľúčový pre prevádzku a bezpečnosť siete Bitcoin. Mechanizmus proof-of-work a technológia blockchain riešia problém dvojitého míňania a zabezpečujú integritu informácií bez toho, aby sa spoliehali na dôveryhodnú tretiu stranu. Hoci si vytváranie informácií vyžaduje značné energetické výdavky, overovanie týchto informácií si vyžaduje zanedbateľné náklady. Táto asymetria posilňuje bezpečnosť siete, vďaka čomu je ekonomicky výhodnejšie dodržiavať pravidlá konsenzu, než sa ich pokúšať porušovať.
 
 
-Ak sa chcete hlbšie oboznámiť s konkrétnou témou Bitcoin mining, môžete si pozrieť náš kurz MIN 201. Dozviete sa o fungovaní a úlohe Proof-of-Work, ako aj o mechanike odvetvia mining. Vysvetlíme vám tiež, ako premeniť ASIC na ohrievač, čo vám umožní ťažiť prvé satoshi a zároveň vykurovať váš domov!
+Ak sa chcete hlbšie oboznámiť s témou Bitcoin miningu, môžete si pozrieť náš kurz MIN 201. Nájdete tam detailné teoretické vysvetlenie princípu Proof-of-Work a jeho fungovania, ako aj ďalších súvisiacich konceptov. 
+
+https://planb.academy/courses/d1ce86d9-c983-49bc-92b3-e3c5269f239e
+
+Taktiež odporúčame tento pokročilejši kurz, kde sa dozviete ako premeniť ASIC na DIY vyhrievací systém, čo vám umožní ťažiť prvé satoshi a zároveň vykurovať váš domov!
 
 
 https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
