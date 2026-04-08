@@ -1408,7 +1408,7 @@ Jednoducho povedané, ľudia majú tendenciu všetko naraz kupovať a všetko na
 ### Porozumenie vlnám adopcie
 
 
-Vývoj aj evolúcia Bitcoin do veľkej miery súvisia s rôznymi skupinami aktérov, ktorí postupne integrovali jeho ekosystém.
+Vývoj aj evolúcia Bitcoinu do veľkej miery súvisia s rôznymi skupinami aktérov, ktorí postupne integrovali jeho ekosystém.
 
 
 ![image](assets/en/068.webp)
@@ -1418,21 +1418,21 @@ Vývoj aj evolúcia Bitcoin do veľkej miery súvisia s rôznymi skupinami akté
 - Veriaci:
 
 
-Prvými používateľmi Bitcoin boli najmä technofili, šifranti, libertariáni a nadšenci zlata. Tieto skupiny k nemu priťahovala jeho hodnota ako nedôveryhodnej elektronickej hotovosti, odolnosť voči cenzúre a transparentná, nemenná menová politika.
+Prvými používateľmi Bitcoinu boli najmä technofili, cypherpunkovia, libertariáni a nadšenci zlata. Tieto skupiny k nemu priťahovala jeho hodnota ako elektronickej hotovosti, ktorá nestojí na dôvere, odolnosť voči cenzúre a transparentná, nemenná menová politika.
 
 
 
-- Temný web a zločinci
+- Dark web a zločinci
 
 
-Potom sa používanie Bitcoin rozšírilo na temné webové trhoviská, ako je Silk Road, najmä vďaka jeho nekontrolovateľnej a pseudonymnej povahe, ktorá priťahovala aj osoby mimo tejto platformy, vrátane niektorých ľudí zapojených do trestnej činnosti. Je však dôležité zdôrazniť, že legálnosť určuje skôr použitie nástroja než nástroj samotný. Nezákonné používanie nástroja Bitcoin nerobí z niekoho vo svojej podstate zločinca; ide skôr o konkrétne činnosti, ktoré možno klasifikovať ako nezákonné. Napríklad použitie Bitcoin na nákup určitých drog môže byť legálne alebo nelegálne v závislosti od predpisov, ktorými sa riadi územie, na ktorom sa transakcia uskutočňuje.
+Potom sa používanie Bitcoin rozšírilo na dark webové trhoviská, ako je Silk Road, najmä vďaka jeho nekontrolovateľnej a pseudonymnej povahe, ktorá priťahovala aj osoby mimo tejto platformy, vrátane niektorých ľudí zapojených do trestnej činnosti. Je však dôležité zdôrazniť, že legálnosť určuje skôr použitie nástroja než nástroj samotný. Nezákonné používanie nástroja Bitcoin nerobí z niekoho vo svojej podstate zločinca; ide skôr o konkrétne činnosti, ktoré možno klasifikovať ako nezákonné. Napríklad použitie Bitcoinu na nákup určitých drog môže byť legálne alebo nelegálne v závislosti od predpisov, ktorými sa riadi územie, na ktorom sa transakcia uskutočňuje.
 
 
 
 - Šialenstvo okolo ICO a príchod širokej verejnosti.
 
 
-Rok 2017 sa niesol v znamení výraznej špekulatívnej bubliny vo svete kryptomien, najmä v súvislosti so spustením tisícov prvotných ponúk Coin (ICO). Mnohé z týchto nových kryptomien však nemali žiadny konkrétny vývoj ani užitočnosť a rýchlo zanikli. Po tejto bubline z roku 2017 nasledovala v rokoch 2018 až 2019 silná korekcia.
+Rok 2017 sa niesol v znamení výraznej špekulatívnej bubliny vo svete kryptomien, najmä v súvislosti so spustením tisícov prvotných ponúk kryptomien - Initial Coin Offerings (ICO). Mnohé z týchto nových kryptomien však nemali žiadny konkrétny vývoj ani užitočnosť a rýchlo zanikli. Po tejto bubline z roku 2017 nasledovala v rokoch 2018 až 2019 silná korekcia.
 
 
 
@@ -1445,32 +1445,31 @@ V roku 2020 sa na trhu opäť objavila ďalšia špekulatívna bublina, ktorá z
 ### Bitcoin a volatilita
 
 
-Na základe minulých cyklov sa zdá, že periodicita ekonomických cyklov Bitcoin sa rovná dĺžke trvania medzi dvoma polčasmi, možno preto, že udalosť polčasu pôsobí ako spúšťač tým, že znižuje emisiu nových bitcoinov na polovicu.
+Na základe minulých cyklov sa zdá, že periodicita ekonomických cyklov Bitcoinu sa rovná dĺžke trvania medzi dvoma halvingmi, možno preto, že halving pôsobí ako spúšťač tým, že znižuje emisiu nových bitcoinov na polovicu.
 
 
 Vďaka týmto výrazným výkyvom si Bitcoin vyslúžil povesť vysoko volatilného aktíva, čo často vedie k značným stratám pre jeho používateľov. Hoci cena môže v priebehu niekoľkých dní klesnúť o 10 %, 20 % alebo dokonca 50 %, je dôležité pochopiť, že samotný protokol Bitcoin nie je ovplyvnený zmenami cien.
 
 
-Túto značnú volatilitu dnes aktéri Bitcoin plne akceptujú a môžu ju zmierniť viacerými riešeniami, ako je finančné zabezpečenie (stablecoins), silná dlhodobá viera (hodling) alebo jednoducho vyhnutie sa riziku investovania 100 % svojich prostriedkov do Bitcoin bez dôkladného pochopenia. Pochopenie toho, prečo cena Bitcoin tak veľmi kolíše, je preto pre pokrok v tomto odvetví nevyhnutné, pretože v konečnom dôsledku sú to práve cenové pohyby a cykly, ktoré pomáhajú trh do určitej miery zmierňovať a regulovať. Je však nevyhnutné poznamenať, že s rastom a dozrievaním Bitcoin sa volatilita stáva menej vplyvnou.
+Túto značnú volatilitu dnes aktéri Bitcoinu plne akceptujú a môžu ju zmierniť viacerými riešeniami, ako je finančné zabezpečenie (stablecoins), silná dlhodobá viera (hodling) alebo jednoducho vyhnutie sa riziku investovania 100 % svojich prostriedkov do Bitcoinu bez dôkladného pochopenia. Pochopenie toho, prečo cena Bitcoinu tak veľmi kolíše, je preto pre pokrok v tomto odvetví nevyhnutné, pretože v konečnom dôsledku sú to práve cenové pohyby a cykly, ktoré pomáhajú trh do určitej miery zmierňovať a regulovať. Je však nevyhnutné poznamenať, že s rastom a dozrievaním Bitcoinu jeho volativita prestáva mať tak silný vplyv.
 
 
 ![image](assets/en/069.webp)
 
 
-Hoci pár btc/dolár krátkodobo kolíše, bitcoin vzhľadom na svoje obmedzené množstvo 21 miliónov bitcoinov a proces polovičnej tvorby (polovičná tvorba peňazí v priemere každé 4 roky) sleduje všeobecný vzostupný trend kvázi mechanickým spôsobom. Samozrejme, ako každé finančné aktívum, aj bitcoin podlieha hospodárskym cyklom vrátane období eufórie, špekulatívnych bublín a korekcií. Tento jav je pomerne bežný v prípade rozvíjajúcich sa technológií, kde trh nie je vždy racionálny alebo efektívny.
+Hoci pár btc/dolár krátkodobo kolíše, bitcoin vzhľadom na svoje obmedzené množstvo 21 miliónov bitcoinov a proces halvingu (polovičná tvorba peňazí v priemere každé 4 roky) sleduje všeobecný vzostupný trend kvázi mechanickým spôsobom. Samozrejme, ako každé finančné aktívum, aj bitcoin podlieha hospodárskym cyklom vrátane období eufórie, špekulatívnych bublín a korekcií. Tento jav je pomerne bežný v prípade rozvíjajúcich sa technológií, kde trh nie je vždy racionálny alebo efektívny.
 
 
 ### Jedinečný trh
 
 
-Tieto cykly špekulatívnych bublín sú vo svete celkom ojedinelé, pretože len zriedkavo sa stáva, že by jedno aktívum zažilo takúto sériu bublín za sebou. Tento jav možno pripísať skutočnosti, že Bitcoin nie je len bublinou určenou na prasknutie. Skôr funguje ako mena, ktorá sa aktívne používa na celom svete. Protokol Bitcoin vyniká svojou schopnosťou fungovať v celosvetovom meradle 24 hodín denne, 7 dní v týždni, čo predstavuje pre finančné orgány, ktoré sa ho pokúšajú regulovať, značné výzvy.
+Tieto cykly špekulatívnych bublín sú vo svete celkom ojedinelé, pretože len zriedkavo sa stáva, že by jedno aktívum zažilo takúto sériu bublín za sebou. Tento jav možno pripísať skutočnosti, že Bitcoin nie je len bublinou odsúdenou na prasknutie. Skôr funguje ako mena, ktorá sa aktívne používa na celom svete. Protokol Bitcoin vyniká svojou schopnosťou fungovať v celosvetovom meradle 24 hodín denne, 7 dní v týždni, čo predstavuje pre finančné orgány, ktoré sa ho pokúšajú regulovať, značné výzvy.
 
 
 ![image](assets/en/070.webp)
 
 
-V súčasnosti Bitcoin naďalej prežíva a rastie ešte viac vďaka tomu, že sa čoraz viac začleňuje do tradičného trhu, a k tomuto pozitívnemu vývoju prispieva aj zavedenie fondov Bitcoin ETF, jasnejšie predpisy a zdokonalené nástroje na získavanie a skladovanie. Bitcoin OPÄT prežila svoju špekulatívnu bublinu, takže možno to predsa len nie je len horúci vzduch!
-
+V súčasnosti Bitcoin naďalej prežíva a rastie ešte viac vďaka tomu, že sa čoraz viac začleňuje do tradičného trhu, a k tomuto pozitívnemu vývoju prispieva aj zavedenie Bitcoin ETF fondov, jasnejšie predpisy a zdokonalené nástroje na získavanie a skladovanie. Bitcoin OPÄT prežil svoju špekulatívnu bublinu, takže možno na tom predsa len niečo je!
 
 ![image](assets/en/071.webp)
 
