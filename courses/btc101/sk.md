@@ -1308,25 +1308,25 @@ https://planb.academy/courses/ce272232-0d97-4482-884a-0f77a2ebc036
 V predchádzajúcej časti sme pochopili, že bezpečnosť protokolu Bitcoin závisí od vysokej spotreby energie na vytvorenie verejnej knihy transakcií bez dôveryhodnej tretej strany. V bežných médiách sa celkové náklady na energiu často prirovnávajú k spotrebe elektrickej energie malej krajiny. Má však toto porovnanie zmysel? Je relevantné pochopiť dôvody, ktoré stoja za takýmito nákladmi?
 
 
-### Náklady na energiu Bitcoin.
+### Náklady na energiu pre Bitcoin
 
 
-Najprv kvalitatívne zhodnoťme environmentálne náklady mining. Ťažiar musí mať stroj ako ASIC a zdroj energie vo forme elektriny na pohon týchto strojov. Stroje ASIC sú väčšinou vyrobené z hliníka a možno ich buď recyklovať, alebo opätovne použiť na druhý účel (ako to dokazuje projekt Attakaï opísaný v našom kurze MIN201), ktorý premieňa stroj Antminer S9 na ohrievač priestoru). Hlavným problémom je preto spotreba energie.
+Najprv kvalitatívne zhodnoťme environmentálne náklady miningu. Ťažiar musí mať stroj ako ASIC a zdroj energie vo forme elektriny na pohon týchto strojov. Stroje ASIC sú väčšinou vyrobené z hliníka a možno ich buď recyklovať, alebo opätovne použiť na druhý účel (ako to dokazuje projekt Attakaï opísaný v našom kurze MIN201), ktorý premieňa stroj Antminer S9 na ohrievač priestoru). Hlavným problémom je preto spotreba energie.
 
 
 ![image](assets/en/061.webp)
 
 
-Spotreba elektrickej energie predstavuje takmer všetky náklady baníka. Preto sa im odporúča nájsť lacný zdroj elektriny, aby mohli ísť do miest, kde sú inštalované elektrárne, ale ešte nie sú pripojené k elektrickej sieti daného územia. V tomto prípade baníci vystupujú ako posledná inštancia odberateľa, ktorá umožňuje elektrárňam zabezpečiť financovanie ešte pred pripojením do elektrickej siete. Keď budú pripojené, zvýši sa dopyt po elektrickej energii, čo zvýši cenu a pre ťažiarov bude menej výhodné získavať elektrickú energiu v týchto miestach. Keďže stroje sa dajú ľahko premiestniť, baníci sa potom rozhodnú vziať svoje zariadenie a usadiť sa ďalej, kde je dopyt nízky a cena tiež, najčastejšie v oblastiach, kde môžu získať energiu z ekologických elektrární.
+Spotreba elektrickej energie predstavuje takmer všetky náklady minera. Preto sa im odporúča nájsť lacný zdroj elektriny, aby mohli ísť do miest, kde sú inštalované elektrárne, ale ešte nie sú pripojené k elektrickej sieti daného územia. V tomto prípade mineri vystupujú ako posledná inštancia odberateľa, ktorá umožňuje elektrárňam zabezpečiť financovanie ešte pred pripojením do elektrickej siete. Keď budú pripojené, zvýši sa dopyt po elektrickej energii, čo zvýši cenu a pre ťažiarov bude menej výhodné získavať elektrickú energiu v týchto miestach. Keďže stroje sa dajú ľahko premiestniť, ťažiari sa potom rozhodnú vziať svoje zariadenie a usadiť sa ďalej, kde je dopyt nízky a cena tiež, najčastejšie v oblastiach, kde môžu získať energiu z ekologických elektrární.
 
 
 ### Nekonečná diskusia
 
 
-Diskusia o ekologickom vplyve Bitcoin je preto často zavádzajúca, najmä kvôli nedostatočnému pochopeniu jeho užitočnosti. Bitcoin nemožno hodnotiť len z hľadiska energetických nákladov na jednu transakciu, pretože baníci zabezpečujú súčasnú aj historickú sieť a transakcie sú zoskupené a nie všetky sú rovnocenné. Okrem toho sa nezohľadňuje ani vplyv Lightning Network. Tí, ktorí tvrdia, že Bitcoin spotrebúva príliš veľa energie, môžu mať politické motivácie alebo sa snažia predať vlastné blockchainové riešenie. Mnohokrát sa na odôvodnenie zákazu Bitcoin používa ekologická zámienka.
+Diskusia o ekologickom vplyve Bitcoinu je preto často zavádzajúca, najmä kvôli nedostatočnému pochopeniu jeho užitočnosti. Bitcoin nemožno hodnotiť len z hľadiska energetických nákladov na jednu transakciu, pretože baníci zabezpečujú súčasnú aj historickú sieť a transakcie sú zoskupené a nie všetky sú rovnocenné. Okrem toho sa nezohľadňuje ani vplyv Lightning Network. Tí, ktorí tvrdia, že Bitcoin spotrebúva príliš veľa energie, môžu mať politické motivácie alebo sa snažia predať vlastné blockchainové riešenie. Často sa ako výhovorka na odôvodnenie zákazu Bitcoinu používa ekológia.
 
 
-Je dôležité zdôrazniť, že Bitcoin ako revolučný vynález poskytuje jednotlivcom žijúcim pod finančným útlakom alebo diktátorskými režimami možnosť bojovať za svoju slobodu. Ako poslednú možnosť ponúka Bitcoin cestu k finančnej nezávislosti obídením cenzúry a bankových obmedzení. Viac než len mena slúži Bitcoin ako forma komunikácie a symbol slobody a energia vynaložená baníkmi zohráva kľúčovú úlohu pri obrane tejto slobody a umožňuje emancipáciu od finančného systému ovládaného dlhom a nadmernou tvorbou peňazí centrálnymi bankami.
+Je dôležité zdôrazniť, že Bitcoin ako revolučný vynález poskytuje jednotlivcom žijúcim pod finančným útlakom alebo diktátorskými režimami možnosť bojovať za svoju slobodu. Ako poslednú možnosť ponúka Bitcoin cestu k finančnej nezávislosti obídením cenzúry a bankových obmedzení. Viac než len mena slúži Bitcoin ako forma komunikácie a symbol slobody a energia vynaložená ťažiarmi zohráva kľúčovú úlohu pri obrane tejto slobody a umožňuje emancipáciu od finančného systému ovládaného dlhom a nadmernou tvorbou peňazí centrálnymi bankami.
 
 
 ![image](assets/en/062.webp)
@@ -1342,7 +1342,7 @@ Pre ľudí žijúcich v krajinách s vysokou mierou inflácie je Bitcoin otázko
 ### Bitcoin by mohol mať pozitívny vplyv na životné prostredie
 
 
-Nakoniec je nevyhnutné diskutovať o hospodárskych a environmentálnych dôsledkoch prijatia Bitcoin.
+Nakoniec je nevyhnutné diskutovať o hospodárskych a environmentálnych dôsledkoch prijatia Bitcoinu.
 
 
 Keď ho porovnáme so súčasným finančným systémom, ten vzhľadom na podporu nadmernej spotreby a zadlžovania predstavuje vážny problém. K nadmernému zadlžovaniu a v dôsledku toho k nadmernej spotrebe prispievajú faktory, ako je ľahký prístup k úverom, emisia peňazí bankami a prax bankovníctva s čiastočnými rezervami.
@@ -1363,22 +1363,22 @@ Súčasný finančný systém zodpovedá myšlienkam keynesiánskej ekonómie, k
 Politici majú zvyčajne krátkodobú víziu a potrebujú hospodársky rast, aby boli znovu zvolení, takže nie sú schopní riešiť ekologické problémy z dlhodobého hľadiska. Prijatie zdravej meny, ako je Bitcoin, je potenciálnou alternatívou, ktorá by mohla posilniť ekonomické postavenie ľudí.
 
 
-Kritici neuznávajú, že Bitcoin podporuje využívanie zelenej energie. Napríklad plamene, ktoré sa zapaľujú v miestach ropných vrtov s cieľom spaľovať metán a zabrániť znečisťovaniu, môžu uhasiť baníci Bitcoin, pretože metán sa môže premeniť na elektrinu na pohon strojov mining, čo je prospešné pre životné prostredie.
+Kritici neuznávajú, že Bitcoin podporuje využívanie zelenej energie. Napríklad plamene, ktoré sa zapaľujú v miestach ropných vrtov s cieľom spaľovať metán a zabrániť znečisťovaniu, môžu uhasiť Bitcoin mineri, pretože metán sa môže premeniť na elektrinu na pohon mining strojov, čo je prospešné pre životné prostredie.
 
 
-**Poslúchnite jednu z maxím Bitcoin: Nedôveruj, over si to sám!**
+**Riaďte sa jednou z hlavných zásad Bitcoinu: Nedôveruj, over si to sám!**
 
 
-### Stručné zhrnutie technických vlastností Bitcoin
+### Stručné zhrnutie technických vlastností Bitcoinu
 
 
-Satoshi Nakamoto vydala v januári 2009 protokol Bitcoin, ktorý sa odvtedy vyvíjal vďaka rastúcej komunite vývojárov, ťažiarov a používateľov s uzlami Bitcoin. Tým, že tieto uzly uchovávajú vlastnú kópiu blockchainu Bitcoin, verejnej knihy všetkých transakcií Bitcoin, môžu zabezpečiť platnosť transakcií podľa pravidiel konsenzu Bitcoin. To zahŕňa zabezpečenie toho, aby baníci vytvárali platné bloky, ktoré obsahujú tisíce čakajúcich transakcií.
+Satoshi Nakamoto vydal v januári 2009 Bitcoin protokol, ktorý sa odvtedy vyvíjal vďaka rastúcej komunite vývojárov, ťažiarov a používateľov s Bitcoin uzlami. Tým, že tieto uzly uchovávajú vlastnú kópiu Bitcoin blockchainu, verejnej knihy všetkých bitcoinových transakcií, môžu zabezpečiť platnosť transakcií podľa pravidiel konsenzu Bitcoinu. To zahŕňa zabezpečenie toho, aby ťažiari vytvárali platné bloky, ktoré obsahujú tisíce čakajúcich transakcií.
 
 
-Blok sa vytvára v priemere každých 10 minút a ťažiarovi, ktorý nájde platný hash pre ďalší blok, protokol vyplatí dotáciu, ktorá je definovaná pravidlami konsenzu, ako aj transakčné poplatky zo všetkých transakcií zahrnutých v platnom bloku. Keďže výsledok hašovacieho algoritmu (SHA256) pre daný vstup sa považuje za nepredvídateľný, proces mining zahŕňa vytvorenie mnohých kandidátskych blokov a testovanie, či je ich haš platný alebo nie. Aby sa však zabezpečilo, že priemerný čas medzi dvoma blokmi zostane konštantný (~10 min) bez ohľadu na počet baníkov a ich výpočtový výkon, náročnosť nájdenia platného hashu sa upravuje každých 2016 blokov, teda približne každé 2 týždne. Miner časom vyvinuli špecializované stroje SHA256, nazývané ASICS, aby zvýšili rýchlosť hashovania na joule, čo znamená počet pokusov za sekundu na spotrebovanú energiu.
+Blok sa vytvára v priemere každých 10 minút a ťažiarovi, ktorý nájde platný hash pre ďalší blok, protokol vyplatí dotáciu, ktorá je definovaná pravidlami konsenzu, ako aj transakčné poplatky zo všetkých transakcií zahrnutých v platnom bloku. Keďže výsledok hašovacieho algoritmu (SHA256) pre daný vstup sa považuje za nepredvídateľný, proces mining zahŕňa vytvorenie mnohých kandidátskych blokov a testovanie, či je ich hash platný alebo nie. Aby sa však zabezpečilo, že priemerný čas medzi dvoma blokmi zostane konštantný (~10 min) bez ohľadu na počet ťažiarov a ich výpočtový výkon, náročnosť nájdenia platného hashu sa upravuje každých 2016 blokov, teda približne každé 2 týždne. Mineri časom vyvinuli špecializované stroje SHA256, nazývané ASICS, aby zvýšili hash rate per joule, čo znamená počet pokusov za sekundu na spotrebovanú energiu.
 
 
-Aby boli baníci pri svojej činnosti čo najziskovejší, musia získavať čo najlacnejšiu elektrickú energiu, čo sa často deje na odľahlých miestach v elektrárňach, ktoré ešte nie sú pripojené do siete. Ťažiari potom pôsobia ako odberatelia poslednej inštancie, a akonáhle sa cena elektriny zvýši v dôsledku nárastu dopytu, budú mať tendenciu premiestniť svoju činnosť inam.
+Aby boli baníci pri svojej činnosti čo najziskovejší, musia získavať čo najlacnejšiu elektrickú energiu, čo sa často deje na odľahlých miestach v elektrárňach, ktoré ešte nie sú napojené na sieť. Ťažiari potom pôsobia ako odberatelia poslednej inštancie a akonáhle sa cena elektriny zvýši v dôsledku nárastu dopytu, budú mať tendenciu premiestniť svoju činnosť inam.
 
 
 Protokol Bitcoin je teda necenzurovateľný a nezastaviteľný peňažný systém, pretože každá zložka protokolu je geograficky rozložená po celom svete. Napríklad existuje viac ako 40 000 uzlov Bitcoin na všetkých kontinentoch. Pravidlá konsenzu protokolu Bitcoin sú také, že je ekonomicky výhodnejšie ich dodržiavať, ako sa ich pokúšať porušovať, a preto nie je potrebná dôvera medzi aktérmi. Bitcoin nemá vodcu a nemožno ho zastaviť. Aj keď je možné regulovať výmenné platformy s cieľom obmedziť Bitcoin, tento prístup má na systém marginálny vplyv. Stručne povedané, žiadny sudca ani štát nemôže cenzurovať alebo zastaviť Bitcoin.
@@ -1396,7 +1396,7 @@ Protokol Bitcoin je teda necenzurovateľný a nezastaviteľný peňažný systé
 <chapterId>d5e35e41-ea26-5478-8eb9-07daf9dff508</chapterId>
 
 
-Cena Bitcoin sa často vyznačuje značnou volatilitou. Jej hodnota môže výrazne kolísať v závislosti od trhových výkyvov alebo býčích a medvedích fáz, podobne ako na ktoromkoľvek inom finančnom trhu.
+Cena Bitcoinu sa často vyznačuje značnou volatilitou. Jej hodnota môže výrazne kolísať v závislosti od trhových výkyvov alebo býčích a medvedích fáz, podobne ako na ktoromkoľvek inom finančnom trhu.
 
 
 ![image](assets/en/067.webp)
