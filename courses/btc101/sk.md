@@ -1415,7 +1415,7 @@ Vývoj aj evolúcia Bitcoinu do veľkej miery súvisia s rôznymi skupinami akt�
 
 
 
-- Veriaci:
+- Priaznivci:
 
 
 Prvými používateľmi Bitcoinu boli najmä technofili, cypherpunkovia, libertariáni a nadšenci zlata. Tieto skupiny k nemu priťahovala jeho hodnota ako elektronickej hotovosti, ktorá nestojí na dôvere, odolnosť voči cenzúre a transparentná, nemenná menová politika.
@@ -1477,19 +1477,19 @@ V súčasnosti Bitcoin naďalej prežíva a rastie ešte viac vďaka tomu, že s
 
 
 
-## Získanie Bitcoin prácou
+## Získanie Bitcoinu prácou
 
 
 <chapterId>be2d83be-406f-582c-83ca-6aa905ff7b04</chapterId>
 
 
-### Rozvíja sa paralelné hospodárstvo
+### Rozvíja sa paralelná ekonomika
 
 
-Bitcoin možno považovať za nástroj na vytvorenie paralelnej ekonomiky k fiat menám, pretože je možné predávať tovar alebo služby a dostať zaplatené v bitcoinoch. Transakcie je možné uskutočňovať priamo v Bitcoin, bez potreby prechádzať cez výmennú platformu, ale jednoducho prejsť z Bitcoin wallet na inú.
+Bitcoin možno považovať za nástroj na vytvorenie paralelnej ekonomiky k fiat menám, pretože je možné predávať tovar alebo služby a dostať zaplatené v bitcoine. Transakcie je možné uskutočňovať priamo v Bitcoine, bez potreby prechádzať cez výmennú platformu, ale jednoducho prejsť z Bitcoin wallet na inú.
 
 
-Ekonomika Bitcoin existuje a rozvíja sa v niektorých regiónoch sveta, napríklad v Salvádore, kde sa Bitcoin stal zákonným platidlom v roku 2021. Bohužiaľ, v januári 2025 zhromaždenie prijalo nový zákon, ktorý zbavil Bitcoin titulu "zákonné platidlo", údajne po tom, ako naňho vyvíjal určitý tlak Medzinárodný menový fond. Podľa nového zákona už ľudia nie sú povinní prijímať Bitcoin vo svojich podnikoch a nemôžu ním platiť dane. Prijímanie je naďalej dobrovoľné.
+Ekonomika Bitcoin existuje a rozvíja sa v niektorých regiónoch sveta, napríklad v El Salvador, kde sa Bitcoin stal zákonným platidlom v roku 2021. Bohužiaľ, v januári 2025 zhromaždenie prijalo nový zákon, ktorý zbavil Bitcoin titulu "zákonné platidlo", údajne po tom, ako naňho vyvíjal určitý tlak Medzinárodný menový fond. Podľa nového zákona už ľudia nie sú povinní prijímať Bitcoin vo svojich podnikoch a nemôžu ním platiť dane. Prijímanie je naďalej dobrovoľné.
 
 
 Napriek tomu v Salvádore a v iných častiach sveta pribúda jednotlivcov, podnikov a organizácií, ktoré akceptujú Bitcoin ako platobný prostriedok za svoje výrobky alebo služby.
@@ -1501,16 +1501,16 @@ Napriek tomu v Salvádore a v iných častiach sveta pribúda jednotlivcov, podn
 *Zdroj: [Wicked Smart Bitcoin](https://wickedsmartbitcoin.com)*
 
 
-Okrem toho bol spustený projekt s otvoreným zdrojovým kódom a spoluprácou [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), ktorý má uľahčiť používanie Bitcoin v každodenných transakciách. Táto platforma uvádza zoznam všetkých obchodníkov, ktorí akceptujú Bitcoin, ako aj rôzne komunity Bitcoin na celom svete, takže môžete navštíviť ich webovú stránku a objaviť ekosystém Bitcoin vo svojom okolí. Napriek ťažkostiam a váhaniu teda existujú iniciatívy, ako je BTCMap, ktoré prispievajú k tomu, aby sa ekonomika Bitcoin stala dostupnejšou a pohodlnejšou pre každého.
+Okrem toho bol spustený open-source kolaboratívny projekt [BTCMap](https://btcmap.org/map#2/21.28937/5.46680), ktorý má uľahčiť používanie Bitcoinu v každodenných transakciách. Táto platforma uvádza zoznam všetkých obchodníkov, ktorí akceptujú Bitcoin, ako aj rôzne Bitcoin komunity na celom svete, takže môžete navštíviť ich webovú stránku a objaviť Bitcoin ekosystém vo svojom okolí. Napriek ťažkostiam a váhaniu teda existujú iniciatívy, ako je BTCMap, ktoré prispievajú k tomu, aby sa ekonomika Bitcoin stala dostupnejšou a pohodlnejšou pre každého.
 
 
 ### Prečo by sme mali prijať Bitcoin namiesto jeho kúpy?
 
 
-Ak chcete získať bitcoiny, môžete si ich kúpiť na platformách regulovaných organizáciami, ako je napríklad AMF (Autorité des Marchés Financiers) vo Francúzsku alebo Securities & Exchange Commission (SEC) v USA, ale toto riešenie zahŕňa sledovateľnosť vašich transakcií. Ďalšou metódou získavania bitcoinov je ich akceptovanie ako platobného prostriedku za produkty alebo služby, ktoré ponúkate, takže bitcoiny môžete získavať prostredníctvom svojej práce bez toho, aby ste sa museli neustále starať o cenu Bitcoin.
+Ak chcete získať bitcoiny, môžete si ich kúpiť na platformách regulovaných organizáciami, ako je napríklad AMF (Autorité des Marchés Financiers) vo Francúzsku alebo Securities & Exchange Commission (SEC) v USA, ale toto riešenie zahŕňa sledovateľnosť vašich transakcií. Ďalšou metódou získavania bitcoinov je ich akceptovanie ako platobného prostriedku za produkty alebo služby, ktoré ponúkate, takže bitcoiny môžete získavať prostredníctvom svojej práce bez toho, aby ste sa museli neustále starať o cenu Bitcoinu.
 
 
-Prijímanie Bitcoin ako obchodníka má navyše niekoľko výhod vrátane odolnosti voči cenzúre, zníženia transakčných poplatkov, zvýšenia efektívnosti, ochrany pred infláciou, ako aj finančnej slobody a suverenity.
+Prijímanie Bitcoinu má okrem toho pre obchodníka niekoľko výhod vrátane odolnosti voči cenzúre, zníženia transakčných poplatkov, zvýšenia efektívnosti, ochrany pred infláciou, ako aj finančnej slobody a suverenity.
 
 
 ![image](assets/en/073.webp)
@@ -1522,7 +1522,7 @@ Prijímanie Bitcoin ako obchodníka má navyše niekoľko výhod vrátane odolno
 Ak chcete prijať Bitcoin, je potrebné preštudovať rôzne dostupné riešenia a vybrať si to, ktoré najlepšie vyhovuje vašej firme. Neexistuje dokonalé riešenie a pri výbere je potrebné zohľadniť niekoľko faktorov, ako je očakávaný objem transakcií, pridelený rozpočet a typ podniku (online alebo fyzický).
 
 
-Tejto téme sa budeme podrobne venovať v inom kurze, ale aby sme to zjednodušili, môžeme uvažovať o niekoľkých kategóriách podnikov, a teda o súvisiacich riešeniach.
+Tejto téme sa budeme podrobne venovať v inom kurze, ale aby sme to zjednodušili, môžeme uvažovať o niekoľkých kategóriách podnikov a riešenie pre každú z nich.
 
 
 
