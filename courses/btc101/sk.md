@@ -1546,16 +1546,16 @@ Ak chcete túto tému bližšie preskúmať, odporúčame vám náš kurz BIZ101
 
 https://planb.academy/courses/a804c4b6-9ff5-4a29-a530-7d2f5d04bb7a
 
-## Úspora pomocou Bitcoin
+## Úspora pomocou Bitcoinu
 
 
 <chapterId>1d9570c6-5b63-51a6-b87c-7bdb0fc4aa87</chapterId>
 
 
-### Varovanie pred začiatkom!
+### Varovanie predtým než začnete!
 
 
-Bitcoin sa stal významným finančným aktívom, najmä vďaka jeho obmedzenej ponuke a rastúcemu dopytu. Nákup Bitcoin však prináša riziká, ktoré si vyžadujú osobitnú pozornosť. Pred investovaním akýchkoľvek finančných prostriedkov sa preto odporúča vykonať vlastný prieskum a dozvedieť sa viac o tejto téme, aby ste sa oboznámili s technológiou.
+Bitcoin sa stal významným finančným aktívom, najmä vďaka jeho obmedzenej ponuke a rastúcemu dopytu. Nákup Bitcoinu však prináša riziká, ktoré si vyžadujú osobitnú pozornosť. Pred investovaním akýchkoľvek finančných prostriedkov sa preto odporúča vykonať vlastný prieskum a dozvedieť sa viac o tejto téme, aby ste sa oboznámili s technológiou.
 
 
 
@@ -1565,7 +1565,7 @@ Bitcoin sa stal významným finančným aktívom, najmä vďaka jeho obmedzenej 
 - V prípade potreby kontaktujte svojho finančného poradcu.
 
 
-**Plan ₿ Academy neposkytuje žiadne investičné poradenstvo a nič z toho, čo je tu uvedené, by sa za také nemalo považovať**
+**Plan ₿ Academy neposkytuje žiadne investičné poradenstvo a nič z toho, čo je tu uvedené, by sa za to nemalo považovať**
 
 
 ### Mini kontrolný zoznam pred tým, než sa do toho pustíte
@@ -1576,9 +1576,9 @@ Predtým, ako sa pustíte do nákupu Bitcoin, uistite sa, že máte:
 
 
 - Zabezpečený wallet.
-- Dôkladné pochopenie Bitcoin.
+- Dôkladné pochopenie Bitcoinu.
 - Plán úspor, ktorý môžete dodržiavať.
-- Dlhodobá vízia.
+- Dlhodobú víziu.
 
 
 Ak vám táto téma stále nie je jasná, vedzte, že kurz BTC102 vám pomôže zabezpečiť a získať prvé bitcoiny. Na tomto mieste sa budeme venovať len povrchnej analýze tejto témy.
@@ -1596,29 +1596,29 @@ Konkrétne si treba položiť dve otázky:
 
 
 
-- Priemerná cena v dolároch
+- Priemerovanie nákupnej ceny - DCA (Dollar Cost Average)
 
 
-Táto postupná stratégia zahŕňa opakované nákupy, čo znamená nákup malých množstiev Bitcoin v pravidelných intervaloch. Táto metóda časom vyhladzuje cenu a zabezpečuje nepretržitý rast množstva vlastnených bitcoinov. Je to ideálne riešenie na dlhodobé sporenie a zmierňuje obavy z volatility ceny Bitcoin. Po nastavení naň môžete jednoducho zabudnúť a sledovať, ako vaša investícia rastie.
+Táto postupná stratégia zahŕňa opakované nákupy, čo znamená nákup malých množstiev Bitcoinu v pravidelných intervaloch. Táto metóda časom vyhladzuje cenu a zabezpečuje nepretržitý rast množstva vlastnených bitcoinov. Je to ideálne riešenie na dlhodobé sporenie a zmierňuje obavy z volatility ceny Bitcoinu. Po nastavení naň môžete jednoducho zabudnúť a sledovať, ako vaša investícia rastie.
 
 
 ![image](assets/en/074.webp)
 
 
-**Pozor na UTXO**: Nezabudnite z času na čas skonsolidovať svoje jednotky UTXO do jednotiek wallet. Tento postup je nevyhnutný pre efektívnu správu vašich bitcoinov a vyhnutie sa zbytočným poplatkom počas transakcií.
+**Pozor na UTXO**: Nezabudnite z času na čas skonsolidovať jednotky UTXO vo vašich peňaženkách. Tento postup je nevyhnutný pre efektívnu správu vašich bitcoinov a vyhnutie sa zbytočným poplatkom počas transakcií.
 
 
-[UTXO](https://planb.academy/en/resources/glossary/utxo) je výstup transakcie, ktorý ešte nebol použitý, čo znamená, že nebol použitý ako vstup pre novú transakciu. Ich konsolidácia znamená spojenie niekoľkých malých UTXO do jednej väčšej, aby sa znížila "váha" transakcie, a tým sa zaplatili nižšie poplatky.
+[UTXO](https://planb.academy/en/resources/glossary/utxo) je výstup transakcie, ktorý ešte nebol použitý, čo znamená, že nebol použitý ako vstup pre novú transakciu. Konsolidácia znamená spojenie niekoľkých malých UTXO do jednej väčšej, aby sa znížila "váha" transakcie, a tým aj poplatky za ňu.
 
 
 
 - Spontánny nákup
 
 
-Riešením, ktoré sa dá použiť naraz, by mohol byť spontánny nákup, ktorý sa používa na okamžité získanie kontaktu s bitcoinom. Či už ide o nákup počas krachu alebo využitie bonusu, rozhodnutie je na vás. Budete musieť pozbierať odvahu a stlačiť tlačidlo buy-button.
+Jednorázovým riešením, by mohol byť spontánny nákup, ktorý sa používa na okamžité získanie kontaktu s bitcoinom. Či už ide o nákup počas krachu alebo využitie bonusu, rozhodnutie je na vás. Vy budete musieť pozbierať odvahu a kliknúť na "kúpiť".
 
 
-V tomto prípade by ste mali byť opatrní a kontrolovať svoje emócie, pretože cena bitcoinu môže byť dosť volatilná. V skutočnosti sú FOMO (Fear of Missing Out) a FUD (Fear, Uncertainty, Doubt) vašimi najväčšími nepriateľmi! Nezabudnite zachovať pokoj a dodržiavať stratégiu, ktorú ste si vopred stanovili, aby ste sa vyhli impulzívnemu a potenciálne škodlivému rozhodovaniu.
+V tomto prípade by ste mali byť opatrní a kontrolovať svoje emócie, pretože cena bitcoinu môže byť dosť volatilná. V skutočnosti sú FOMO (Fear of Missing Out - strach z premeškania príležitosti) a FUD (Fear, Uncertainty, Doubt - strach, neistota a pochybnosti) vašimi najväčšími nepriateľmi! Nezabudnite zachovať pokoj a dodržiavať stratégiu, ktorú ste si vopred stanovili, aby ste sa vyhli impulzívnemu a potenciálne škodlivému rozhodovaniu.
 
 
 ### Od koho by sme mali kúpiť bitcoin?
@@ -1638,7 +1638,7 @@ V súčasnosti sú takmer všetky riešenia DCA pomerne efektívne a majú takme
 
 
 
-- Platformy maklérov
+- Sprostredkoveteľské platformy
 
 
 Pri rozsiahlych investíciách sa odporúčajú regulované a uznávané platformy, ako sú Kraken, Bitstamp a Paymium. Ponúkajú bezpečné prostredie pre veľkoobjemové transakcie.
@@ -1651,7 +1651,7 @@ Ich používanie je jednoduché a dostupné pre každého:
 
 2. Prevod finančných prostriedkov na váš účet
 
-3. Nákup Bitcoin
+3. Nákup Bitcoinu
 
 4. Výber bitcoinov na váš účet wallet
 
@@ -1665,7 +1665,7 @@ Po nákupe sa odporúča okamžite stiahnuť bitcoiny z výmenných platforiem, 
 **Predpisy "Poznaj svojho klienta" (KYC) vyžadujú, aby používatelia poskytli identifikačné údaje na účely boja proti financovaniu terorizmu, daňovým únikom a praniu špinavých peňazí.**
 
 
-Je nevyhnutné si uvedomiť, že KYC je významnou témou diskusií v odvetví Bitcoin. Hoci mnohí ľudia diskutujú o jeho účinnosti, je s ním spojených mnoho obáv. V mnohých školiacich programoch a obsahu našej akadémie odporúčame pokročilým používateľom, aby sa vyhýbali platformám, ktoré vyžadujú KYC, pretože často sú k dispozícii alternatívy viac zamerané na ochranu súkromia.
+Je nevyhnutné si uvedomiť, že KYC je významnou témou diskusií v Bitcoin sfére. Hoci mnohí ľudia diskutujú o jeho účinnosti, je s ním spojených mnoho obáv. V mnohých školiacich programoch a obsahu našej akadémie odporúčame pokročilým používateľom, aby sa vyhýbali platformám, ktoré vyžadujú KYC, pretože často sú k dispozícii alternatívy viac zamerané na ochranu súkromia.
 
 
 ### Riešenia iné ako KYC
@@ -1679,7 +1679,7 @@ Okrem toho existuje niekoľko [trhovísk](https://planb.academy/tutorials/exchan
 - Fyzické stretnutia s ďalšími nadšencami bitcoinu
 - Nelegálne a neregulované platformy
 - Peer-to-peer matchmaking riešenia
-- Neobanky pôsobiace v krajinách priateľských ku Bitcoin.
+- Neobanky pôsobiace v Bitcoin-friendly krajinách (priateľských k Bitcoinu)
 
 
 ![image](assets/en/076.webp)
