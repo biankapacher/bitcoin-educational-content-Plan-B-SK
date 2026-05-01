@@ -1702,31 +1702,31 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 ### Divoké preteky sa práve začínajú!
 
 
-Podobne ako každá nová technológia, aj prijatie Bitcoin prebieha podľa S-krivky, ktorá znázorňuje postup od prvých používateľov k širšiemu prijatiu. Prekonali sme obdobie prvých prijímateľov a ukazovatele naznačujú potenciálnu demokratizáciu Bitcoin. Koniec koncov, ide o vírusovú technológiu, ktorú nemožno ľahko zastaviť. Na jednej strane, Salvádor urobil odvážny krok a plne prijal Bitcoin ako zákonné platidlo. Na druhej strane iné krajiny reagovali jej zákazom a kriminalizáciou jej používania, čo ukazuje, že prijatie Bitcoin je zložité a je vystavené vplyvu kultúrnych, historických a národných faktorov.
+Podobne ako každá nová technológia, aj prijatie Bitcoinu prebieha podľa S-krivky, ktorá znázorňuje postup od prvých používateľov k širšiemu prijatiu. Prekonali sme obdobie prvých prijímateľov a ukazovatele naznačujú potenciálnu demokratizáciu Bitcoinu. Koniec koncov, ide o vírusovú technológiu, ktorú nemožno ľahko zastaviť. Na jednej strane, Salvádor urobil odvážny krok a plne prijal Bitcoin ako zákonné platidlo. Na druhej strane iné krajiny reagovali jej zákazom a kriminalizáciou jej používania, čo ukazuje, že prijatie Bitcoinu je zložité a je vystavené vplyvu kultúrnych, historických a národných faktorov.
 
 
 ![image](assets/en/077.webp)
 
 
-Vzostup Bitcoin núti spoločnosti, univerzity, regulačné orgány a jednotlivcov, aby brali do úvahy túto novú technológiu. Je potrebné vytvoriť nové nástroje, prispôsobiť služby a pokračovať v inováciách, aby sa zabezpečilo ich prežitie. Tento kontext vyvoláva mnoho otázok súvisiacich s rôznymi oblasťami vrátane kryptografie, teórie hier, ekonomiky a menovej politiky, informatiky, filozofie, energetiky, zákonov a regulácie. Stručne povedané, Bitcoin je multidisciplinárna téma.
+Vzostup Bitcoinu núti spoločnosti, univerzity, regulačné orgány a jednotlivcov, aby brali do úvahy túto novú technológiu. Je potrebné vytvoriť nové nástroje, prispôsobiť služby a pokračovať v inováciách, aby sa zabezpečilo ich prežitie. Tento kontext vyvoláva mnoho otázok súvisiacich s rôznymi oblasťami vrátane kryptografie, teórie hier, ekonomiky a menovej politiky, informatiky, filozofie, energetiky, zákonov a regulácie. Stručne povedané, Bitcoin je multidisciplinárna téma.
 
 
 ![image](assets/en/078.webp)
 
 
-### Bitcoin je 0 až 1
+### Bitcoin je skok z 0 na 1
 
 
-Na záver vás vyzývame, aby ste sa zamysleli nad touto novou menovou revolúciou. V súvislosti s Bitcoin je toho toľko na preskúmanie, že je zložité všetko naraz vstrebať. Dajte si načas, Bitcoin sa nestratí. Práve naopak, revolúcia sa práve začala. Veríme, že sme schopní vytvoriť svet, ktorý chceme zveriť našim deťom: svet, v ktorom je ľudská suverenita právom, kde sa štandardne rešpektuje súkromie a kde sa nemanipuluje s peniazmi. Dúfame, že to spoločne dosiahneme.
+Na záver vás vyzývame, aby ste sa zamysleli nad touto novou menovou revolúciou. V súvislosti s Bitcoinom je toho toľko na preskúmanie, že je zložité všetko naraz vstrebať. Doprajte si čas, Bitcoin sa nestratí. Práve naopak, revolúcia sa práve začala. Veríme, že sme schopní vytvoriť svet, ktorý chceme zveriť našim deťom: svet, v ktorom je ľudská suverenita právom, kde sa štandardne rešpektuje súkromie a kde sa nemanipuluje s peniazmi. Dúfame, že to spoločne dosiahneme.
 
 
 ![image](assets/en/079.webp)
 
 
-Ak si chcete rozšíriť svoje vedomosti o Bitcoin, je ten správny čas: množstvo autorov, mysliteľov a esejistov vytvorilo vzdelávací obsah o Bitcoin. Počas niekoľkých posledných rokov sme tieto diela zoznamovali a kategorizovali, aby sme tým najzvedavejším z vás ponúkli [knižnicu zdrojov](https://planb.academy/resources). V tejto časti nájdete najlepšie podcasty, webové stránky, články, návody, knihy a ďalší obsah.
+Ak si chcete rozšíriť svoje vedomosti o Bitcoine, je ten správny čas: množstvo autorov, mysliteľov a esejistov vytvorilo vzdelávací obsah o Bitcoine. Počas niekoľkých posledných rokov sme tieto diela zoznamovali a kategorizovali, aby sme tým najzvedavejším z vás ponúkli [knižnicu zdrojov](https://planb.academy/resources). V tejto časti nájdete najlepšie podcasty, webové stránky, články, návody, knihy a ďalší obsah.
 
 
-> "Myslím si, že internet bude jednou z hlavných síl, ktoré znížia úlohu vlády. Jediná vec, ktorá chýba, ale ktorá bude čoskoro vyvinutá, je spoľahlivá elektronická hotovosť - metóda, pomocou ktorej môžete na internete previesť finančné prostriedky z A do B bez toho, aby A vedel o B alebo B vedel o A." - Predpoveď Miltona Friedmana z roku 1999
+> "Myslím si, že internet bude jednou z hlavných síl, ktoré zredukujú úlohu vlády. Jediná vec, ktorá chýba, ale ktorá bude čoskoro vyvinutá, je spoľahlivá elektronická hotovosť - metóda, pomocou ktorej môžete na internete previesť finančné prostriedky z A do B bez toho, aby A vedel o B alebo B vedel o A." - Predpoveď Miltona Friedmana z roku 1999
 
 # Budúcnosť Bitcoin
 
