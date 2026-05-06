@@ -1746,16 +1746,16 @@ Teraz, keď ste sa oboznámili so základmi protokolu Bitcoin, môžeme vám pre
 ### Blockchain nemôže robiť všetko
 
 
-Blockchain Bitcoin je navrhnutý tak, aby ho mohlo overovať čo najviac ľudí bez povolenia a bez dôvery. Z tejto požiadavky vyplývajú štrukturálne obmedzenia: blockchain nemôže spracovať neobmedzený počet transakcií, pretože bloky musia zostať primerane veľké, aby ich mohli sťahovať, ukladať a overovať nezávislé uzly bez toho, aby si to vyžadovalo drahý hardvér. Tento kompromis sa často zhrňuje do trilemy: decentralizácia, bezpečnosť, škálovateľnosť. Systém založený na blockchaine nemôže maximalizovať všetky tri vlastnosti súčasne. Bitcoin uprednostňuje decentralizáciu a bezpečnosť, čo prirodzene obmedzuje možnú priepustnosť onchain transakcií.
+Bitcoin Blockchain je navrhnutý tak, aby ho mohlo overovať čo najviac ľudí bez povolenia a bez toho aby museli niekomu dôverovať. Z tejto požiadavky vyplývajú štrukturálne obmedzenia: blockchain nemôže spracovať neobmedzený počet transakcií, pretože bloky musia zostať primerane veľké, aby ich mohli sťahovať, ukladať a overovať nezávislé uzly bez toho, aby si to vyžadovalo drahý hardvér. Tento kompromis sa často zhrňuje do trilemy: decentralizácia, bezpečnosť, škálovateľnosť. Systém založený na blockchaine nemôže maximalizovať všetky tri vlastnosti súčasne. Bitcoin uprednostňuje decentralizáciu a bezpečnosť, čo prirodzene obmedzuje možnú priepustnosť onchain transakcií.
 
 
 ![image](assets/en/081.webp)
 
 
-Na ceste Bitcoin sa vývojári zámerne rozhodli uprednostniť tieto vlastnosti. Na jednej strane limit veľkosti bloku 1 MB a priemerný čas medzi blokmi 10 minút umožňujú prevádzkovať uzol Bitcoin s nízkymi nákladmi, čo podporuje decentralizáciu siete. Na druhej strane tvorba blokov prostredníctvom proof of work robí akýkoľvek pokus o podvod mimoriadne nákladným a zároveň uľahčuje overovanie zo strany uzlov a posilňuje celkovú bezpečnosť protokolu.
+Vývojári sa zámerne rozhodli uprednostniť tieto vlastnosti. Na jednej strane limit veľkosti bloku 1 MB a priemerný čas medzi blokmi 10 minút umožňujú prevádzkovať Bitcoin uzol s nízkymi nákladmi, čo podporuje decentralizáciu siete. Na druhej strane tvorba blokov prostredníctvom proof of work robí akýkoľvek pokus o podvod mimoriadne nákladným a zároveň uľahčuje overovanie zo strany uzlov a posilňuje celkovú bezpečnosť protokolu.
 
 
-Tieto možnosti však zavádzajú dôležité obmedzenie: počet transakcií, ktoré môžu byť zahrnuté do každého bloku, je obmedzený. To zodpovedá len niekoľkým transakciám za sekundu. Toto číslo je zanedbateľné v porovnaní s kapacitami centralizovaných platobných systémov, ako je napríklad VISA (ktorá má teoretickú maximálnu kapacitu približne 65 000 transakcií za sekundu), ale toto obmedzenie je cenou, ktorú treba zaplatiť za umožnenie transakcií odolných voči cenzúre bez dôveryhodných tretích strán.
+Tieto možnosti však znamenajú dôležité obmedzenie: počet transakcií, ktoré môžu byť zahrnuté do každého bloku, je obmedzený. To zodpovedá len niekoľkým transakciám za sekundu. Toto číslo je zanedbateľné v porovnaní s kapacitami centralizovaných platobných systémov, ako je napríklad VISA (ktorá má teoretickú maximálnu kapacitu približne 65 000 transakcií za sekundu), ale toto obmedzenie je cenou, ktorú treba zaplatiť za umožnenie transakcií odolných voči cenzúre bez tretích strán.
 
 
 Konkrétne to znamená dve veľmi dôležité veci pre každodenné používanie Bitcoin:
@@ -1799,16 +1799,16 @@ Vďaka tomu môžu dve osoby, ktoré zdieľajú kanál Lightning, uskutočniť v
 ### Sieť prepojených kanálov
 
 
-Blesk nie je len súbor izolovaných kanálov. Je to sieť: tisíce uzlov sú navzájom prepojené kanálmi a vytvárajú graf spojení.
+Lightning nie je len súbor izolovaných kanálov. Je to sieť: tisíce uzlov sú navzájom prepojené kanálmi a vytvárajú graf spojení.
 
 
 ![image](assets/en/082.webp)
 
 
-Vďaka tejto sieti môžete príjemcovi zaplatiť, aj keď s ním nemáte priamy kanál, pokiaľ existuje cesta kanálov, ktorá umožňuje smerovanie platby. Platba potom prechádza cez niekoľko medziľahlých uzlov, hop po hope.
+Vďaka tejto sieti môžete príjemcovi zaplatiť, aj keď s ním nemáte priamy kanál, pokiaľ existuje cesta kanálov, ktorá umožňuje smerovanie platby. Platba potom prechádza cez niekoľko medziľahlých uzlov,krok za krokom, uzol po uzle.
 
 
-Tu sa objavuje dôležitý pojem Lightning: likvidita. Kapacita kanála zodpovedá celkovému množstvu finančných prostriedkov uzamknutých v danom kanáli a likvidita sa vzťahuje na spôsob, akým sú tieto prostriedky rozdelené medzi dve strany kanála, a teda na smer, ktorým môže prúdiť sats. Inými slovami, kanál môže mať veľkú kapacitu a zároveň môže byť v danom smere nepoužiteľný, ak je likvidita na nesprávnej strane. Úspešnosť platieb teda nezávisí len od existencie cesty, ale aj od dostupnej likvidity pozdĺž celej cesty.
+Tu sa objavuje dôležitý pojem Lightning: likvidita. Kapacita kanála zodpovedá celkovému množstvu finančných prostriedkov uzamknutých v danom kanáli a likvidita sa vzťahuje na spôsob, akým sú tieto prostriedky rozdelené medzi dve strany kanála, a teda na smer, ktorým môžu prúdiť sats. Inými slovami, kanál môže mať veľkú kapacitu a zároveň môže byť v danom smere nepoužiteľný, ak je likvidita na nesprávnej strane. Úspešnosť platieb teda nezávisí len od existencie cesty, ale aj od dostupnej likvidity pozdĺž celej cesty.
 
 
 ### Smerovanie platby bez dôveryhodných sprostredkovateľov
@@ -1831,13 +1831,13 @@ A nakoniec, Lightning obsahuje sankčný mechanizmus: ak sa jeden z účastníko
 ### Uzol Lightning, Lightning wallet: čo to znamená
 
 
-V onchaine Bitcoin je wallet softvér, ktorý spravuje kľúče a konštruuje transakcie. V systéme Lightning je situácia nejednoznačnejšia, pretože skutočné použitie bez prístupu do systému sa spolieha na uzol Lightning (aj keď je tento uzol skrytý za jednoduchým rozhraním).
+V onchaine Bitcoine je wallet softvér, ktorý spravuje kľúče a konštruuje transakcie. V systéme Lightning je situácia nejednoznačnejšia, pretože skutočné použitie bez prístupu do systému sa spolieha na uzol Lightning (aj keď je tento uzol skrytý za jednoduchým rozhraním).
 
 
 V praxi existujú dve hlavné kategórie aplikácií na používanie aplikácie Lightning:
 
 
-- Opatrovateľské služby: v aplikácii sa zobrazuje zostatok, ale finančné prostriedky sú pod kontrolou poskytovateľa služieb. Váš zostatok je účtovný záznam v ich systéme, podobne ako pri výmene;
+- Úschovné služby: v aplikácii sa zobrazuje zostatok, ale finančné prostriedky sú pod kontrolou poskytovateľa služieb. Váš zostatok je účtovný záznam v ich systéme, podobne ako na výmenných platformách;
 - Riešenia bez úschovy: skutočne máte pod kontrolou kľúče a možnosť získať späť svoje finančné prostriedky. Môže ísť o aplikáciu, ktorá obsahuje uzol s minimálnou správou, čím sa zjednoduší používateľské prostredie (napríklad Phoenix, Zeus...), alebo o plnohodnotný uzol Lightning, ktorý si spravujete úplne sami.
 
 
@@ -1855,7 +1855,7 @@ https://planb.academy/tutorials/wallet/mobile/aqua-8e6d7dd3-8c03-45cc-90dd-fe389
 ### Konkrétne prípady použitia: čo konečne umožňuje Lightning
 
 
-Lightning odomyká celý rad prípadov použitia, ktoré boli predtým nepraktické alebo dokonca nemožné len s onchain Bitcoin.
+Lightning odomyká celý rad prípadov použitia, ktoré boli predtým nepraktické alebo dokonca nemožné len s onchain Bitcoinom.
 
 
 
@@ -1876,7 +1876,7 @@ Možnosť posielať veľmi malé sumy otvára nové ekonomické modely: platba z
 - Tvorcovia obsahu, podcasty a darcovstvo**
 
 
-Blesk sa často používa na mikrodarčeky alebo mechanizmy odmeňovania. Aplikácie ako Fountain alebo Rumble dobre ilustrujú túto logiku: platby sa stávajú granulárnymi a prirodzenými súčasťami zážitku, namiesto toho, aby boli ťažkou príležitostnou akciou. Túto logiku sme integrovali aj do aplikácie Plan ₿ Academy, pretože môžete ľahko posielať malé dary svojim obľúbeným inštruktorom, aby ste im poďakovali.
+Lightning sa často používa na mikrodarčeky alebo mechanizmy odmeňovania. Aplikácie ako Fountain alebo Rumble dobre ilustrujú túto logiku: platby sa stávajú granulárnymi a prirodzenými súčasťami zážitku, namiesto toho, aby boli ťažkou príležitostnou akciou. Túto logiku sme integrovali aj do aplikácie Plan ₿ Academy, pretože môžete ľahko posielať malé dary svojim obľúbeným inštruktorom, aby ste im poďakovali.
 
 
 
@@ -1889,10 +1889,10 @@ Videohry a digitálne prostredia sa prirodzene hodia na mikrotransakcie: malé s
 ![image](assets/en/085.webp)
 
 
-### Hlavné implementácie blesku
+### Hlavné implementácie Lightningu
 
 
-Rovnako ako v prípade Bitcoin je Lightning protokolom, nie jednotlivým softvérom. Vďaka spoločným špecifikáciám (BOLT) existuje niekoľko implementácií, ktoré sú interoperabilné:
+Rovnako ako v prípade Bitcoinu je Lightning protokolom, nie jednotlivým softvérom. Vďaka spoločným špecifikáciám (BOLT) existuje niekoľko implementácií, ktoré sú interoperabilné:
 
 
 - LND (Lightning Labs);
@@ -1902,13 +1902,13 @@ Rovnako ako v prípade Bitcoin je Lightning protokolom, nie jednotlivým softvé
 - atď.
 
 
-### Blesk ako súčasť vývoja Bitcoin
+### Blesk ako súčasť evolúcie Bitcoinu
 
 
 Lightning nenahrádza blockchain Bitcoin: dopĺňa ho. Blockchain zostáva konečnou vrstvou zúčtovania, pomalou, ale mimoriadne robustnou. Lightning je rýchla platobná vrstva, určená na časté používanie a malé sumy.
 
 
-V roku 2025 je Lightning dostupnejší ako v jeho začiatkoch vďaka wallet a službám, ktoré skrývajú časť zložitosti. Stále však zahŕňa kompromisy: likviditu, náklady na onchain kanály a niekedy aj kompromisy medzi jednoduchosťou, suverenitou a súkromím.
+V roku 2025 je Lightning dostupnejší ako v jeho začiatkoch vďaka wallet a službám, ktoré skrývajú tú zložitú časť. Stále však zahŕňa kompromisy: likviditu, náklady na onchain kanály a niekedy aj kompromisy medzi jednoduchosťou, suverenitou a súkromím.
 
 
 Ak chcete pochopiť Lightning do hĺbky (kanály, likvidita, smerovanie, riadenie rizík), odporúčam kompletný teoretický kurz LNP 201 od Fanisa Michalakisa:
