@@ -1845,7 +1845,7 @@ https://planb.academy/tutorials/wallet/mobile/phoenix-0f681345-abff-4bdc-819c-4a
 
 https://planb.academy/tutorials/wallet/mobile/zeus-embedded-c67fa8bb-9ff5-430d-beee-80919cac96b9
 
-V súčasnosti existujú aj samospustiteľné wallet, ktoré sú schopné podporovať bleskové platby nepriamo, a to tak, že sa spoliehajú na atómové výmeny spúšťané na požiadanie pre každú prichádzajúcu alebo odchádzajúcu platbu (napríklad Bull Bitcoin Wallet, Aqua...). Tieto wallet spravidla používajú ako svoju zúčtovaciu vrstvu bočný reťazec Liquid (čomu to zodpovedá, uvidíme v nasledujúcej kapitole).
+V súčasnosti existujú aj samospustiteľné wallet, ktoré sú schopné podporovať Lightning platby nepriamo, a to tak, že sa spoliehajú na atómové výmeny spúšťané na požiadanie pre každú prichádzajúcu alebo odchádzajúcu platbu (napríklad Bull Bitcoin Wallet, Aqua...). Tieto wallet spravidla používajú ako svoju zúčtovaciu vrstvu bočný reťazec Liquid (čomu to zodpovedá, uvidíme v nasledujúcej kapitole).
 
 
 https://planb.academy/tutorials/wallet/mobile/bull-bitcoin-2c72127c-a228-4f50-b833-c6183d56aaf6
@@ -1928,22 +1928,22 @@ https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
 
 
-Ako sme videli v predchádzajúcich kapitolách, Bitcoin bol navrhnutý ako mimoriadne robustná základná vrstva: verejná účtovná kniha, jednoduchá, bezpečná, ale prirodzene obmedzená v rýchlosti, programovateľnosti a priepustnosti platieb. Namiesto toho, aby táto vrstva robila všetko (ako je to napríklad v Ethereu), ekosystém Bitcoin postupne prijal vrstvený prístup: blockchain slúži ako základ (konečné zúčtovanie), zatiaľ čo vyššie vrstvy pridávajú nové vlastnosti, ako sú rýchlejšie platby, viac súkromia alebo vydávanie aktív (stablecoiny, cenné papiere tokenizované...).
+Ako sme videli v predchádzajúcich kapitolách, Bitcoin bol navrhnutý ako mimoriadne robustná základná vrstva: verejná účtovná kniha, jednoduchá, bezpečná, ale prirodzene obmedzená v rýchlosti, programovateľnosti a priepustnosti platieb. Namiesto toho, aby táto vrstva robila všetko (ako je to napríklad v Ethereu), Bitcoin ekosystém postupne prijal vrstvený prístup: blockchain slúži ako základ (konečné zúčtovanie), zatiaľ čo vyššie vrstvy pridávajú nové vlastnosti, ako sú rýchlejšie platby, viac súkromia alebo vydávanie aktív (stablecoiny, tokenizované cenné papiere...).
 
 
-Bitcoin sa nevyvíja len úpravou svojho základného protokolu. Vyvíja sa aj tým, že na ňom stavia riešenia, ktoré robia rôzne kompromisy v závislosti od požadovaného cieľa. Niektoré sa zameriavajú na škálovateľnosť platieb, iné na programovateľnosť (v širšom zmysle) a vydávanie aktív a ďalšie sa snažia kombinovať oboje.
+Bitcoin sa nevyvíja len úpravou svojho základného protokolu. Vyvíja sa aj tým, že sú na ňom postavené riešenia, ktoré robia rôzne kompromisy v závislosti od požadovaného cieľa. Niektoré sa zameriavajú na škálovateľnosť platieb, iné na programovateľnosť (v širšom zmysle) a vydávanie aktív a ďalšie sa snažia kombinovať oboje.
 
 
-V tejto kapitole predstavíme štyri dôležité protokoly, z ktorých každý ponúka nové možnosti na Bitcoin: Sidechains (vrátane Liquid), Ark, RGB a Taproot Assets.
+V tejto kapitole predstavíme štyri dôležité protokoly, z ktorých každý ponúka nové možnosti pre Bitcoin: Sidechains (vrátane Liquid), Ark, RGB a Taproot Assets.
 
 
 ### Sidechains: paralelné blokové reťazce pripojené k Bitcoin
 
 
-Sidechain je blockchain odlišný od blockchainu Bitcoin, ktorý je navrhnutý tak, aby fungoval paralelne, mal vlastné pravidlá a vlastný mechanizmus konsenzu. S Bitcoin je prepojený prostredníctvom mechanizmu obojsmerného pegovania (*2WP*), ktorý v praxi umožňuje používať bitcoiny na sidechaine v reprezentatívnej forme (často bitcoin uzamknutý na Bitcoin a znovu vytvorený na sidechaine) a neskôr sa vrátiť do hlavného reťazca.
+Sidechain je blockchain odlišný od Bitcoin blockchainu, ktorý je navrhnutý tak, aby fungoval paralelne, mal vlastné pravidlá a vlastný mechanizmus konsenzu. S Bitcoinom je prepojený prostredníctvom mechanizmu obojsmerného pegovania (*2WP*), ktorý v praxi umožňuje používať bitcoiny na sidechaine v reprezentatívnej forme (často je to bitcoin uzamknutý na Bitcoin a znovu vytvorený na sidechaine) a neskôr sa vrátiť do hlavného reťazca.
 
 
-Záujem sidechainu spočíva v tom, že ponúka funkcie, ktoré je ťažké dosiahnuť priamo na Bitcoin: rýchlejšie transakcie, funkcie aktív, väčšie súkromie alebo väčšiu flexibilitu vývoja. Na oplátku sidechain vždy robí kompromisy v porovnaní s Bitcoin, najmä pokiaľ ide o model dôveryhodnosti alebo decentralizáciu.
+Záujem sidechainu spočíva v tom, že ponúka funkcie, ktoré je ťažké dosiahnuť priamo na Bitcoin: rýchlejšie transakcie, funkcie aktív, väčšie súkromie alebo väčšiu flexibilitu vývoja. Na oplátku sidechain vždy robí kompromisy v porovnaní s Bitcoinom, najmä pokiaľ ide o model dôveryhodnosti alebo decentralizáciu.
 
 
 Najznámejším sidechainom na Bitcoin je pravdepodobne **Liquid**, ktorý vyvinula spoločnosť Blockstream. Je navrhnutý najmä na urýchlenie niektorých prípadov použitia: rýchle prevody medzi platformami, častejšie zúčtovanie a vydávanie aktív (stablecoiny, cenné papiere...) so zvýšenou ochranou osobných údajov. V Liquid sa používané bitcoiny nazývajú L-BTC: sú navrhnuté tak, aby boli viazané 1:1 na BTC prostredníctvom obojsmerného mechanizmu viazania.
@@ -1952,24 +1952,24 @@ Najznámejším sidechainom na Bitcoin je pravdepodobne **Liquid**, ktorý vyvin
 ![image](assets/en/088.webp)
 
 
-Hlavný rozdiel v porovnaní s Bitcoin spočíva v modeli zabezpečenia a decentralizácie: Liquid sa nespolieha na Bitcoin proof of work, ale na federáciu operátorov (identifikovanú skupinu), ktorá zabezpečuje výrobu blokov a prevádzku mostov medzi BTC a L-BTC.
+Hlavný rozdiel v porovnaní s Bitcoinom spočíva v modeli zabezpečenia a decentralizácie: Liquid sa nespolieha na Bitcoin proof of work, ale na federáciu operátorov (identifikovanú skupinu), ktorá zabezpečuje výrobu blokov a prevádzku mostov medzi BTC a L-BTC.
 
 
 https://planb.academy/courses/d3ca6943-b22c-4e50-b62d-9431460525bc
 
-### Archa: zdieľanie vozidiel UTXO s cieľom znížiť náklady a zlepšiť skúsenosti
+### Archa: zdieľanie UTXO s cieľom znížiť náklady a zlepšiť používateľský zážitok
 
 
-Ark sa vzťahuje na skupinu návrhov a implementácií zameraných na zlepšenie škálovateľnosti Bitcoin zoskupením mnohých používateľských operácií do menšieho počtu transakcií Bitcoin. Myšlienka je pomerne jednoduchá: namiesto vytvorenia jednej transakcie v reťazci na každého používateľa sa vytvorí jedna transakcia v reťazci, ktorá predstavuje dávku, a potom sa práva každého účastníka vyvíjajú hlavne mimo reťazca, až kým nie je požadované konečné vyrovnanie na Bitcoin.
+Ark sa vzťahuje na skupinu návrhov a implementácií zameraných na zlepšenie škálovateľnosti Bitcoinu zoskupením mnohých používateľských operácií do menšieho počtu Bitcoin transakcií. Myšlienka je pomerne jednoduchá: namiesto vytvorenia jednej transakcie v reťazci na každého používateľa sa vytvorí jedna transakcia v reťazci, ktorá predstavuje dávku, a potom sa práva každého účastníka vyvíjajú hlavne mimo reťazca, až kým nie je požadované konečné vyrovnanie na Bitcoine.
 
 
-Túto myšlienku protokolu druhej vrstvy predstavil Burak v máji 2023. Podobne ako Lightning Network, aj Ark je systém nasadený nad hlavným reťazcom Bitcoin. Umožňoval by uskutočňovať bitcoinové platby mimo reťazca rýchlym, anonymným a nízko spoplatneným spôsobom. V porovnaní s Lightningom Ark nevyžaduje na prijímanie platieb vstupnú likviditu, čo výrazne zlepšuje používateľský zážitok. Okrem toho poskytuje úroveň súkromia blízku transakciám coinjoin. Ark by tiež mohol byť neinteraktívny, ak sa do Bitcoin pridajú zmluvy.
+Túto myšlienku protokolu druhej vrstvy predstavil Burak v máji 2023. Podobne ako Lightning Network, aj Ark je systém nasadený nad hlavným chainom Bitcoinu. Umožňoval by uskutočňovať bitcoinové platby mimo reťazca rýchlym, anonymným a nízko spoplatneným spôsobom. V porovnaní s Lightningom Ark nevyžaduje na prijímanie platieb vstupnú likviditu, čo výrazne zlepšuje používateľský zážitok. Okrem toho poskytuje úroveň súkromia blízku transakciám coinjoin. Ark by mohol byť aj neinteraktívny, ak by sa do Bitcoinu pridali kovenanty.
 
 
-Burak často kritizuje schopnosť Lightningu škálovať sa kvôli jeho závislosti od hlavného reťazca a navrhuje, že Ark by teoreticky mohol na palube samostatne prepravovať celú svetovú populáciu. Aj keď Ark možno považovať za konkurenčný protokol k Lightning Network, oba môžu v skutočnosti koexistovať. Dokonca by sa mohli dopĺňať.
+Burak často kritizuje schopnosť Lightningu škálovať sa kvôli jeho závislosti od hlavného reťazca a navrhuje, že Ark by teoreticky mohol umožniť celej svetovej populácii používať vlastnú úschovu (self-custody). Aj keď možno Ark považovať za konkurenčný protokol k Lightning Network, oba môžu v skutočnosti koexistovať. Dokonca by sa mohli dopĺňať.
 
 
-Archa zostáva veľmi aktívnou, ale stále mladou oblasťou: cieľ je sľubný (drastické zníženie onchain stopy na používateľa), ale treba mať na pamäti, že ide o zložitejšiu architektúru s inými predpokladmi a rizikami ako v prípade Bitcoin a Lightning.
+Ark zostáva veľmi aktívnou, ale stále mladou oblasťou: cieľ je sľubný (drastické zníženie onchain stopy na používateľa), ale treba mať na pamäti, že ide o zložitejšiu architektúru s inými predpokladmi a rizikami ako v prípade Bitcoinu a Lightningu.
 
 
 ### RGB: zmluvy a aktíva s overovaním na strane klienta
@@ -2006,7 +2006,7 @@ https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 Taproot Assets (predtým "Taro") je protokol vedený spoločnosťou Lightning Labs, ktorého cieľom je umožniť vydávanie aktív na Bitcoin s možnosťou ich neskoršieho prevodu prostredníctvom Lightning Network na rýchle a lacné výmeny.
 
 
-Často sa uvádza ako stavebný prvok v príbehu o "programovateľných peniazoch" na Bitcoin: nie preto, že by sa Bitcoin stal globálnym počítačom, ale preto, že na základňu Bitcoin možno navrstviť finančné nástroje (aktíva), ktoré potom môžu efektívne obiehať prostredníctvom blesku.
+Často sa uvádza ako stavebný prvok v príbehu o "programovateľných peniazoch" na Bitcoin: nie preto, že by sa Bitcoin stal globálnym počítačom, ale preto, že na základňu Bitcoin možno navrstviť finančné nástroje (aktíva), ktoré potom môžu efektívne obiehať prostredníctvom Lightningu.
 
 
 ### Bitcoin sa posilňuje tým, že umožňuje inováciu vyšších vrstiev
