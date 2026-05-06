@@ -1811,7 +1811,7 @@ Vďaka tejto sieti môžete príjemcovi zaplatiť, aj keď s ním nemáte priamy
 Tu sa objavuje dôležitý pojem Lightning: likvidita. Kapacita kanála zodpovedá celkovému množstvu finančných prostriedkov uzamknutých v danom kanáli a likvidita sa vzťahuje na spôsob, akým sú tieto prostriedky rozdelené medzi dve strany kanála, a teda na smer, ktorým môžu prúdiť sats. Inými slovami, kanál môže mať veľkú kapacitu a zároveň môže byť v danom smere nepoužiteľný, ak je likvidita na nesprávnej strane. Úspešnosť platieb teda nezávisí len od existencie cesty, ale aj od dostupnej likvidity pozdĺž celej cesty.
 
 
-### Smerovanie platby bez dôveryhodných sprostredkovateľov
+### Smerovanie platby bez sprostredkovateľov
 
 
 Lightning bol navrhnutý tak, aby umožňoval platby prostredníctvom sprostredkovateľov bez toho, aby im dôveroval. Na dosiahnutie tohto cieľa protokol používa inteligentné kontrakty nazývané HTLC (*Hashed Time-Locked Contracts*). Bez toho, aby sme zachádzali do všetkých podrobností, všeobecný mechanizmus je nasledovný:
@@ -1902,7 +1902,7 @@ Rovnako ako v prípade Bitcoinu je Lightning protokolom, nie jednotlivým softv�
 - atď.
 
 
-### Blesk ako súčasť evolúcie Bitcoinu
+### Lightning ako súčasť evolúcie Bitcoinu
 
 
 Lightning nenahrádza blockchain Bitcoin: dopĺňa ho. Blockchain zostáva konečnou vrstvou zúčtovania, pomalou, ale mimoriadne robustnou. Lightning je rýchla platobná vrstva, určená na časté používanie a malé sumy.
@@ -1922,7 +1922,7 @@ A ak sa chcete pustiť do dobrodružstva prevádzkovania vlastného uzla Lightni
 https://planb.academy/courses/593e483e-1785-4e83-aa7e-32b99056844c
 
 
-## Viac ako Lightning: ďalšie protokoly na škálovanie Bitcoin
+## Viac ako Lightning: ďalšie protokoly na škálovanie Bitcoinu
 
 
 <chapterId>684e31f9-ebd1-51b6-91c0-1e6a315f1141</chapterId>
