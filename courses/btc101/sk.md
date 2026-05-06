@@ -1957,7 +1957,7 @@ Hlavný rozdiel v porovnaní s Bitcoinom spočíva v modeli zabezpečenia a dece
 
 https://planb.academy/courses/d3ca6943-b22c-4e50-b62d-9431460525bc
 
-### Archa: zdieľanie UTXO s cieľom znížiť náklady a zlepšiť používateľský zážitok
+### ArK: zdieľanie UTXO s cieľom znížiť náklady a zlepšiť používateľský zážitok
 
 
 Ark sa vzťahuje na skupinu návrhov a implementácií zameraných na zlepšenie škálovateľnosti Bitcoinu zoskupením mnohých používateľských operácií do menšieho počtu Bitcoin transakcií. Myšlienka je pomerne jednoduchá: namiesto vytvorenia jednej transakcie v reťazci na každého používateľa sa vytvorí jedna transakcia v reťazci, ktorá predstavuje dávku, a potom sa práva každého účastníka vyvíjajú hlavne mimo reťazca, až kým nie je požadované konečné vyrovnanie na Bitcoine.
@@ -1975,7 +1975,7 @@ Ark zostáva veľmi aktívnou, ale stále mladou oblasťou: cieľ je sľubný (d
 ### RGB: zmluvy a aktíva s overovaním na strane klienta
 
 
-RGB je systém inteligentných kontraktov a aktív na Bitcoin, ktorý využíva radikálne odlišný prístup ako univerzálne blockchainy. Jeho hlavnou myšlienkou je validácia na strane klienta: namiesto zverejňovania úplného stavu kontraktu na globálnom blockchaine účastníci lokálne ukladajú a validujú históriu, ktorá je pre nich dôležitá, zatiaľ čo blockchain Bitcoin slúži len na ukotvenie kryptografických záväzkov a zabránenie dvojitým výdavkom.
+RGB je systém inteligentných kontraktov a aktív na Bitcoine, ktorý využíva radikálne odlišný prístup ako univerzálne blockchainy. Jeho hlavnou myšlienkou je validácia na strane klienta: namiesto zverejňovania úplného stavu kontraktu na globálnom blockchaine účastníci lokálne ukladajú a validujú históriu, ktorá je pre nich dôležitá, zatiaľ čo blockchain Bitcoin slúži len na ukotvenie kryptografických záväzkov a zabránenie dvojitým výdavkom.
 
 
 Inými slovami:
@@ -1995,21 +1995,21 @@ RGB by mohol slúžiť ako základ pre vydávanie a správu širokej škály akt
 Nevýhodou je správa údajov: ak musíte overovať na strane klienta, musíte tiež správne ukladať a zálohovať údaje, ktoré preukazujú vaše práva.
 
 
-RGB je protokol, ktorý sa vyvíja už mnoho rokov. Pokrok je postupný, ale dnes už existujú konkrétne aplikácie, ktoré využívajú RGB. Ak chcete ísť ďalej, ponúkame kurz na úrovni expertov o Plan ₿ Academy, ktorý tento protokol skúma do hĺbky:
+RGB je protokol, ktorý sa vyvíja už mnoho rokov. Pokrok je postupný, ale dnes už existujú konkrétne aplikácie, ktoré využívajú RGB. Ak chcete ísť ďalej v Plan ₿ Academy ponúkame kurz na úrovni expertov, ktorý tento protokol skúma do hĺbky:
 
 
 https://planb.academy/courses/3ce1d37c-05ba-4f54-aa15-7586d37b2bb7
 
-### Taproot Aktíva: vydávanie aktív na Bitcoin a ich presun do systému Lightning
+### Taproot Aktíva: vydávanie aktív na Bitcoine a ich presun do systému Lightning
 
 
-Taproot Assets (predtým "Taro") je protokol vedený spoločnosťou Lightning Labs, ktorého cieľom je umožniť vydávanie aktív na Bitcoin s možnosťou ich neskoršieho prevodu prostredníctvom Lightning Network na rýchle a lacné výmeny.
+Taproot Assets (predtým "Taro") je protokol vedený spoločnosťou Lightning Labs, ktorého cieľom je umožniť vydávanie aktív na Bitcoine s možnosťou ich neskoršieho prevodu prostredníctvom Lightning Network na rýchle a lacné výmeny.
 
 
-Často sa uvádza ako stavebný prvok v príbehu o "programovateľných peniazoch" na Bitcoin: nie preto, že by sa Bitcoin stal globálnym počítačom, ale preto, že na základňu Bitcoin možno navrstviť finančné nástroje (aktíva), ktoré potom môžu efektívne obiehať prostredníctvom Lightningu.
+Často sa uvádza ako stavebný prvok v príbehu o "programovateľných peniazoch" na Bitcoine: nie preto, že by sa Bitcoin stal globálnym počítačom, ale preto, že na základnú vrstvu Bitcoinu možno navrstviť finančné nástroje (aktíva), ktoré potom môžu efektívne obiehať prostredníctvom Lightningu.
 
 
-### Bitcoin sa posilňuje tým, že umožňuje inováciu vyšších vrstiev
+### Bitcoin sa stáva silnejšim tak, že umožňuje inováciu vyšších vrstiev
 
 
 V súčasnosti nie je najpresnejším obrazom ekosystému Bitcoin ani zmrazený protokol, ani super blockchain, ktorý robí všetko, ako v prípade Etherea. Je to skôr zámerne konzervatívny základ, obklopený vrstvami a protokolmi, ktoré experimentujú a umožňujú inovácie s minimálnym rizikom.
