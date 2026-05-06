@@ -496,7 +496,7 @@ Jeho peňažnú emisiu možno znázorniť krivkou, ktorá predstavuje množstvo 
 ### Ako vznikajú nové bitcoiny?
 
 
-Vznik nových bitcoinov je výsledkom procesu ťažby (mining). V skratke, ťažiari (miners) používajú výkonné počítače, ktoré riešia zložité matematické problémy (hash), ktorými overujú a zabezpečujú transakcie. Po vyriešení problému (alebo nájdení platného hashu) baník pridá nový blok transakcií do blockchainu, decentralizovanej a distribuovanej účtovnej knihy (ledger), ktorá zaznamenáva všetky transakcie uskutočnené v sieti. Blockchain zabezpečuje transparentnosť a bezpečnosť, keďže každý blok je prepojený s predchádzajúcim blokom, takže je takmer nemožné zmeniť predchádzajúce údaje bez konsenzu siete.
+Vznik nových bitcoinov je výsledkom procesu ťažby (mining). V skratke, ťažiari (miners) používajú výkonné počítače, ktoré riešia zložité matematické problémy (hash), ktorými overujú a zabezpečujú transakcie. Po vyriešení problému (alebo nájdení platného hashu) ťažiar pridá nový blok transakcií do blockchainu, decentralizovanej a distribuovanej účtovnej knihy (ledger), ktorá zaznamenáva všetky transakcie uskutočnené v sieti. Blockchain zabezpečuje transparentnosť a bezpečnosť, keďže každý blok je prepojený s predchádzajúcim blokom, takže je takmer nemožné zmeniť predchádzajúce údaje bez konsenzu siete.
 
 
 ![image](assets/en/022.webp)
@@ -1094,7 +1094,7 @@ Transakčný systém Bitcoin je decentralizovaný a funguje peer-to-peer, bez sp
 Bob odošle svoju transakciu do siete Bitcoin, a keď miner zverejní platný blok obsahujúci Bobovu transakciu, Alice sa môže začať domnievať, že bitcoiny patria jej. Dôvera sa nevyžaduje v žiadnom kroku prevodu vlastníctva bitcoinov: samotné pravidlá protokolu a ekonomické stimuly spôsobujú, že konať v systéme Bitcoin zlomyseľne je príliš nákladné.
 
 
-Používatelia v skutočnosti prenášajú vlastníctvo svojich finančných prostriedkov digitálnym podpisovaním transakcií vlastnými súkromnými kľúčmi. Na druhej strane, baníci majú obmedzenú moc a používatelia si udržiavajú významnú kontrolu pomocou Bitcoin uzlov, ktoré overujú nové bloky a zahrnuté transakcie. Každý uzol má buď úplnú, alebo čiastočnú kópiu ledgeru (účtovnej knihy), takže sieť tvorená Bitcoin uzlami robí systém skutočne decentralizovaným.
+Používatelia v skutočnosti prenášajú vlastníctvo svojich finančných prostriedkov digitálnym podpisovaním transakcií vlastnými súkromnými kľúčmi. Na druhej strane, ťažiari majú obmedzenú moc a používatelia si udržiavajú významnú kontrolu pomocou Bitcoin uzlov, ktoré overujú nové bloky a zahrnuté transakcie. Každý uzol má buď úplnú, alebo čiastočnú kópiu ledgeru (účtovnej knihy), takže sieť tvorená Bitcoin uzlami robí systém skutočne decentralizovaným.
 
 
 V dôsledku toho by na úplné zničenie siete Bitcoin bolo potrebné odstrániť všetky kópie blockchainu vo všetkých Bitcoin uzloch, čo je vzhľadom na geografické rozloženie týchto uzlov a náročnosť ich fyzického zabavenia prakticky nemožné.
@@ -1213,7 +1213,7 @@ Každých 2016 blokov (približne každé dva týždne) sa v rámci **úpravy n�
 ### Mining sa neustále vyvíja
 
 
-V priebehu rokov sa ťažiari vybavili čoraz efektívnejším počítačovým hardvérom, aby vyprodukovali čo najviac hashov za sekundu (HashRate) a zároveň spotrebovali čo najmenej energie čo najefektívnejším spôsobom. Prví mineri, ako napríklad Satoshi alebo Hal Finney, ťažili len pomocou svojho procesora, neskôr začali iní ťažiť mining pomocou grafických kariet. V súčasnosti baníci používajú ASIC (Application-Specific Integrated Circuit): stroje určené výhradne na aplikáciu algoritmu SHA256.
+V priebehu rokov sa ťažiari vybavili čoraz efektívnejším počítačovým hardvérom, aby vyprodukovali čo najviac hashov za sekundu (HashRate) a zároveň spotrebovali čo najmenej energie čo najefektívnejším spôsobom. Prví mineri, ako napríklad Satoshi alebo Hal Finney, ťažili len pomocou svojho procesora, neskôr začali iní ťažiť mining pomocou grafických kariet. V súčasnosti ťažiari používajú ASIC (Application-Specific Integrated Circuit): stroje určené výhradne na aplikáciu algoritmu SHA256.
 
 
 ![image](assets/en/056.webp)
@@ -1281,7 +1281,7 @@ Bitcoin je preto určitým riešením tohto problému alebo aspoň jeho obchádz
 Mineri zabezpečujú Bitcoin sieť. Tým, že vynakladajú energiu na výrobu hashov, stavajú múr, vďaka ktorému je pre zlomyseľného agenta mimoriadne nákladné prepísať históriu transakcií, a tento ekonomický demotivátor odrádza ostatných od nečestného správania.
 
 
-Dokonca aj v prípade 51 % útoku, keď by agent vlastnil viac ako polovicu hashrate-u, by sieť zostala bezpečná, pretože útočník musí na pokus o modifikáciu blockchainu vynaložiť toľko energie ako všetci baníci spolu. Práve tento energeticky náročný mechanizmus proof-of-work zabezpečuje bezpečnosť siete.
+Dokonca aj v prípade 51 % útoku, keď by agent vlastnil viac ako polovicu hashrate-u, by sieť zostala bezpečná, pretože útočník musí na pokus o modifikáciu blockchainu vynaložiť toľko energie ako všetci ťažiari spolu. Práve tento energeticky náročný mechanizmus proof-of-work zabezpečuje bezpečnosť siete.
 
 
 ### Zhrnutie
@@ -1323,7 +1323,7 @@ Spotreba elektrickej energie predstavuje takmer všetky náklady minera. Preto s
 ### Nekonečná diskusia
 
 
-Diskusia o ekologickom vplyve Bitcoinu je preto často zavádzajúca, najmä kvôli nedostatočnému pochopeniu jeho užitočnosti. Bitcoin nemožno hodnotiť len z hľadiska energetických nákladov na jednu transakciu, pretože baníci zabezpečujú súčasnú aj historickú sieť a transakcie sú zoskupené a nie všetky sú rovnocenné. Okrem toho sa nezohľadňuje ani vplyv Lightning Network. Tí, ktorí tvrdia, že Bitcoin spotrebúva príliš veľa energie, môžu mať politické motivácie alebo sa snažia predať vlastné blockchainové riešenie. Často sa ako výhovorka na odôvodnenie zákazu Bitcoinu používa ekológia.
+Diskusia o ekologickom vplyve Bitcoinu je preto často zavádzajúca, najmä kvôli nedostatočnému pochopeniu jeho užitočnosti. Bitcoin nemožno hodnotiť len z hľadiska energetických nákladov na jednu transakciu, pretože ťažiari zabezpečujú súčasnú aj historickú sieť a transakcie sú zoskupené a nie všetky sú rovnocenné. Okrem toho sa nezohľadňuje ani vplyv Lightning Network. Tí, ktorí tvrdia, že Bitcoin spotrebúva príliš veľa energie, môžu mať politické motivácie alebo sa snažia predať vlastné blockchainové riešenie. Často sa ako výhovorka na odôvodnenie zákazu Bitcoinu používa ekológia.
 
 
 Je dôležité zdôrazniť, že Bitcoin ako revolučný vynález poskytuje jednotlivcom žijúcim pod finančným útlakom alebo diktátorskými režimami možnosť bojovať za svoju slobodu. Ako poslednú možnosť ponúka Bitcoin cestu k finančnej nezávislosti obídením cenzúry a bankových obmedzení. Viac než len mena slúži Bitcoin ako forma komunikácie a symbol slobody a energia vynaložená ťažiarmi zohráva kľúčovú úlohu pri obrane tejto slobody a umožňuje emancipáciu od finančného systému ovládaného dlhom a nadmernou tvorbou peňazí centrálnymi bankami.
@@ -1378,7 +1378,7 @@ Satoshi Nakamoto vydal v januári 2009 Bitcoin protokol, ktorý sa odvtedy vyví
 Blok sa vytvára v priemere každých 10 minút a ťažiarovi, ktorý nájde platný hash pre ďalší blok, protokol vyplatí dotáciu, ktorá je definovaná pravidlami konsenzu, ako aj transakčné poplatky zo všetkých transakcií zahrnutých v platnom bloku. Keďže výsledok hašovacieho algoritmu (SHA256) pre daný vstup sa považuje za nepredvídateľný, proces mining zahŕňa vytvorenie mnohých kandidátskych blokov a testovanie, či je ich hash platný alebo nie. Aby sa však zabezpečilo, že priemerný čas medzi dvoma blokmi zostane konštantný (~10 min) bez ohľadu na počet ťažiarov a ich výpočtový výkon, náročnosť nájdenia platného hashu sa upravuje každých 2016 blokov, teda približne každé 2 týždne. Mineri časom vyvinuli špecializované stroje SHA256, nazývané ASICS, aby zvýšili hash rate per joule, čo znamená počet pokusov za sekundu na spotrebovanú energiu.
 
 
-Aby boli baníci pri svojej činnosti čo najziskovejší, musia získavať čo najlacnejšiu elektrickú energiu, čo sa často deje na odľahlých miestach v elektrárňach, ktoré ešte nie sú napojené na sieť. Ťažiari potom pôsobia ako odberatelia poslednej inštancie a akonáhle sa cena elektriny zvýši v dôsledku nárastu dopytu, budú mať tendenciu premiestniť svoju činnosť inam.
+Aby boli ťažiari pri svojej činnosti čo najziskovejší, musia získavať čo najlacnejšiu elektrickú energiu, čo sa často deje na odľahlých miestach v elektrárňach, ktoré ešte nie sú napojené na sieť. Ťažiari potom pôsobia ako odberatelia poslednej inštancie a akonáhle sa cena elektriny zvýši v dôsledku nárastu dopytu, budú mať tendenciu premiestniť svoju činnosť inam.
 
 
 Protokol Bitcoin je teda necenzurovateľný a nezastaviteľný peňažný systém, pretože každá zložka protokolu je geograficky rozložená po celom svete. Napríklad existuje viac ako 40 000 uzlov Bitcoin na všetkých kontinentoch. Pravidlá konsenzu protokolu Bitcoin sú také, že je ekonomicky výhodnejšie ich dodržiavať, ako sa ich pokúšať porušovať, a preto nie je potrebná dôvera medzi aktérmi. Bitcoin nemá vodcu a nemožno ho zastaviť. Aj keď je možné regulovať výmenné platformy s cieľom obmedziť Bitcoin, tento prístup má na systém marginálny vplyv. Stručne povedané, žiadny sudca ani štát nemôže cenzurovať alebo zastaviť Bitcoin.
