@@ -2053,7 +2053,7 @@ Výpočtová technika, internet, streamovanie a VR zmenia vzdelávanie. Mohli by
 
 O týchto zásadných otázkach pre našu budúcnosť treba diskutovať a spoločne o nich rozhodnúť.
 
-Aké je spojenie s Bitcoin? Tak ako internet spôsobil revolúciu v spôsoboch komunikácie, Bitcoin predstavuje technologickú revolúciu pre nové formy rozsiahlej organizácie, ktorá nám umožňuje vymieňať si hodnoty bez toho, aby sme sa spoliehali na dôveryhodnú tretiu stranu. Chceme brzdiť technologický vývoj peňažného systému, alebo chceme prijať potenciál zvýšenia kapitálu prostredníctvom desaťnásobného zvýšenia produktivity, ktoré ponúka používanie protokolov Bitcoin a Lightning?
+Ako to súvisí s Bitcoinom? Tak ako internet spôsobil revolúciu v spôsoboch komunikácie, Bitcoin predstavuje technologickú revolúciu pre nové formy rozsiahlej organizácie, ktorá nám umožňuje vymieňať si hodnoty bez toho, aby sme sa spoliehali na dôveryhodnú tretiu stranu. Chceme brzdiť technologický vývoj peňažného systému, alebo chceme prijať potenciál zvýšenia kapitálu prostredníctvom desaťnásobného zvýšenia produktivity, ktoré ponúka používanie protokolov Bitcoin a Lightning?
 
 
 ### Aká je budúcnosť financií?
@@ -2066,11 +2066,11 @@ Tieto úvahy tiež vyvolávajú otázky o tom, kto by mal držať, schvaľovať 
 - Je mena formou súkromného vlastníctva?
 - Možno zablokovať účty protestujúcich bez príkazu Najvyššieho súdu?
 - Kto ručí za finančný systém?
-- Ako môže byť jednotlivec suverénny nad svojimi peniazmi a spoliehať sa na dôveryhodnú tretiu stranu?
+- Ako môže byť jednotlivec suverénny nad svojimi peniazmi a spoliehať sa na tretiu stranu?
 - Možno poslať peniaze na druhý koniec sveta bez poplatkov alebo sprostredkovateľov?
 
 
-Prijatie týchto nových technológií by mohlo generate priniesť obrovské úspory z rozsahu na celom svete. Mali by sme umožniť voľný pohyb kapitálových tokov? Medzinárodné blokády majú hospodárske a politické dôsledky. Je etické využívať finančných sprostredkovateľov, ako je Western Union, ktorí si niekedy účtujú až 25 % poplatkov? Sme presvedčení, že v čoraz digitálnejšom svete by sa peniaze mali demokratizovať a považovať za spoločné dobro patriace ľuďom, a nie štátu alebo neprehľadným finančným inštitúciám.
+Prijatie týchto nových technológií by mohlo viesť k masívnym úsporám z rozsahu na celom svete. Mali by sme umožniť voľný pohyb kapitálových tokov? Medzinárodné blokády majú hospodárske a politické dôsledky. Je etické využívať finančných sprostredkovateľov, ako je Western Union, ktorí si niekedy účtujú až 25 % poplatkov? Sme presvedčení, že v čoraz digitálnejšom svete by sa peniaze mali demokratizovať a považovať za spoločné dobro patriace ľuďom, a nie štátu alebo neprehľadným finančným inštitúciám.
 
 
 Otázka, kto by mal kontrolovať bankový systém, je kľúčová, pretože pravidlá bankovej hry nie sú transparentné a zrozumiteľné pre všetkých, čo umožňuje kaste politikov a regulačných orgánov udržať si kontrolu nad systémom, preto je dôležité položiť si otázku, či by mal mať nad ním moc voľný trh alebo skupina intelektuálov.
@@ -2093,16 +2093,16 @@ Sme presvedčení, že tolerovanie cenzúry môže zničiť slobodu prejavu a pr
 Na svete žije 2,4 miliardy ľudí bez bankového účtu, čo nevyhnutne vytvára geografické nerovnosti. Na druhej strane Bitcoin poskytuje rovnosť transakcií bez ohľadu na vaše sociálne postavenie alebo politickú pozíciu. Protokol je apolitický a neposkytuje osobitné privilégiá vedúcim predstaviteľom alebo iným vplyvným osobnostiam, čím zabezpečuje, že každý má rovnaké možnosti na napredovanie rozvoja, namiesto toho, aby umožňoval niekoľkým zostať na vrchole, zatiaľ čo ostatní zostanú pozadu. Mali by mať všetci prístup k rovnakej mene bez ohľadu na ich spoločenské postavenie? Je nevyhnutné uvažovať o svete, ktorý chceme zanechať našim deťom, a usilujeme sa vytvoriť otvorený svet, v ktorom budú môcť slobodne hospodáriť s peniazmi podľa vlastného uváženia.
 
 
-Bitcoin je dôležitá a nemala by sa považovať len za náhodnú hru, preto je veľmi dôležité klásť otázky o Bitcoin a jej dôsledkoch na svet.
+Bitcoin je dôležitý a nemal by sa považovať len za náhodnú hru, preto je veľmi dôležité klásť otázky o Bitcoine a jeho dôsledkoch na svet.
 
 
 ### Bitcoin: revolučný protokol
 
 
-Ako sme videli v predchádzajúcej kapitole, protokol Bitcoin je neutrálny voči všetkým svojim používateľom. Vďaka pravidlám konsenzu a kryptografii môžeme nemenne zaznamenávať transakcie v globálnej verejnej účtovnej knihe, čo zaručuje prevody peňažnej hodnoty bez dôveryhodnej tretej strany. Infraštruktúra druhej vrstvy (a čoskoro aj tretej vrstvy s protokolom RGB alebo "skutočne dobrým Bitcoin") slúži na škálovateľnosť siete a vývoj nových funkcií.
+Ako sme videli v predchádzajúcej kapitole, protokol Bitcoin je neutrálny voči všetkým svojim používateľom. Vďaka pravidlám konsenzu a kryptografii môžeme nemenne zaznamenávať transakcie v globálnej verejnej účtovnej knihe, čo zaručuje prevody peňažnej hodnoty bez dôveryhodnej tretej strany. Infraštruktúra druhej vrstvy (a čoskoro aj tretej vrstvy s protokolom RGB alebo "Really Good Bitcoin") slúži na škálovateľnosť siete a vývoj nových funkcií.
 
 
-Bitcoin má všetky potrebné vlastnosti na to, aby bola efektívnou a zdravou menou: je deliteľná, okamžite prenosná, necenzurovateľná, má zanedbateľné náklady na overovanie a jej menová politika je už teraz nastavená na 21 miliónov jednotiek na celé stáročia. Bitcoin je pseudonymná a možno ju vymieňať kdekoľvek na svete bez autorizácie zo strany akéhokoľvek subjektu. Stačí mať vlastné súkromné kľúče a pamätať na príslovie "Nie tvoje kľúče, nie tvoje bitcoiny".
+Bitcoin má všetky potrebné vlastnosti na to, aby bol efektívnou a zdravou menou: je deliteľný, okamžite prenosný, necenzurovateľný, má zanedbateľné náklady na overovanie a jeho menová politika je už teraz nastavená na 21 miliónov jednotiek na celé stáročia. Bitcoin je pseudonymný a možno ho vymieňať kdekoľvek na svete bez autorizácie zo strany akéhokoľvek subjektu. Stačí mať vlastné súkromné kľúče a pamätať na príslovie "Nie tvoje kľúče, nie tvoje bitcoiny". (Not your keys, not your coins.)
 
 
 Prijímajú ho rôzne skupiny ľudí, od kryptografov, cez libertariánov, tradičné podniky až po celé krajiny. Bitcoin je však pre všetkých a s rastúcim počtom používateľov rastie aj počet uzlov Bitcoin, ktoré slúžia ako strážcovia histórie transakcií a zabezpečujú jej decentralizáciu.
