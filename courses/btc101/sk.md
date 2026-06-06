@@ -40,7 +40,7 @@ Vitajte v kurze BTC101!
 Bitcoin je technologická a peňažná revolúcia, ktorá nás môže prinútiť spochybniť náš vzťah k peniazom a spoločnosti. V skutočnosti je Bitcoin (používa sa tiež skratka BTC) **neutrálnou** a **decentralizovanou** menou, čo znamená, že ju nekontroluje žiadny subjekt ani inštitúcia. Je to inovácia, ktorá presahuje rámec obyčajnej "internetovej meny": je to počítačový protokol (Bitcoin) aj peňažná jednotka (bitcoin).
 
 
-Protokol Bitcoin využíva základné technológie, ako je kryptografia, sieťová komunikácia a slávny "[blockchain](https://planb.academy/resources/glossary/blockchain)", zatiaľ čo jednotka bitcoin slúži ako nevyhnutná mena pre správne fungovanie tohto protokolu. V každodennom živote používajú obyvatelia Salvadoru a bitcoineri na celom svete menu bitcoin na nákup a predaj tovaru a služieb, pričom sa spoliehajú na túto technológiu, ktorá im zlepšuje život.
+Protokol Bitcoin využíva základné technológie, ako je kryptografia, sieťová komunikácia a slávny "[blockchain](https://planb.academy/resources/glossary/blockchain)", zatiaľ čo jednotka bitcoin slúži ako nevyhnutná mena pre správne fungovanie tohto protokolu. V každodennom živote používajú obyvatelia Salvádoru a bitcoineri na celom svete menu bitcoin na nákup a predaj tovaru a služieb, pričom sa spoliehajú na túto technológiu, ktorá im zlepšuje život.
 
 
 **Komplexný a zároveň prístupný učebný plán:**
