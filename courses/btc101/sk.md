@@ -572,7 +572,7 @@ Myšlienka devalvácie meny je v rozpore so základnou filozofiou Bitcoin, takž
 Vzácnosť Bitcoinu je hlavnou výhodou a maximálne množstvo 21 miliónov bitcoinov v obehu je verejné a overiteľné kýmkoľvek.
 
 
-V skutočnosti to môže urobiť ktokoľvek prostredníctvom Bitcoin uzla (node) [node](https://planb.academy/resources/glossary/node) (t. j. validátora transakcií) jednoduchým zadaním nasledujúceho príkazu: gW-61 gettxoutsetinfo`. Táto transparentnosť posilňuje dôveru v systém Bitcoin, ktorý nie je založený na centrálnych inštitúciách alebo jednotlivcoch, ale skôr na matematických a kryptografických zárukách obsiahnutých v jeho protokole (Ako to jednoducho urobiť, sa dozviete v LNP201).
+V skutočnosti to môže urobiť ktokoľvek prostredníctvom Bitcoin uzla (node) [node](https://planb.academy/resources/glossary/node) (t. j. validátora transakcií) jednoduchým zadaním nasledujúceho príkazu: gW-61 gettxoutsetinfo`. Táto transparentnosť posilňuje dôveru v Bitcoin systém, ktorý nie je založený na centrálnych inštitúciách alebo jednotlivcoch, ale skôr na matematických a kryptografických zárukách obsiahnutých v jeho protokole (Ako to jednoducho urobiť, sa dozviete v LNP201).
 
 
 ```json
@@ -645,7 +645,7 @@ Portfóliá tak možno rozdeliť do širokých skupín použitia, ktoré sa vžd
 Pri inicializácii peňaženky je vám generovaná a predložená tajná fráza na obnovenie, známa aj ako mnemotechnická fráza (súkromný kľúč), vo forme 12 alebo 24 slov.
 
 
-[Súkromný kľúč](https://planb.academy/resources/glossary/private-key) je zásadný, pretože predstavuje vlastníctvo bitcoinov, a teda právo na ich používanie alebo posielanie. Preto je držiteľ súkromného kľúča skutočným vlastníkom bitcoinov. Ako hovorí spopularizovaný výrok: "Not your keys, not your coins" ("Nie tvoje kľúče, nie tvoje mince")
+[Súkromný kľúč](https://planb.academy/resources/glossary/private-key) je zásadný, pretože predstavuje vlastníctvo bitcoinov, a teda právo na ich používanie alebo posielanie. Preto je držiteľ súkromného kľúča skutočným vlastníkom bitcoinov. Ako hovorí spopularizovaný výrok: "Not your keys, not your coins" ("Ak nevlastníš súkromné kľúče, nevlastníš ani bitcoin.")
 
 
 Tento kľúč musí byť tajný a dobre chránený, pretože odomyká vaše bohatstvo!
@@ -670,7 +670,7 @@ Stručne povedané, táto technológia nám umožňuje prijímať bitcoiny bez t
 ### Sú bitcoiny v peňaženke?
 
 
-Hoci sú vaše kľúče uložené v peňaženke, samotné bitcoiny sú v skutočnosti "uložené" na Bitcoin blockchaine, čo je verejná distribuovaná účtovná kniha v rámci peer-to-peer siete Bitcoin (bližšie sa jej budeme venovať v časti 3). To znamená, že strata zariadenia obsahujúceho vašu peňaženku nemusí nevyhnutne viesť k strate vašich bitcoinov. To, čo vám umožní znovu vytvoriť peňaženku a minúť vaše bitcoiny, je v skutočnosti súkromný kľúč, preto ho vždy nezabudnite riadne zabezpečiť!
+Hoci sú vaše kľúče uložené v peňaženke, samotné bitcoiny sú v skutočnosti "uložené" na Bitcoin blockchaine, čo je verejná distribuovaná účtovná kniha v rámci peer-to-peer siete Bitcoin (sieť medzi rovnocennýcmi účastníkmi, bližšie sa jej budeme venovať v časti 3). To znamená, že strata zariadenia obsahujúceho vašu peňaženku nemusí nevyhnutne viesť k strate vašich bitcoinov. To, čo vám umožní znovu vytvoriť peňaženku a minúť vaše bitcoiny, je v skutočnosti súkromný kľúč, preto ho vždy nezabudnite riadne zabezpečiť!
 
 
 ![image](assets/en/027.webp)
@@ -694,7 +694,7 @@ Pravdepodobnosť hacknutia vášej Bitcoin peňaženky je teda astronomicky níz
 Nezabudnite si vybrať správny typ peňaženky pre vaše potreby a použitie: podrobné návody na správu a zabezpečenie rôznych peňaženiek sú k dispozícii v [sekcii návodov na našej univerzite](https://planb.academy/tutorials/wallet).
 
 
-Ak sa počas svojej cesty králičou dierou budete chcieť dozvedieť viac o budovaní Bitcoin peňaženiek, od entropie až po prijímanie adries, odporúčame vám kurz CYP 201 venovaný tejto téme:
+Ak sa počas svojej cesty králičou norou budete chcieť dozvedieť viac o budovaní Bitcoin peňaženiek, od entropie až po prijímanie adries, odporúčame vám kurz CYP 201 venovaný tejto téme:
 
 
 https://planb.academy/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
@@ -740,7 +740,7 @@ Nižšie definujeme niekoľko úrovní zabezpečenia:
 - Úroveň 1**, používate Bitcoin wallet v telefóne alebo počítači, kde ste jediným držiteľom svojich bitcoinov a môžete jednoducho vykonávať transakcie. Uvedený nástroj sa označuje ako "hot wallet" (horúci), pretože súkromný kľúč je uložený v zariadení s prístupom na internet. V tomto prípade je veľmi dôležité zálohovať si mnemotechnickú frázu, aby ste v prípade straty telefónu alebo počítača získali späť prístup k svojim prostriedkom.
 
 
-Napríklad Sparrow Wallet môžete použiť ako horúci wallet:
+Napríklad Sparrow Wallet môžete použiť ako hot wallet:
 
 
 https://planb.academy/tutorials/wallet/desktop/sparrow-c674e2ac-d46f-4c82-92a7-7d1b0e262f5d
