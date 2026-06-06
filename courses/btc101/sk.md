@@ -848,7 +848,7 @@ Zoznamy slov by mali byť uložené na bezpečnom mieste, ktoré si ľahko zapam
 **Vaše slová = vaše peniaze.**
 
 
-Pri "studených" aj "horúcich" peňaženkách sa štandardne používa metóda zoznamu slov na zálohovanie súkromných kľúčov. Výsledkom je, že vašu mnemotechnickú frázu môžete zadať do akéhokoľvek kompatibilného softvéru alebo zariadenia walleta znovu tak získate prístup k svojim prostriedkom. Na druhej strane dôrazne neodporúčame používať zariadenia wallet, ktoré neposkytujú seed frázu, pretože môžu vyžadovať vytvorenie účtu, poskytnutie e-mailovej adresy alebo, čo je ešte horšie, preukazu totožnosti.
+Pri "studených" aj "horúcich" peňaženkách sa štandardne používa metóda zoznamu slov na zálohovanie súkromných kľúčov. Výsledkom je, že vašu mnemotechnickú frázu môžete zadať do akéhokoľvek kompatibilného softvéru alebo zariadenia wallet a znovu tak získate prístup k svojim prostriedkom. Na druhej strane dôrazne neodporúčame používať zariadenia wallet, ktoré neposkytujú seed frázu, pretože môžu vyžadovať vytvorenie účtu, poskytnutie e-mailovej adresy alebo, čo je ešte horšie, preukazu totožnosti.
 
 
 **Upozornenie: pri absencii 12/24 slov by ste mali spozornieť.**
@@ -865,7 +865,7 @@ https://planb.academy/courses/f3e3843d-1a1d-450c-96d6-d7232158b81f
 <chapterId>f58cd446-c202-5eff-aab7-e61cc40e5c06</chapterId>
 
 
-Ako každý majetok, aj vaše bitcoiny musia byť chránené pred stratou, krádežou a znehodnotením, najmä z dlhodobého hľadiska. Ochrana vašich bitcoinov si vyžaduje určité technické znalosti a pochopenie súvisiacich rizík, čo otvára cestu k dvom hlavným stratégiám: vygravírovanie vašich bitcoinov na oceľový plech a vytvorenie dedičského plánu.
+Ako každý majetok, aj vaše bitcoiny musia byť chránené pred stratou, krádežou a znehodnotením, najmä z dlhodobého hľadiska. Ochrana vašich bitcoinov si vyžaduje určité technické znalosti a pochopenie súvisiacich rizík, čo otvára cestu k dvom hlavným stratégiám: vygravírovanie vašich bitcoinov na oceľovú doštičku a vytvorenie dedičského plánu.
 
 
 ### Gravírovanie do ocele
@@ -916,7 +916,7 @@ Bitcoin peňaženky umožňujú prístup k bitcoinom a vykonávanie transakcií.
 - multisig wallet, ktoré sú zložitejšie na správu a vyžadujú viacero podpisov na vykonanie transakcií.
 
 
-Pri vytváraní wallet je mimoriadne dôležité, aby ste si najprv vytvorili zálohu zoznamu 12 alebo 24 slov na kúsku papiera alebo kovovej doštičke. Táto takzvaná mnemotechnická fráza vám umožní obnoviť vašu peňaženku prostredníctvom akejkoľvek aplikácie Bitcoin wallet. Nezabudnite, že každý, kto získa prístup k tomuto zoznamu, získa aj prístup k vašim finančným prostriedkom.
+Pri vytváraní wallet je mimoriadne dôležité, aby ste si najprv zálohovali zoznam 12 alebo 24 slov na kúsku papiera alebo kovovej doštičke. Táto takzvaná mnemotechnická fráza vám umožní obnoviť vašu peňaženku prostredníctvom akejkoľvek aplikácie Bitcoin wallet. Nezabudnite, že každý, kto získa prístup k tomuto zoznamu, získa aj prístup k vašim finančným prostriedkom.
 
 
 Vo svete Bitcoin je finančná suverenita úzko spojená s individuálnou zodpovednosťou, preto je nevyhnutné zabezpečiť prístup k vašim zariadeniam wallet a zálohám. Na dosiahnutie tohto cieľa je dôležité dodržiavať určité zásady:
