@@ -55,7 +55,7 @@ V tomto kurze sa budeme venovať niektorým peňažným aspektom Bitcoinu vráta
 Je nevyhnutné pochopiť, že Bitcoin je nový peňažný systém, ktorý úplne mení náš vzťah k peniazom, takže naučiť sa ho používať je nevyhnutnou zručnosťou pre každého, kto chce mať kontrolu nad vlastnými prostriedkami.
 
 
-Predtým, ako uvedieme definíciu peňazí a ich funkciu v spoločnosti (kapitola 1), mali by sme začať od genézy Bitcoinu. Bitcoin, ktorý bol uvedený na trh v roku 2009, je relatívne nová technológia, ktorá sa nepodobá na nič iné. Je preto normálne, že o nej nerozumieme všetkému a naraz. V skutočnosti, podobne ako keď sa učíte používať internet alebo riadiť auto, nemusíte hneď poznať všetky technické detaily: môžete začať tým, že sa naučíte prijímať, platiť a zabezpečovať finančné prostriedky, a potom po malých krokoch študovať hlbšie.
+Predtým, ako uvedieme definíciu peňazí a ich funkciu v spoločnosti (kapitola 1), mali by sme začať od genézy Bitcoinu. Bitcoin, ktorý bol uvedený na trh v roku 2009, je relatívne nová technológia, ktorá sa nepodobá na nič iné. Je preto normálne, že nerozumieme úplne všetkému a naraz. V skutočnosti, podobne ako keď sa učíte používať internet alebo riadiť auto, nemusíte hneď poznať všetky technické detaily: môžete začať tým, že sa naučíte prijímať, platiť a zabezpečovať finančné prostriedky, a potom po malých krokoch študovať hlbšie.
 
 
 Koniec koncov, sme len v počiatočnom štádiu jeho zavádzania, keďže sme prešli štartovacou fázou: máte práve čas na to, aby ste získali čo najviac vedomostí o tejto dôležitej inovácii.
@@ -67,7 +67,7 @@ Koniec koncov, sme len v počiatočnom štádiu jeho zavádzania, keďže sme pr
 Dôležité je pochopiť túto novú technológiu vo všeobecnej rovine, preto dúfame, že sa vám tento kurz bude páčiť a budete pokračovať v napredovaní v tejto novej globálnej menovej paradigme.
 
 
-Ste pripravení ponoriť sa do fascinujúceho sveta Bitcoin a pochopiť všetky jeho vnútorné mechanizmy? Poďme na to!
+Ste pripravení ponoriť sa do fascinujúceho sveta Bitcoinu a pochopiť všetky jeho vnútorné mechanizmy? Poďme na to!
 
 
 
@@ -80,7 +80,7 @@ Ste pripravení ponoriť sa do fascinujúceho sveta Bitcoin a pochopiť všetky 
 Skôr než sa pojem "Bitcoin" stal synonymom digitálnej meny a finančnej transformácie, základy pre jej vytvorenie položil rad myšlienok, inovácií a sociálnych hnutí. Medzi nimi vyniká hnutie cypherpunk ako kľúčový prvok v prehistórii Bitcoinu.
 
 
-### Cypherpunk: vizionári digitálneho sveta
+### Cypherpunks: vizionári digitálneho sveta
 
 
 ![image](assets/en/003.webp)
@@ -118,7 +118,7 @@ tento dokument, ktorý napísal Timothy C. May v roku 1992, vysvetľuje, ako by 
 - "Deklarácia nezávislosti kybernetického priestoru":
 
 
-hoci nejde výlučne o cypherpunk, tento text odráža pocity mnohých účastníkov tohto hnutia. Napísal ho v roku 1996 John Perry Barlow a je reakciou na rastúcu reguláciu internetu zo strany vlád. Vo vyhlásení sa tvrdí, že kyberpriestor je odlišnou sférou od fyzickej sféry a nemal by podliehať rovnakým zákonom. Ako sa v nej uvádza, "nemáme žiadnu zvolenú vládu a ani ju pravdepodobne mať nebudeme".
+hoci nejde výlučne o cypherpunk, tento text odráža pocity mnohých účastníkov tohto hnutia. Napísal ho v roku 1996 John Perry Barlow a je reakciou na rastúcu reguláciu internetu zo strany vlád. Vo vyhlásení sa tvrdí, že kybernetický priestor je odlišnou sférou od fyzickej sféry a nemal by podliehať rovnakým zákonom. Ako sa v nej uvádza, "nemáme žiadnu zvolenú vládu a ani ju pravdepodobne mať nebudeme".
 
 
 ### Predchodcovia Bitcoinu
@@ -154,7 +154,7 @@ Preto je Bitcoin protokolom, ktorý trvá dlhé časové obdobie a nabáda nás 
 Je však Bitcoin "skutočnou" menou? Aby sme to pochopili, musíme najprv pochopiť pojem peňazí a ich rôzne formy, ktorým sa budeme venovať v nasledujúcej kapitole.
 
 
-Ak chcete históriu Bitcoin preskúmať podrobnejšie, odporúčame vám náš kurz HIS 201, v ktorom sa dozviete o vzniku a pomalom vzniku Bitcoinu, ako aj o počiatkoch jeho histórie a komunity. Tento kurz je plne zdokumentovaný a podložený zdrojmi, samozrejme, s mnohými anekdotami:
+Ak chcete históriu Bitcoin preskúmať podrobnejšie, odporúčame vám náš kurz HIS 201, v ktorom sa dozviete o pôvode a pomalom vzniku Bitcoinu, ako aj o počiatkoch jeho histórie a komunity. Tento kurz je plne zdokumentovaný a podložený zdrojmi, samozrejme, s mnohými anekdotami:
 
 
 https://planb.academy/courses/a51c7ceb-e079-4ac3-bf69-6700b985a082
@@ -224,7 +224,7 @@ Z týchto dôvodov je zlato ako peniaze výsledkom 4000 rokov trvajúceho monet�
 ### Charakteristika peňazí
 
 
-Zlato ideálne spĺňa kritériá efektívneho platidla: jeho prirodzená vzácnosť ho robí cenným a jeho chemické vlastnosti zabezpečujú, že časom neochabuje. Vďaka týmto vlastnostiam sa zlato stalo skvelým **uchovávateľom hodnoty**, ale nie bežným platidlom, pretože táto forma peňazí nie je ľahko deliteľná ani prenosná na veľké vzdialenosti. V globalizovanom a digitálnom svete zlato len ťažko drží krok a vyžaduje si centrálny subjekt, ktorý by ho urobil deliteľným a ľahko vymeniteľným (t. j. prostredníctvom razených mincí).
+Zlato ideálne spĺňa kritériá efektívneho platidla: jeho prirodzená vzácnosť ho robí cenným a jeho chemické vlastnosti zabezpečujú, že časom neznehodnocuje. Vďaka týmto vlastnostiam sa zlato stalo skvelým **uchovávateľom hodnoty**, ale nie bežným platidlom, pretože táto forma peňazí nie je ľahko deliteľná ani prenosná na veľké vzdialenosti. V globalizovanom a digitálnom svete zlato len ťažko drží krok a vyžaduje si centrálny subjekt, ktorý by ho urobil deliteľným a ľahko vymeniteľným (t. j. prostredníctvom razených mincí).
 
 
 Naopak, štátne fiduciárne/nekryté meny (fiat) sú ľahko použiteľné, ale sú neustále znehodnocované subjektmi, ktoré ich ovládajú (králi, centrálne banky, cisári, diktátori).
@@ -237,9 +237,9 @@ Aby sme tento pojem lepšie vysvetlili, preskúmame charakteristiky efektívnej 
 
 
 
-- Zameniteľnosť**, čo znamená, že je zameniteľná s inou jednotkou rovnakého druhu bez straty hodnoty;
+- Zastupiteľnosť**, čo znamená, že je zameniteľná s inou jednotkou rovnakého druhu bez straty hodnoty;
 - Deliteľnosť**, keďže sa dá rozdeliť na menšie jednotky, aby sa uľahčili transakcie s rôznym objemom;
-- Liquidity**, čo znamená, že je ľahko zameniteľná za tovar alebo služby.
+- Likvidita**, čo znamená, že je ľahko zameniteľná za tovar alebo služby.
 
 
 S cieľom splniť tieto kritériá sa mena v minulosti vyvíjala rôznymi krokmi:
@@ -254,7 +254,7 @@ S cieľom splniť tieto kritériá sa mena v minulosti vyvíjala rôznymi krokmi
 Meny sa dodnes vyvíjajú a prispôsobujú svoje formy rôznym prípadom použitia. Ako sme už povedali, zlato je síce vynikajúcim uchovávateľom hodnoty, ale pre súčasnú globalizovanú ekonomiku už nie je vhodné. Podobne aj fiduciárne meny, ako sú dolár a euro, sú veľmi likvidné a ľahko prenosné, pretože sú dnes väčšinou digitálne, ale ich hodnotu neustále znižuje menová inflácia.
 
 
-Na druhej strane, Bitcoin otvára nové perspektívy. Jeho vlastnosti, najmä prísne obmedzená ponuka, z neho robia vynikajúce úložisko hodnoty. Rovnako ako neutrálna internetová mena predstavuje životaschopný **prostriedok výmeny**, ktorý dokáže prekročiť hranice. Napriek prebiehajúcej adopcii (ako ilustruje [mapa BTC](https://btcmap.org/map)) však v súčasnosti ešte nie je pri obchodnoch široko akceptovaná.
+Na druhej strane, Bitcoin otvára nové perspektívy. Jeho vlastnosti, najmä prísne obmedzená ponuka, z neho robia vynikajúce úložisko hodnoty. Rovnako ako neutrálna internetová mena predstavuje životaschopný **prostriedok výmeny**, ktorý dokáže prekračovať hranice. Napriek prebiehajúcej adopcii (ako ilustruje [mapa BTC](https://btcmap.org/map)) však v súčasnosti ešte nie je pri obchodnoch široko akceptovaná.
 
 
 ## Fiduciárne meny
